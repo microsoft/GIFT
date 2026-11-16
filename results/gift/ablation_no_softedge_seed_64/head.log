@@ -1,0 +1,26 @@
+Loaded backbone from results/backbones/ablation_no_softedge_seed_64/backbone/best_model_phase2.pth; head params: 1488770
+Epoch   1: loss=1.8124 val_auc(conn,iso)=(0.8066,0.7876) val_ap(conn,iso)=(0.4285,0.4301) f1@0.5(conn)=0.4216 *
+Epoch   2: loss=0.7347 val_auc(conn,iso)=(0.8496,0.8374) val_ap(conn,iso)=(0.4974,0.5104) f1@0.5(conn)=0.4599 *
+Epoch   3: loss=0.3533 val_auc(conn,iso)=(0.8794,0.8558) val_ap(conn,iso)=(0.5613,0.5592) f1@0.5(conn)=0.4661 *
+Epoch   4: loss=0.3665 val_auc(conn,iso)=(0.8832,0.8699) val_ap(conn,iso)=(0.5833,0.5909) f1@0.5(conn)=0.4984 *
+Epoch   5: loss=0.3350 val_auc(conn,iso)=(0.8956,0.8829) val_ap(conn,iso)=(0.6152,0.6209) f1@0.5(conn)=0.5185 *
+Epoch   7: loss=0.2495 val_auc(conn,iso)=(0.9035,0.8884) val_ap(conn,iso)=(0.6451,0.6498) f1@0.5(conn)=0.5299 *
+Epoch   9: loss=0.2042 val_auc(conn,iso)=(0.9082,0.9008) val_ap(conn,iso)=(0.6680,0.7081) f1@0.5(conn)=0.6101 *
+Epoch  10: loss=0.1778 val_auc(conn,iso)=(0.8945,0.8803) val_ap(conn,iso)=(0.6217,0.6225) f1@0.5(conn)=0.5736
+Epoch  11: loss=0.1887 val_auc(conn,iso)=(0.9216,0.8994) val_ap(conn,iso)=(0.7266,0.7137) f1@0.5(conn)=0.5365 *
+Epoch  12: loss=0.1822 val_auc(conn,iso)=(0.9243,0.9067) val_ap(conn,iso)=(0.7534,0.7508) f1@0.5(conn)=0.6058 *
+Epoch  13: loss=0.1018 val_auc(conn,iso)=(0.9235,0.9117) val_ap(conn,iso)=(0.7479,0.7469) f1@0.5(conn)=0.6160 *
+Epoch  14: loss=0.1145 val_auc(conn,iso)=(0.9229,0.9157) val_ap(conn,iso)=(0.7379,0.7405) f1@0.5(conn)=0.5924 *
+Epoch  15: loss=0.1313 val_auc(conn,iso)=(0.9175,0.8942) val_ap(conn,iso)=(0.7545,0.7368) f1@0.5(conn)=0.5879
+Epoch  20: loss=0.0942 val_auc(conn,iso)=(0.9198,0.9080) val_ap(conn,iso)=(0.7680,0.7674) f1@0.5(conn)=0.6037
+Epoch  25: loss=0.0887 val_auc(conn,iso)=(0.9296,0.9194) val_ap(conn,iso)=(0.7819,0.7799) f1@0.5(conn)=0.6661 *
+Epoch  30: loss=0.0546 val_auc(conn,iso)=(0.9320,0.9220) val_ap(conn,iso)=(0.7783,0.7829) f1@0.5(conn)=0.6407 *
+Epoch  35: loss=0.1053 val_auc(conn,iso)=(0.9274,0.9222) val_ap(conn,iso)=(0.7796,0.7915) f1@0.5(conn)=0.7276
+Epoch  40: loss=0.0447 val_auc(conn,iso)=(0.9279,0.9116) val_ap(conn,iso)=(0.8180,0.8099) f1@0.5(conn)=0.6702
+Epoch  41: loss=0.0542 val_auc(conn,iso)=(0.9341,0.9273) val_ap(conn,iso)=(0.8148,0.8173) f1@0.5(conn)=0.7020 *
+Epoch  45: loss=0.0443 val_auc(conn,iso)=(0.9277,0.9170) val_ap(conn,iso)=(0.8165,0.8056) f1@0.5(conn)=0.6937
+Epoch  50: loss=0.0362 val_auc(conn,iso)=(0.9314,0.9172) val_ap(conn,iso)=(0.8436,0.8332) f1@0.5(conn)=0.7266
+Epoch  55: loss=0.0285 val_auc(conn,iso)=(0.9307,0.9232) val_ap(conn,iso)=(0.8294,0.8322) f1@0.5(conn)=0.7271
+Epoch  60: loss=0.0235 val_auc(conn,iso)=(0.9329,0.9256) val_ap(conn,iso)=(0.8340,0.8347) f1@0.5(conn)=0.7269
+Early stopping at epoch 61
+Model saved to: results/gift/ablation_no_softedge_seed_64/head/trained_model.pth

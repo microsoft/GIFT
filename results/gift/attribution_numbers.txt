@@ -1,0 +1,119 @@
+== Lead prioritization by method (driver kinases)
+Proposed   top1 6.7$\pm$0.9  top10 47.9$\pm$4.2
+deepdta    top1 5.7$\pm$0.7  top10 27.4$\pm$4.2   proposed vs deepdta: top1 19/1/10 (+/-/=) p=0.00015; top10 30/0/0 (+/-/=) p=1.7e-06
+graphdta   top1 4.8$\pm$1.8  top10 36.9$\pm$6.7   proposed vs graphdta: top1 25/1/4 (+/-/=) p=3.3e-05; top10 27/2/1 (+/-/=) p=4.1e-06
+drugban    top1 5.6$\pm$1.1  top10 36.7$\pm$4.1   proposed vs drugban: top1 18/4/8 (+/-/=) p=0.0013; top10 29/1/0 (+/-/=) p=1.9e-06
+
+== Component ladder (A: GCN+dot, B: GCN+fusion, D: proposed)
+same_version_matched   mcc      A 0.273  B 0.539  D 0.564   A->B 30/0/0 (+/-/=) p=1.9e-09   B->D 22/8/0 (+/-/=) p=0.0054
+external               mcc      A 0.154  B 0.190  D 0.342   A->B 23/7/0 (+/-/=) p=0.0043   B->D 30/0/0 (+/-/=) p=1.9e-09
+external               roc_auc  A 0.680  B 0.737  D 0.725   A->B 29/1/0 (+/-/=) p=5.6e-09   B->D 11/19/0 (+/-/=) p=0.073
+same_version           mcc      A 0.557  B 0.798  D 0.818   A->B 30/0/0 (+/-/=) p=1.9e-09   B->D 26/4/0 (+/-/=) p=2.7e-05
+same_version_matched   roc_auc  A 0.839  B 0.898  D 0.899   A->B 30/0/0 (+/-/=) p=1.9e-09   B->D 16/14/0 (+/-/=) p=0.54
+
+== descriptor_only vs proposed (proposed better/worse/equal)
+same_version           roc_auc              proposed 0.962$\pm$0.005  descriptor_only 0.964$\pm$0.004  11/19/0 (+/-/=) p=0.017
+same_version           auprc                proposed 0.907$\pm$0.010  descriptor_only 0.906$\pm$0.010  19/11/0 (+/-/=) p=0.32
+same_version           per_target_roc_auc   proposed 0.950$\pm$0.013  descriptor_only 0.955$\pm$0.012  10/20/0 (+/-/=) p=0.031
+same_version           precision            proposed 0.859$\pm$0.032  descriptor_only 0.859$\pm$0.041  15/14/1 (+/-/=) p=0.87
+same_version           recall               proposed 0.838$\pm$0.023  descriptor_only 0.833$\pm$0.027  18/10/2 (+/-/=) p=0.32
+same_version           f1                   proposed 0.848$\pm$0.016  descriptor_only 0.845$\pm$0.016  18/11/1 (+/-/=) p=0.15
+same_version           mcc                  proposed 0.818$\pm$0.019  descriptor_only 0.815$\pm$0.020  17/12/1 (+/-/=) p=0.18
+same_version_isolated  roc_auc              proposed 0.959$\pm$0.005  descriptor_only 0.964$\pm$0.004  5/25/0 (+/-/=) p=1.6e-05
+same_version_isolated  auprc                proposed 0.905$\pm$0.010  descriptor_only 0.906$\pm$0.010  17/13/0 (+/-/=) p=0.92
+same_version_isolated  per_target_roc_auc   proposed 0.949$\pm$0.013  descriptor_only 0.955$\pm$0.012  11/19/0 (+/-/=) p=0.0076
+same_version_isolated  precision            proposed 0.863$\pm$0.030  descriptor_only 0.859$\pm$0.041  16/14/0 (+/-/=) p=0.61
+same_version_isolated  recall               proposed 0.834$\pm$0.023  descriptor_only 0.833$\pm$0.027  17/13/0 (+/-/=) p=0.87
+same_version_isolated  f1                   proposed 0.847$\pm$0.015  descriptor_only 0.845$\pm$0.016  16/14/0 (+/-/=) p=0.16
+same_version_isolated  mcc                  proposed 0.818$\pm$0.018  descriptor_only 0.815$\pm$0.020  16/14/0 (+/-/=) p=0.24
+same_version_matched   roc_auc              proposed 0.899$\pm$0.010  descriptor_only 0.897$\pm$0.010  17/13/0 (+/-/=) p=0.22
+same_version_matched   auprc                proposed 0.776$\pm$0.026  descriptor_only 0.779$\pm$0.024  15/15/0 (+/-/=) p=0.56
+same_version_matched   per_target_roc_auc   proposed 0.854$\pm$0.028  descriptor_only 0.846$\pm$0.022  21/9/0 (+/-/=) p=0.0062
+same_version_matched   precision            proposed 0.516$\pm$0.046  descriptor_only 0.519$\pm$0.076  14/16/0 (+/-/=) p=0.78
+same_version_matched   recall               proposed 0.838$\pm$0.023  descriptor_only 0.833$\pm$0.027  18/10/2 (+/-/=) p=0.32
+same_version_matched   f1                   proposed 0.637$\pm$0.033  descriptor_only 0.635$\pm$0.056  15/15/0 (+/-/=) p=0.97
+same_version_matched   mcc                  proposed 0.564$\pm$0.038  descriptor_only 0.561$\pm$0.063  15/15/0 (+/-/=) p=0.87
+external               roc_auc              proposed 0.725$\pm$0.021  descriptor_only 0.755$\pm$0.017  4/26/0 (+/-/=) p=2.8e-06
+external               auprc                proposed 0.456$\pm$0.026  descriptor_only 0.486$\pm$0.026  7/23/0 (+/-/=) p=5.6e-05
+external               per_target_roc_auc   proposed 0.618$\pm$0.014  descriptor_only 0.639$\pm$0.010  2/28/0 (+/-/=) p=4.7e-08
+external               precision            proposed 0.673$\pm$0.034  descriptor_only 0.698$\pm$0.053  8/22/0 (+/-/=) p=0.0081
+external               recall               proposed 0.245$\pm$0.047  descriptor_only 0.217$\pm$0.055  19/11/0 (+/-/=) p=0.038
+external               f1                   proposed 0.357$\pm$0.050  descriptor_only 0.326$\pm$0.055  19/11/0 (+/-/=) p=0.031
+external               mcc                  proposed 0.342$\pm$0.037  descriptor_only 0.327$\pm$0.034  18/12/0 (+/-/=) p=0.088
+
+== random_aug vs proposed (proposed better/worse/equal)
+same_version           roc_auc              proposed 0.962$\pm$0.005  random_aug 0.962$\pm$0.005  12/18/0 (+/-/=) p=0.61
+same_version           auprc                proposed 0.907$\pm$0.010  random_aug 0.906$\pm$0.015  15/15/0 (+/-/=) p=0.98
+same_version           per_target_roc_auc   proposed 0.950$\pm$0.013  random_aug 0.951$\pm$0.013  15/15/0 (+/-/=) p=0.75
+same_version           precision            proposed 0.859$\pm$0.032  random_aug 0.861$\pm$0.041  14/16/0 (+/-/=) p=0.7
+same_version           recall               proposed 0.838$\pm$0.023  random_aug 0.833$\pm$0.025  16/13/1 (+/-/=) p=0.23
+same_version           f1                   proposed 0.848$\pm$0.016  random_aug 0.846$\pm$0.016  15/15/0 (+/-/=) p=0.84
+same_version           mcc                  proposed 0.818$\pm$0.019  random_aug 0.816$\pm$0.020  14/16/0 (+/-/=) p=0.98
+same_version_isolated  roc_auc              proposed 0.959$\pm$0.005  random_aug 0.958$\pm$0.005  15/15/0 (+/-/=) p=0.49
+same_version_isolated  auprc                proposed 0.905$\pm$0.010  random_aug 0.902$\pm$0.014  17/13/0 (+/-/=) p=0.18
+same_version_isolated  per_target_roc_auc   proposed 0.949$\pm$0.013  random_aug 0.949$\pm$0.013  14/16/0 (+/-/=) p=0.76
+same_version_isolated  precision            proposed 0.863$\pm$0.030  random_aug 0.865$\pm$0.040  12/18/0 (+/-/=) p=0.42
+same_version_isolated  recall               proposed 0.834$\pm$0.023  random_aug 0.829$\pm$0.026  17/11/2 (+/-/=) p=0.21
+same_version_isolated  f1                   proposed 0.847$\pm$0.015  random_aug 0.845$\pm$0.016  14/16/0 (+/-/=) p=0.97
+same_version_isolated  mcc                  proposed 0.818$\pm$0.018  random_aug 0.816$\pm$0.020  14/16/0 (+/-/=) p=0.92
+same_version_matched   roc_auc              proposed 0.899$\pm$0.010  random_aug 0.900$\pm$0.008  14/16/0 (+/-/=) p=0.57
+same_version_matched   auprc                proposed 0.776$\pm$0.026  random_aug 0.777$\pm$0.023  15/15/0 (+/-/=) p=0.9
+same_version_matched   per_target_roc_auc   proposed 0.854$\pm$0.028  random_aug 0.850$\pm$0.020  16/14/0 (+/-/=) p=0.45
+same_version_matched   precision            proposed 0.516$\pm$0.046  random_aug 0.519$\pm$0.053  15/15/0 (+/-/=) p=0.78
+same_version_matched   recall               proposed 0.838$\pm$0.023  random_aug 0.833$\pm$0.025  16/13/1 (+/-/=) p=0.23
+same_version_matched   f1                   proposed 0.637$\pm$0.033  random_aug 0.637$\pm$0.038  17/13/0 (+/-/=) p=0.86
+same_version_matched   mcc                  proposed 0.564$\pm$0.038  random_aug 0.564$\pm$0.042  16/14/0 (+/-/=) p=0.9
+external               roc_auc              proposed 0.725$\pm$0.021  random_aug 0.726$\pm$0.024  14/16/0 (+/-/=) p=0.95
+external               auprc                proposed 0.456$\pm$0.026  random_aug 0.459$\pm$0.031  14/16/0 (+/-/=) p=0.64
+external               per_target_roc_auc   proposed 0.618$\pm$0.014  random_aug 0.619$\pm$0.015  14/16/0 (+/-/=) p=0.78
+external               precision            proposed 0.673$\pm$0.034  random_aug 0.677$\pm$0.051  13/17/0 (+/-/=) p=0.32
+external               recall               proposed 0.245$\pm$0.047  random_aug 0.238$\pm$0.051  17/13/0 (+/-/=) p=0.26
+external               f1                   proposed 0.357$\pm$0.050  random_aug 0.348$\pm$0.051  18/12/0 (+/-/=) p=0.29
+external               mcc                  proposed 0.342$\pm$0.037  random_aug 0.337$\pm$0.036  18/12/0 (+/-/=) p=0.4
+driver top1 proposed 6.73$\pm$0.94 random_aug 6.33$\pm$1.24 15/8/7 (+/-/=) p=0.26
+driver top10 proposed 47.9$\pm$4.2 random_aug 47.8$\pm$4.7 14/13/3 (+/-/=) p=0.73
+
+== ablation_no_softedge vs proposed (proposed better/worse/equal)
+same_version           roc_auc              proposed 0.962$\pm$0.005  ablation_no_softedge 0.961$\pm$0.005  16/14/0 (+/-/=) p=0.39
+same_version           auprc                proposed 0.907$\pm$0.010  ablation_no_softedge 0.907$\pm$0.012  14/16/0 (+/-/=) p=1
+same_version           per_target_roc_auc   proposed 0.950$\pm$0.013  ablation_no_softedge 0.949$\pm$0.013  17/12/1 (+/-/=) p=0.44
+same_version           precision            proposed 0.859$\pm$0.032  ablation_no_softedge 0.864$\pm$0.033  16/14/0 (+/-/=) p=0.76
+same_version           recall               proposed 0.838$\pm$0.023  ablation_no_softedge 0.836$\pm$0.016  16/13/1 (+/-/=) p=0.61
+same_version           f1                   proposed 0.848$\pm$0.016  ablation_no_softedge 0.849$\pm$0.016  16/14/0 (+/-/=) p=0.78
+same_version           mcc                  proposed 0.818$\pm$0.019  ablation_no_softedge 0.820$\pm$0.020  17/13/0 (+/-/=) p=0.75
+same_version_isolated  roc_auc              proposed 0.959$\pm$0.005  ablation_no_softedge 0.957$\pm$0.005  18/12/0 (+/-/=) p=0.12
+same_version_isolated  auprc                proposed 0.905$\pm$0.010  ablation_no_softedge 0.903$\pm$0.012  15/15/0 (+/-/=) p=0.4
+same_version_isolated  per_target_roc_auc   proposed 0.949$\pm$0.013  ablation_no_softedge 0.944$\pm$0.014  19/11/0 (+/-/=) p=0.058
+same_version_isolated  precision            proposed 0.863$\pm$0.030  ablation_no_softedge 0.868$\pm$0.032  14/15/1 (+/-/=) p=0.6
+same_version_isolated  recall               proposed 0.834$\pm$0.023  ablation_no_softedge 0.831$\pm$0.015  15/12/3 (+/-/=) p=0.43
+same_version_isolated  f1                   proposed 0.847$\pm$0.015  ablation_no_softedge 0.849$\pm$0.015  14/15/1 (+/-/=) p=0.63
+same_version_isolated  mcc                  proposed 0.818$\pm$0.018  ablation_no_softedge 0.820$\pm$0.018  15/14/1 (+/-/=) p=0.75
+same_version_matched   roc_auc              proposed 0.899$\pm$0.010  ablation_no_softedge 0.900$\pm$0.009  11/19/0 (+/-/=) p=0.56
+same_version_matched   auprc                proposed 0.776$\pm$0.026  ablation_no_softedge 0.782$\pm$0.025  12/18/0 (+/-/=) p=0.2
+same_version_matched   per_target_roc_auc   proposed 0.854$\pm$0.028  ablation_no_softedge 0.852$\pm$0.022  15/15/0 (+/-/=) p=0.52
+same_version_matched   precision            proposed 0.516$\pm$0.046  ablation_no_softedge 0.528$\pm$0.046  14/16/0 (+/-/=) p=0.31
+same_version_matched   recall               proposed 0.838$\pm$0.023  ablation_no_softedge 0.836$\pm$0.016  16/13/1 (+/-/=) p=0.61
+same_version_matched   f1                   proposed 0.637$\pm$0.033  ablation_no_softedge 0.646$\pm$0.034  13/17/0 (+/-/=) p=0.28
+same_version_matched   mcc                  proposed 0.564$\pm$0.038  ablation_no_softedge 0.574$\pm$0.039  13/17/0 (+/-/=) p=0.27
+external               roc_auc              proposed 0.725$\pm$0.021  ablation_no_softedge 0.724$\pm$0.019  16/14/0 (+/-/=) p=0.75
+external               auprc                proposed 0.456$\pm$0.026  ablation_no_softedge 0.455$\pm$0.029  14/16/0 (+/-/=) p=0.86
+external               per_target_roc_auc   proposed 0.618$\pm$0.014  ablation_no_softedge 0.620$\pm$0.013  14/16/0 (+/-/=) p=0.63
+external               precision            proposed 0.673$\pm$0.034  ablation_no_softedge 0.677$\pm$0.040  14/16/0 (+/-/=) p=0.64
+external               recall               proposed 0.245$\pm$0.047  ablation_no_softedge 0.233$\pm$0.039  16/14/0 (+/-/=) p=0.3
+external               f1                   proposed 0.357$\pm$0.050  ablation_no_softedge 0.345$\pm$0.046  17/13/0 (+/-/=) p=0.36
+external               mcc                  proposed 0.342$\pm$0.037  ablation_no_softedge 0.335$\pm$0.040  17/13/0 (+/-/=) p=0.48
+driver top1 proposed 6.73$\pm$0.94 ablation_no_softedge 6.00$\pm$1.29 15/8/7 (+/-/=) p=0.024
+driver top10 proposed 47.9$\pm$4.2 ablation_no_softedge 47.6$\pm$4.3 15/14/1 (+/-/=) p=0.55
+
+== Seed 42: with vs without soft edges (driver kinases)
+  CHEMBL1824   top10 4 vs 4   ROC-AUC 0.819 vs 0.800
+  CHEMBL203    top10 5 vs 5   ROC-AUC 0.728 vs 0.706
+  CHEMBL2041   top10 6 vs 5   ROC-AUC 0.798 vs 0.761
+  CHEMBL2815   top10 3 vs 4   ROC-AUC 0.728 vs 0.759
+  CHEMBL3717   top10 5 vs 4   ROC-AUC 0.812 vs 0.794
+  CHEMBL4247   top10 5 vs 6   ROC-AUC 0.840 vs 0.854
+  CHEMBL4898   top10 4 vs 5   ROC-AUC 0.796 vs 0.845
+  CHEMBL5145   top10 1 vs 1   ROC-AUC 0.567 vs 0.594
+  CHEMBL5568   top10 5 vs 5   ROC-AUC 0.799 vs 0.802
+  CHEMBL5608   top10 4 vs 5   ROC-AUC 0.829 vs 0.818
+  more 2, same 4, fewer 4; total 42 vs 44; ROC-AUC higher for 5 of 10

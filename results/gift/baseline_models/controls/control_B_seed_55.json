@@ -1,0 +1,65 @@
+{
+  "seed": 55,
+  "recipe": "rotating 30% supervision + fusion decoder",
+  "results": {
+    "gcn": {
+      "val_roc_auc": 0.9502825460595733,
+      "stopped_at_epoch": 156,
+      "same_version": {
+        "roc_auc": 0.9679174421139111,
+        "auprc": 0.8904288832467113,
+        "per_target_roc_auc": 0.9701951951951951,
+        "per_target_n": 222,
+        "accuracy": 0.9369582348305753,
+        "precision": 0.7803837953091685,
+        "recall": 0.8652482269503546,
+        "f1": 0.820627802690583,
+        "mcc": 0.7840444207112806
+      },
+      "same_version_allcompound": {
+        "roc_auc": 0.9919297598488785,
+        "auprc": 0.9684243865688076,
+        "per_target_roc_auc": 0.989645390070922,
+        "per_target_n": 235,
+        "accuracy": 0.9716312056737588,
+        "precision": 0.9606299212598425,
+        "recall": 0.8652482269503546,
+        "f1": 0.9104477611940298,
+        "mcc": 0.8953731499525628
+      },
+      "same_version_matched": {
+        "roc_auc": 0.9080983969043672,
+        "auprc": 0.7719356373628129,
+        "per_target_roc_auc": 0.883943833943834,
+        "per_target_n": 182,
+        "accuracy": 0.8207973695026716,
+        "precision": 0.4912751677852349,
+        "recall": 0.8652482269503546,
+        "f1": 0.6267123287671232,
+        "mcc": 0.5564091505103888
+      },
+      "same_version_protein_matched": {
+        "roc_auc": 0.9620371956866712,
+        "auprc": 0.8644835208679735,
+        "per_target_roc_auc": 0.9544802053241387,
+        "per_target_n": 292,
+        "accuracy": 0.930939226519337,
+        "precision": 0.756198347107438,
+        "recall": 0.8652482269503546,
+        "f1": 0.8070562293274531,
+        "mcc": 0.76780573938556
+      },
+      "cross_version": {
+        "roc_auc": 0.7593097202367726,
+        "auprc": 0.46418240575677255,
+        "per_target_roc_auc": 0.6815848287726177,
+        "per_target_n": 675,
+        "accuracy": 0.834983323627508,
+        "precision": 0.71875,
+        "recall": 0.06382978723404255,
+        "f1": 0.11724723874256585,
+        "mcc": 0.1805090957513387
+      }
+    }
+  }
+}

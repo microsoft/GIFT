@@ -1,0 +1,311 @@
+================================================================================
+GIFT ENCODER: CONTRASTIVE PRETRAINING AND SOFT-EDGE LEARNING
+seed=58 max_iso_frac=0.2 max_comp_w=0.25 max_pair_w=0.2
+================================================================================
+
+================================================================================
+ANALYZING MEANINGFUL CATEGORIES FOR SOFT-EDGE VALIDATION
+================================================================================
+
+Total CP pairs: 2865
+Target range: 28 - 143 pairs (1-5%)
+
+------------------------------------------------------------
+
+VALIDATION CATEGORY ANALYSIS:
+================================================================================
+
+PRECLINICAL_COMPOUNDS:
+  Description: Preclinical/experimental compounds
+  Rationale: Early-stage compounds with uncertain clinical future
+  Size: 2865 pairs (100.00%)
+  ✗ Too large (100.00% > 5%)
+  Sample pairs: [(np.int64(443), np.int64(234)), (np.int64(462), np.int64(234)), (np.int64(465), np.int64(234)), (np.int64(1315), np.int64(234)), (np.int64(1318), np.int64(234))]
+
+EARLY_CLINICAL:
+  Description: Phase 1/2 clinical compounds
+  Rationale: Compounds in human testing but not yet proven
+  Size: 0 pairs (0.00%)
+  ✗ Too small (0.00% < 1%)
+
+LATE_CLINICAL:
+  Description: Phase 3 clinical compounds
+  Rationale: Compounds close to approval with high success probability
+  Size: 0 pairs (0.00%)
+  ✗ Too small (0.00% < 1%)
+
+MARKETED_DRUGS:
+  Description: Approved/marketed drugs
+  Rationale: Clinically validated compounds with proven efficacy
+  Size: 0 pairs (0.00%)
+  ✗ Too small (0.00% < 1%)
+
+KINASES_TARGETS:
+  Description: Kinases protein targets
+  Rationale: Major therapeutic target class in drug discovery
+  Size: 0 pairs (0.00%)
+  ✗ Too small (0.00% < 1%)
+
+GPCRS_TARGETS:
+  Description: Gpcrs protein targets
+  Rationale: Major therapeutic target class in drug discovery
+  Size: 0 pairs (0.00%)
+  ✗ Too small (0.00% < 1%)
+
+ION_CHANNELS_TARGETS:
+  Description: Ion Channels protein targets
+  Rationale: Major therapeutic target class in drug discovery
+  Size: 0 pairs (0.00%)
+  ✗ Too small (0.00% < 1%)
+
+NUCLEAR_RECEPTORS_TARGETS:
+  Description: Nuclear Receptors protein targets
+  Rationale: Major therapeutic target class in drug discovery
+  Size: 0 pairs (0.00%)
+  ✗ Too small (0.00% < 1%)
+
+PROTEASES_TARGETS:
+  Description: Proteases protein targets
+  Rationale: Major therapeutic target class in drug discovery
+  Size: 0 pairs (0.00%)
+  ✗ Too small (0.00% < 1%)
+
+TRANSPORTERS_TARGETS:
+  Description: Transporters protein targets
+  Rationale: Major therapeutic target class in drug discovery
+  Size: 0 pairs (0.00%)
+  ✗ Too small (0.00% < 1%)
+
+ENZYMES_OTHER_TARGETS:
+  Description: Enzymes Other protein targets
+  Rationale: Major therapeutic target class in drug discovery
+  Size: 0 pairs (0.00%)
+  ✗ Too small (0.00% < 1%)
+
+EPIGENETIC_TARGETS:
+  Description: Epigenetic protein targets
+  Rationale: Major therapeutic target class in drug discovery
+  Size: 0 pairs (0.00%)
+  ✗ Too small (0.00% < 1%)
+
+IMMUNE_TARGETS:
+  Description: Immune protein targets
+  Rationale: Major therapeutic target class in drug discovery
+  Size: 0 pairs (0.00%)
+  ✗ Too small (0.00% < 1%)
+
+HIGH_CONFIDENCE_CLINICAL:
+  Description: Approved drugs on well-validated targets
+  Rationale: Lowest clinical risk - proven drug-target pairs
+  Size: 0 pairs (0.00%)
+  ✗ Too small (0.00% < 1%)
+
+EXPLORATORY_CLINICAL:
+  Description: Early compounds on novel targets
+  Rationale: High risk/high reward - new chemical/biological space
+  Size: 0 pairs (0.00%)
+  ✗ Too small (0.00% < 1%)
+
+DRUG_REPURPOSING:
+  Description: Approved drugs tested on new targets
+  Rationale: Drug repurposing opportunities
+  Size: 0 pairs (0.00%)
+  ✗ Too small (0.00% < 1%)
+
+ORPHAN_DRUG_SPACE:
+  Description: Orphan drugs and rare disease targets
+  Rationale: Clinically important but data-sparse interactions
+  Size: 844 pairs (29.46%)
+  ✗ Too large (29.46% > 5%)
+  Sample pairs: [(np.int64(462), np.int64(234)), (np.int64(1423), np.int64(263)), (np.int64(1556), np.int64(270)), (np.int64(1329), np.int64(271)), (np.int64(356), np.int64(271))]
+
+COMBINATION_THERAPY:
+  Description: Multi-target compounds for combination therapy
+  Rationale: Polypharmacology for complex diseases
+  Size: 2630 pairs (91.80%)
+  ✗ Too large (91.80% > 5%)
+  Sample pairs: [(np.int64(1315), np.int64(234)), (np.int64(1318), np.int64(234)), (np.int64(1332), np.int64(234)), (np.int64(1396), np.int64(234)), (np.int64(1366), np.int64(234))]
+
+================================================================================
+CATEGORY SUMMARY TABLE:
+================================================================================
+Category                     Count   Percentage Status         
+-----------------------------------------------------------------
+preclinical_compounds         2865      100.00% Too large      
+combination_therapy           2630       91.80% Too large      
+orphan_drug_space              844       29.46% Too large      
+early_clinical                   0        0.00% Too small      
+late_clinical                    0        0.00% Too small      
+marketed_drugs                   0        0.00% Too small      
+kinases_targets                  0        0.00% Too small      
+gpcrs_targets                    0        0.00% Too small      
+ion_channels_targets             0        0.00% Too small      
+nuclear_receptors_targets        0        0.00% Too small      
+proteases_targets                0        0.00% Too small      
+transporters_targets             0        0.00% Too small      
+enzymes_other_targets            0        0.00% Too small      
+epigenetic_targets               0        0.00% Too small      
+immune_targets                   0        0.00% Too small      
+high_confidence_clinical         0        0.00% Too small      
+exploratory_clinical             0        0.00% Too small      
+drug_repurposing                 0        0.00% Too small      
+
+------------------------------------------------------------
+CREATING CLINICAL VALIDATION SETS:
+------------------------------------------------------------
+
+1. CLINICAL PROGRESSION SET: 0 pairs (0.00%)
+   Spans drug development pipeline: early clinical → late clinical → market
+
+2. THERAPEUTIC DIVERSITY SET: 0 pairs (0.00%)
+   Covers multiple disease areas for broad clinical applicability
+
+3. TARGET CLASS DIVERSITY SET: 0 pairs (0.00%)
+   Major druggable target families
+
+
+Validation set analysis saved to: results/validation_set_analysis.json
+
+================================================================================
+CLINICAL VALIDATION SET RECOMMENDATIONS:
+================================================================================
+
+For validating soft-edge masking with clinical relevance:
+
+1. **CLINICAL PROGRESSION SET** - Tests generalization across development stages
+2. **HIGH CONFIDENCE CLINICAL** - Well-validated drug-target pairs
+3. **EXPLORATORY CLINICAL** - Novel chemical/biological space
+4. **ORPHAN DRUG SPACE** - Rare diseases with limited data
+5. **TARGET CLASS SPECIFIC** - e.g., kinases_targets for focused validation
+
+These sets test whether soft-edge masking captures clinically meaningful
+drug-target relationships beyond simple chemical similarity.
+clean graph: CP edges 5730 -> 4034 (held-out val+test pairs removed from message passing and edge-mask candidates)
+
+=== PHASE 1: TRIPLET + CONSISTENCY (200 epochs) ===
+Epoch   5/200: triplet=2.1650 comp=0.3176 pair=0.2091 view=0.1649 view_pair=0.1445 val=2.1010
+Epoch  10/200: triplet=2.1379 comp=0.2261 pair=0.1700 view=0.1509 view_pair=0.1356 val=2.0813
+Epoch  15/200: triplet=2.1272 comp=0.2120 pair=0.1142 view=0.1386 view_pair=0.1162 val=2.0647
+Epoch  20/200: triplet=2.1182 comp=0.1922 pair=0.1353 view=0.1300 view_pair=0.1101 val=2.0392
+Epoch  25/200: triplet=2.0872 comp=0.2123 pair=0.1333 view=0.1227 view_pair=0.0932 val=2.0313
+Epoch  30/200: triplet=2.0657 comp=0.1953 pair=0.1158 view=0.1186 view_pair=0.0883 val=2.0256
+Epoch  35/200: triplet=2.0597 comp=0.1971 pair=0.1024 view=0.1137 view_pair=0.0805 val=2.0255
+Epoch  40/200: triplet=2.0486 comp=0.2072 pair=0.1261 view=0.1103 view_pair=0.0723 val=2.0147
+Epoch  45/200: triplet=2.0386 comp=0.2020 pair=0.1034 view=0.1078 view_pair=0.0668 val=2.0115
+Epoch  50/200: triplet=2.0260 comp=0.1996 pair=0.1255 view=0.1036 view_pair=0.0635 val=2.0084
+Epoch  55/200: triplet=2.0222 comp=0.1881 pair=0.0903 view=0.1026 view_pair=0.0555 val=1.9892
+Epoch  60/200: triplet=2.0141 comp=0.2167 pair=0.1110 view=0.1007 view_pair=0.0553 val=1.9788
+Epoch  65/200: triplet=2.0002 comp=0.1788 pair=0.0843 view=0.0995 view_pair=0.0528 val=1.9681
+Epoch  70/200: triplet=1.9888 comp=0.1939 pair=0.0703 view=0.0941 view_pair=0.0493 val=1.9765
+Epoch  75/200: triplet=1.9937 comp=0.1712 pair=0.0715 view=0.0904 view_pair=0.0472 val=1.9712
+Epoch  80/200: triplet=2.0213 comp=0.1748 pair=0.0613 view=0.0881 view_pair=0.0485 val=1.9621
+Epoch  85/200: triplet=1.9781 comp=0.1657 pair=0.0873 view=0.0842 view_pair=0.0429 val=1.9537
+Epoch  90/200: triplet=1.9624 comp=0.1722 pair=0.0625 view=0.0819 view_pair=0.0394 val=1.9401
+Epoch  95/200: triplet=1.9519 comp=0.1469 pair=0.0646 view=0.0810 view_pair=0.0384 val=1.9368
+Epoch 100/200: triplet=1.9475 comp=0.1423 pair=0.0561 view=0.0774 view_pair=0.0364 val=1.9371
+Epoch 105/200: triplet=1.9447 comp=0.1426 pair=0.0952 view=0.0746 view_pair=0.0328 val=1.9212
+Epoch 110/200: triplet=1.9411 comp=0.1093 pair=0.0440 view=0.0727 view_pair=0.0314 val=1.9343
+Epoch 115/200: triplet=1.9414 comp=0.1268 pair=0.0447 view=0.0696 view_pair=0.0298 val=1.9121
+Epoch 120/200: triplet=1.9284 comp=0.1170 pair=0.0464 view=0.0672 view_pair=0.0290 val=1.9028
+Epoch 125/200: triplet=1.9353 comp=0.1112 pair=0.0388 view=0.0650 view_pair=0.0277 val=1.9271
+Epoch 130/200: triplet=1.9261 comp=0.1052 pair=0.0510 view=0.0639 view_pair=0.0263 val=1.9468
+Epoch 135/200: triplet=1.9135 comp=0.1059 pair=0.0419 view=0.0624 view_pair=0.0255 val=1.9198
+Epoch 140/200: triplet=1.9148 comp=0.0919 pair=0.0290 view=0.0600 view_pair=0.0227 val=1.9017
+Epoch 145/200: triplet=1.9274 comp=0.0823 pair=0.0301 view=0.0588 view_pair=0.0219 val=1.9101
+Epoch 150/200: triplet=1.9101 comp=0.0796 pair=0.0375 view=0.0576 view_pair=0.0203 val=1.8788
+Epoch 155/200: triplet=1.9003 comp=0.0884 pair=0.0218 view=0.0554 view_pair=0.0199 val=1.8960
+Epoch 160/200: triplet=1.8990 comp=0.1005 pair=0.0397 view=0.0561 view_pair=0.0166 val=1.9144
+Epoch 165/200: triplet=1.8911 comp=0.0847 pair=0.0823 view=0.0551 view_pair=0.0170 val=1.9116
+Epoch 170/200: triplet=1.9002 comp=0.0669 pair=0.0199 view=0.0559 view_pair=0.0145 val=1.8870
+Epoch 175/200: triplet=1.8999 comp=0.0677 pair=0.0289 view=0.0534 view_pair=0.0149 val=1.8996
+Epoch 180/200: triplet=1.8771 comp=0.0688 pair=0.0381 view=0.0521 view_pair=0.0140 val=1.8727
+Epoch 185/200: triplet=1.8754 comp=0.0783 pair=0.0393 view=0.0510 view_pair=0.0112 val=1.8717
+Epoch 190/200: triplet=1.8915 comp=0.0605 pair=0.0174 view=0.0508 view_pair=0.0137 val=1.8954
+Epoch 195/200: triplet=1.8683 comp=0.0539 pair=0.0257 view=0.0484 view_pair=0.0116 val=1.8923
+Epoch 200/200: triplet=1.8728 comp=0.0686 pair=0.0216 view=0.0477 view_pair=0.0112 val=1.8852
+Phase 1 completed in 1.19 minutes
+
+=== PHASE 2: EDGE MASK LEARNING (200 epochs) ===
+Using phase-2 homogeneous edge-mask attention batch size: 100
+    Edge mask stats: CP=1000 (0.05%), PP=100 (0.01%), CC=100 (0.01%)
+    Edge mask stats: CP=1000 (0.05%), PP=100 (0.01%), CC=100 (0.01%)
+Epoch   5/200: Train=1.9802 Val=1.9240
+Epoch  10/200: Train=2.0255 Val=1.9151
+    Edge mask stats: CP=11000 (0.51%), PP=1100 (0.11%), CC=1100 (0.09%)
+    Edge mask stats: CP=11000 (0.51%), PP=1100 (0.11%), CC=1100 (0.09%)
+Epoch  15/200: Train=1.9881 Val=1.9119
+Epoch  20/200: Train=1.9819 Val=1.8997
+    Edge mask stats: CP=21000 (0.97%), PP=2100 (0.22%), CC=2100 (0.17%)
+    Edge mask stats: CP=21000 (0.97%), PP=2100 (0.22%), CC=2100 (0.17%)
+Epoch  25/200: Train=1.9825 Val=1.9500
+Epoch  30/200: Train=1.9912 Val=1.9204
+    Edge mask stats: CP=31000 (1.43%), PP=3100 (0.32%), CC=3100 (0.26%)
+    Edge mask stats: CP=31000 (1.43%), PP=3100 (0.32%), CC=3100 (0.26%)
+Epoch  35/200: Train=2.0037 Val=1.9726
+Epoch  40/200: Train=1.9949 Val=1.9380
+    Edge mask stats: CP=41000 (1.89%), PP=4100 (0.42%), CC=4100 (0.34%)
+    Edge mask stats: CP=41000 (1.89%), PP=4100 (0.42%), CC=4100 (0.34%)
+Epoch  45/200: Train=1.9931 Val=1.9045
+Epoch  50/200: Train=1.9493 Val=1.9080
+    Edge mask stats: CP=51000 (2.35%), PP=5100 (0.53%), CC=5100 (0.42%)
+    Edge mask stats: CP=51000 (2.35%), PP=5100 (0.53%), CC=5100 (0.42%)
+Epoch  55/200: Train=1.9699 Val=1.9002
+Epoch  60/200: Train=1.9595 Val=1.8967
+    Edge mask stats: CP=61000 (2.81%), PP=6100 (0.63%), CC=6100 (0.50%)
+    Edge mask stats: CP=61000 (2.81%), PP=6100 (0.63%), CC=6100 (0.50%)
+Epoch  65/200: Train=1.9617 Val=1.9179
+Epoch  70/200: Train=1.9533 Val=1.9428
+    Edge mask stats: CP=71000 (3.27%), PP=7100 (0.73%), CC=7100 (0.58%)
+    Edge mask stats: CP=71000 (3.27%), PP=7100 (0.73%), CC=7100 (0.58%)
+Epoch  75/200: Train=1.9424 Val=1.8947
+Epoch  80/200: Train=1.9561 Val=1.8820
+    Edge mask stats: CP=81000 (3.74%), PP=8100 (0.84%), CC=8100 (0.67%)
+    Edge mask stats: CP=81000 (3.74%), PP=8100 (0.84%), CC=8100 (0.67%)
+Epoch  85/200: Train=1.9297 Val=1.9203
+Epoch  90/200: Train=1.9419 Val=1.8792
+    Edge mask stats: CP=91000 (4.20%), PP=9100 (0.94%), CC=9100 (0.75%)
+    Edge mask stats: CP=91000 (4.20%), PP=9100 (0.94%), CC=9100 (0.75%)
+Epoch  95/200: Train=1.9246 Val=1.8941
+Epoch 100/200: Train=1.9350 Val=1.9024
+    Edge mask stats: CP=101000 (4.66%), PP=10100 (1.04%), CC=10100 (0.83%)
+    Edge mask stats: CP=101000 (4.66%), PP=10100 (1.04%), CC=10100 (0.83%)
+Epoch 105/200: Train=1.9330 Val=1.8979
+Epoch 110/200: Train=1.9179 Val=1.8909
+    Edge mask stats: CP=111000 (5.12%), PP=11100 (1.15%), CC=11100 (0.91%)
+    Edge mask stats: CP=111000 (5.12%), PP=11100 (1.15%), CC=11100 (0.91%)
+Epoch 115/200: Train=1.9079 Val=1.8655
+Epoch 120/200: Train=1.9449 Val=1.8726
+    Edge mask stats: CP=121000 (5.58%), PP=12100 (1.25%), CC=12100 (1.00%)
+    Edge mask stats: CP=121000 (5.58%), PP=12100 (1.25%), CC=12100 (1.00%)
+Epoch 125/200: Train=1.9103 Val=1.8580
+Epoch 130/200: Train=1.9218 Val=1.8664
+    Edge mask stats: CP=131000 (6.04%), PP=13100 (1.36%), CC=13100 (1.08%)
+    Edge mask stats: CP=131000 (6.04%), PP=13100 (1.36%), CC=13100 (1.08%)
+Epoch 135/200: Train=1.9320 Val=1.8837
+Epoch 140/200: Train=1.9127 Val=1.8657
+    Edge mask stats: CP=141000 (6.50%), PP=14100 (1.46%), CC=14100 (1.16%)
+    Edge mask stats: CP=141000 (6.50%), PP=14100 (1.46%), CC=14100 (1.16%)
+Epoch 145/200: Train=1.9083 Val=1.8953
+Epoch 150/200: Train=1.9067 Val=1.8784
+    Edge mask stats: CP=151000 (6.96%), PP=15100 (1.56%), CC=15100 (1.24%)
+    Edge mask stats: CP=151000 (6.96%), PP=15100 (1.56%), CC=15100 (1.24%)
+Epoch 155/200: Train=1.9145 Val=1.8442
+Epoch 160/200: Train=1.9399 Val=1.8855
+    Edge mask stats: CP=161000 (7.42%), PP=16100 (1.67%), CC=16100 (1.33%)
+    Edge mask stats: CP=161000 (7.42%), PP=16100 (1.67%), CC=16100 (1.33%)
+Epoch 165/200: Train=1.9393 Val=1.8915
+Epoch 170/200: Train=1.9224 Val=1.8961
+    Edge mask stats: CP=171000 (7.89%), PP=17100 (1.77%), CC=17100 (1.41%)
+    Edge mask stats: CP=171000 (7.89%), PP=17100 (1.77%), CC=17100 (1.41%)
+Epoch 175/200: Train=1.9123 Val=1.8755
+Epoch 180/200: Train=1.9131 Val=1.8841
+    Edge mask stats: CP=181000 (8.35%), PP=18100 (1.87%), CC=18100 (1.49%)
+    Edge mask stats: CP=181000 (8.35%), PP=18100 (1.87%), CC=18100 (1.49%)
+Epoch 185/200: Train=1.9062 Val=1.8610
+Epoch 190/200: Train=1.9148 Val=1.9070
+    Edge mask stats: CP=191000 (8.81%), PP=19100 (1.98%), CC=19100 (1.57%)
+    Edge mask stats: CP=191000 (8.81%), PP=19100 (1.98%), CC=19100 (1.57%)
+Epoch 195/200: Train=1.9004 Val=1.9176
+Epoch 200/200: Train=1.9224 Val=1.8733
+Phase 2 completed in 14.64 minutes
+backbone saved: results/backbones/backbone_seed_58/best_model_phase2.pth

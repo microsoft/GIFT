@@ -1,0 +1,27 @@
+Initialized from results/gift/ablation_no_softedge_seed_64/head/trained_model.pth
+Init (Phase 3a): val_auc(conn,iso)=(0.9341,0.9273) val_ap(conn,iso)=(0.8148,0.8173)
+Step   10: loss=0.0244 val_auc(conn,iso)=(0.9320,0.9189) val_ap(conn,iso)=(0.8159,0.8066) f1@0.5(conn)=0.7179
+Step   20: loss=0.0424 val_auc(conn,iso)=(0.9314,0.9171) val_ap(conn,iso)=(0.8273,0.8155) f1@0.5(conn)=0.7356
+Step   30: loss=0.0141 val_auc(conn,iso)=(0.9335,0.9182) val_ap(conn,iso)=(0.8343,0.8173) f1@0.5(conn)=0.7462
+Step   40: loss=0.0235 val_auc(conn,iso)=(0.9336,0.9213) val_ap(conn,iso)=(0.8342,0.8226) f1@0.5(conn)=0.7384
+Step   50: loss=0.0223 val_auc(conn,iso)=(0.9337,0.9217) val_ap(conn,iso)=(0.8414,0.8352) f1@0.5(conn)=0.7438
+Step   60: loss=0.0298 val_auc(conn,iso)=(0.9352,0.9228) val_ap(conn,iso)=(0.8452,0.8353) f1@0.5(conn)=0.7369
+Step   70: loss=0.0224 val_auc(conn,iso)=(0.9351,0.9222) val_ap(conn,iso)=(0.8587,0.8461) f1@0.5(conn)=0.7560
+Step   80: loss=0.0252 val_auc(conn,iso)=(0.9367,0.9240) val_ap(conn,iso)=(0.8571,0.8391) f1@0.5(conn)=0.7678
+Step   90: loss=0.0202 val_auc(conn,iso)=(0.9363,0.9244) val_ap(conn,iso)=(0.8588,0.8401) f1@0.5(conn)=0.7639
+Step  100: loss=0.0340 val_auc(conn,iso)=(0.9350,0.9240) val_ap(conn,iso)=(0.8582,0.8416) f1@0.5(conn)=0.7789
+Step  110: loss=0.0096 val_auc(conn,iso)=(0.9364,0.9270) val_ap(conn,iso)=(0.8602,0.8505) f1@0.5(conn)=0.7748 *
+Step  120: loss=0.0125 val_auc(conn,iso)=(0.9366,0.9264) val_ap(conn,iso)=(0.8643,0.8563) f1@0.5(conn)=0.7803
+Step  130: loss=0.0111 val_auc(conn,iso)=(0.9367,0.9261) val_ap(conn,iso)=(0.8664,0.8565) f1@0.5(conn)=0.7649
+Step  140: loss=0.0100 val_auc(conn,iso)=(0.9338,0.9212) val_ap(conn,iso)=(0.8650,0.8541) f1@0.5(conn)=0.7850
+Step  150: loss=0.0348 val_auc(conn,iso)=(0.9339,0.9232) val_ap(conn,iso)=(0.8530,0.8423) f1@0.5(conn)=0.7624
+Step  160: loss=0.0199 val_auc(conn,iso)=(0.9317,0.9207) val_ap(conn,iso)=(0.8636,0.8544) f1@0.5(conn)=0.7797
+Step  170: loss=0.0162 val_auc(conn,iso)=(0.9328,0.9220) val_ap(conn,iso)=(0.8631,0.8524) f1@0.5(conn)=0.7747
+Step  180: loss=0.0114 val_auc(conn,iso)=(0.9333,0.9223) val_ap(conn,iso)=(0.8556,0.8385) f1@0.5(conn)=0.7734
+Step  190: loss=0.0197 val_auc(conn,iso)=(0.9347,0.9237) val_ap(conn,iso)=(0.8585,0.8393) f1@0.5(conn)=0.7797
+Step  200: loss=0.0185 val_auc(conn,iso)=(0.9359,0.9254) val_ap(conn,iso)=(0.8615,0.8468) f1@0.5(conn)=0.7863
+Step  210: loss=0.0208 val_auc(conn,iso)=(0.9339,0.9240) val_ap(conn,iso)=(0.8651,0.8574) f1@0.5(conn)=0.7852
+Step  220: loss=0.0037 val_auc(conn,iso)=(0.9352,0.9251) val_ap(conn,iso)=(0.8666,0.8594) f1@0.5(conn)=0.7775
+Step  230: loss=0.0229 val_auc(conn,iso)=(0.9359,0.9244) val_ap(conn,iso)=(0.8638,0.8547) f1@0.5(conn)=0.8000
+Early stopping at step 230
+Model saved to: results/gift/ablation_no_softedge_seed_64/e2e/trained_model.pth
