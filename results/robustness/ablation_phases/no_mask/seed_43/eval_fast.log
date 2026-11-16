@@ -1,0 +1,19 @@
+2026-11-03 23:55:07,779 - INFO - Using external ChEMBL36 interaction PKL: data/external_chembl36_median_v85.pkl
+2026-11-03 23:55:07,797 - INFO - 
+Loaded ChEMBL36 validation data from PKLs
+2026-11-03 23:55:07,797 - INFO - External compounds with features and graph-target interactions: 95
+2026-11-03 23:55:07,797 - INFO - New external compound-protein interactions: 3243
+2026-11-03 23:55:07,797 - INFO - Graph targets referenced by PKL: 1391
+2026-11-03 23:55:07,797 - INFO - Skipped missing features: 0
+2026-11-03 23:55:07,798 - INFO - Skipped invalid features: 0
+2026-11-03 23:55:07,798 - INFO - Skipped compounds without graph targets: 0
+2026-11-03 23:55:07,799 - INFO - Using external ChEMBL36 interaction PKL: data/external_chembl36_median_v85.pkl
+2026-11-03 23:55:07,857 - INFO - 
+Loaded ChEMBL36 validation data from PKLs
+2026-11-03 23:55:07,857 - INFO - External compounds with features and graph-target interactions: 95
+2026-11-03 23:55:07,857 - INFO - New external compound-protein interactions: 3243
+2026-11-03 23:55:07,857 - INFO - Graph targets referenced by PKL: 1391
+2026-11-03 23:55:07,857 - INFO - Skipped missing features: 0
+2026-11-03 23:55:07,857 - INFO - Skipped invalid features: 0
+2026-11-03 23:55:07,857 - INFO - Skipped compounds without graph targets: 0
+seed 43: random MCC=0.795 rocauc=0.958 | matched MCC=0.561 | ext MCC=0.381 rocauc=0.724 | driver top1=6 top10=45 auc=0.762

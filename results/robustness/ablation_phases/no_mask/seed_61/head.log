@@ -1,0 +1,38 @@
+Loaded backbone from results/gift/backbone_seed_61/best_model_phase2.pth; head params: 1488770
+Epoch   1: loss=1.5767 val_auc(conn,iso)=(0.8212,0.8115) val_ap(conn,iso)=(0.4454,0.4372) f1@0.5(conn)=0.4207 *
+Epoch   2: loss=0.4972 val_auc(conn,iso)=(0.8661,0.8570) val_ap(conn,iso)=(0.5667,0.5588) f1@0.5(conn)=0.5114 *
+Epoch   3: loss=0.3394 val_auc(conn,iso)=(0.8789,0.8665) val_ap(conn,iso)=(0.5791,0.5651) f1@0.5(conn)=0.5319 *
+Epoch   5: loss=0.2546 val_auc(conn,iso)=(0.8902,0.8787) val_ap(conn,iso)=(0.6048,0.5975) f1@0.5(conn)=0.5187 *
+Epoch   6: loss=0.2236 val_auc(conn,iso)=(0.9041,0.8943) val_ap(conn,iso)=(0.6722,0.6737) f1@0.5(conn)=0.5841 *
+Epoch  10: loss=0.1675 val_auc(conn,iso)=(0.9050,0.8963) val_ap(conn,iso)=(0.6956,0.6855) f1@0.5(conn)=0.5574 *
+Epoch  11: loss=0.1491 val_auc(conn,iso)=(0.9127,0.9041) val_ap(conn,iso)=(0.7365,0.7257) f1@0.5(conn)=0.6144 *
+Epoch  14: loss=0.0998 val_auc(conn,iso)=(0.9165,0.9030) val_ap(conn,iso)=(0.7462,0.7246) f1@0.5(conn)=0.6386 *
+Epoch  15: loss=0.1293 val_auc(conn,iso)=(0.9161,0.9030) val_ap(conn,iso)=(0.7297,0.7169) f1@0.5(conn)=0.6197
+Epoch  18: loss=0.1058 val_auc(conn,iso)=(0.9246,0.9133) val_ap(conn,iso)=(0.7930,0.7777) f1@0.5(conn)=0.6526 *
+Epoch  19: loss=0.1079 val_auc(conn,iso)=(0.9278,0.9117) val_ap(conn,iso)=(0.8054,0.7872) f1@0.5(conn)=0.6429 *
+Epoch  20: loss=0.0688 val_auc(conn,iso)=(0.9307,0.9190) val_ap(conn,iso)=(0.8085,0.7963) f1@0.5(conn)=0.6270 *
+Epoch  25: loss=0.0672 val_auc(conn,iso)=(0.9285,0.9099) val_ap(conn,iso)=(0.8287,0.8066) f1@0.5(conn)=0.6691
+Epoch  30: loss=0.0525 val_auc(conn,iso)=(0.9266,0.9070) val_ap(conn,iso)=(0.8146,0.7896) f1@0.5(conn)=0.6956
+Epoch  35: loss=0.0383 val_auc(conn,iso)=(0.9300,0.9119) val_ap(conn,iso)=(0.8409,0.8150) f1@0.5(conn)=0.7096
+Epoch  38: loss=0.0217 val_auc(conn,iso)=(0.9342,0.9158) val_ap(conn,iso)=(0.8428,0.8177) f1@0.5(conn)=0.7117 *
+Epoch  40: loss=0.0267 val_auc(conn,iso)=(0.9344,0.9153) val_ap(conn,iso)=(0.8347,0.8097) f1@0.5(conn)=0.7175
+Epoch  43: loss=0.0262 val_auc(conn,iso)=(0.9343,0.9163) val_ap(conn,iso)=(0.8585,0.8324) f1@0.5(conn)=0.7195 *
+Epoch  44: loss=0.0198 val_auc(conn,iso)=(0.9352,0.9165) val_ap(conn,iso)=(0.8546,0.8262) f1@0.5(conn)=0.7697 *
+Epoch  45: loss=0.0309 val_auc(conn,iso)=(0.9383,0.9202) val_ap(conn,iso)=(0.8514,0.8211) f1@0.5(conn)=0.7523 *
+Epoch  50: loss=0.0256 val_auc(conn,iso)=(0.9338,0.9146) val_ap(conn,iso)=(0.8485,0.8196) f1@0.5(conn)=0.7477
+Epoch  55: loss=0.0220 val_auc(conn,iso)=(0.9345,0.9167) val_ap(conn,iso)=(0.8507,0.8262) f1@0.5(conn)=0.7701
+Epoch  60: loss=0.0169 val_auc(conn,iso)=(0.9381,0.9207) val_ap(conn,iso)=(0.8611,0.8360) f1@0.5(conn)=0.7734 *
+Epoch  65: loss=0.0190 val_auc(conn,iso)=(0.9331,0.9157) val_ap(conn,iso)=(0.8515,0.8254) f1@0.5(conn)=0.7819
+Epoch  70: loss=0.0164 val_auc(conn,iso)=(0.9329,0.9164) val_ap(conn,iso)=(0.8600,0.8326) f1@0.5(conn)=0.7803
+Epoch  75: loss=0.0136 val_auc(conn,iso)=(0.9342,0.9172) val_ap(conn,iso)=(0.8587,0.8349) f1@0.5(conn)=0.7751
+Epoch  80: loss=0.0169 val_auc(conn,iso)=(0.9385,0.9217) val_ap(conn,iso)=(0.8566,0.8311) f1@0.5(conn)=0.7763 *
+Epoch  85: loss=0.0149 val_auc(conn,iso)=(0.9371,0.9227) val_ap(conn,iso)=(0.8569,0.8305) f1@0.5(conn)=0.7798
+Epoch  87: loss=0.0095 val_auc(conn,iso)=(0.9381,0.9227) val_ap(conn,iso)=(0.8630,0.8378) f1@0.5(conn)=0.7749 *
+Epoch  90: loss=0.0139 val_auc(conn,iso)=(0.9357,0.9185) val_ap(conn,iso)=(0.8646,0.8392) f1@0.5(conn)=0.7882
+Epoch  93: loss=0.0107 val_auc(conn,iso)=(0.9388,0.9239) val_ap(conn,iso)=(0.8651,0.8415) f1@0.5(conn)=0.7841 *
+Epoch  95: loss=0.0125 val_auc(conn,iso)=(0.9370,0.9224) val_ap(conn,iso)=(0.8667,0.8429) f1@0.5(conn)=0.7934
+Epoch 100: loss=0.0127 val_auc(conn,iso)=(0.9357,0.9189) val_ap(conn,iso)=(0.8529,0.8276) f1@0.5(conn)=0.7766
+Epoch 105: loss=0.0079 val_auc(conn,iso)=(0.9354,0.9189) val_ap(conn,iso)=(0.8580,0.8317) f1@0.5(conn)=0.7939
+Epoch 110: loss=0.0130 val_auc(conn,iso)=(0.9351,0.9170) val_ap(conn,iso)=(0.8564,0.8278) f1@0.5(conn)=0.8010
+Early stopping at epoch 113
+Model saved to: results/robustness/ablation_phases/no_mask/seed_61/head/trained_model.pth

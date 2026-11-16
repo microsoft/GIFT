@@ -1,0 +1,35 @@
+resumed after epoch 28
+seed 68 epoch 29 val_auc=0.8989 best=0.8989@29 19s
+seed 68 epoch 30 val_auc=0.8930 best=0.8989@29 20s
+seed 68 epoch 31 val_auc=0.8813 best=0.8989@29 21s
+seed 68 epoch 32 val_auc=0.8936 best=0.8989@29 21s
+seed 68 epoch 33 val_auc=0.8913 best=0.8989@29 21s
+seed 68 epoch 34 val_auc=0.8812 best=0.8989@29 21s
+seed 68 epoch 35 val_auc=0.8899 best=0.8989@29 21s
+seed 68 epoch 36 val_auc=0.8936 best=0.8989@29 21s
+seed 68 epoch 37 val_auc=0.8956 best=0.8989@29 21s
+seed 68 epoch 38 val_auc=0.8776 best=0.8989@29 21s
+seed 68 epoch 39 val_auc=0.8947 best=0.8989@29 20s
+seed 68 epoch 40 val_auc=0.8934 best=0.8989@29 20s
+seed 68 epoch 41 val_auc=0.8949 best=0.8989@29 18s
+seed 68 epoch 42 val_auc=0.8952 best=0.8989@29 18s
+seed 68 epoch 43 val_auc=0.8791 best=0.8989@29 20s
+seed 68 epoch 44 val_auc=0.8926 best=0.8989@29 20s
+seed 68 epoch 45 val_auc=0.8890 best=0.8989@29 20s
+seed 68 epoch 46 val_auc=0.8884 best=0.8989@29 20s
+seed 68 epoch 47 val_auc=0.8925 best=0.8989@29 20s
+seed 68 epoch 48 val_auc=0.8875 best=0.8989@29 20s
+seed 68 epoch 49 val_auc=0.8911 best=0.8989@29 20s
+seed 68 drugban val_auc=0.8989 best_epoch=29 stop=49
+2026-11-03 21:16:35,113 - INFO - Using external ChEMBL36 interaction PKL: data/external_chembl36_median.pkl
+2026-11-03 21:16:35,130 - INFO - 
+Loaded ChEMBL36 validation data from PKLs
+2026-11-03 21:16:35,130 - INFO - External compounds with features and graph-target interactions: 95
+2026-11-03 21:16:35,130 - INFO - New external compound-protein interactions: 3243
+2026-11-03 21:16:35,131 - INFO - Graph targets referenced by PKL: 1391
+2026-11-03 21:16:35,131 - INFO - Skipped missing features: 0
+2026-11-03 21:16:35,131 - INFO - Skipped invalid features: 0
+2026-11-03 21:16:35,131 - INFO - Skipped compounds without graph targets: 0
+drugban {'same_version': {'roc_auc': 0.938, 'auprc': 0.724, 'mcc': 0.522}, 'same_version_matched': {'roc_auc': 0.664, 'auprc': 0.249, 'mcc': 0.133}, 'external': {'roc_auc': 0.582, 'auprc': 0.217, 'mcc': 0.083}}
+resumed after epoch 49
+seed 68 drugban lead: top1=6 top10=32

@@ -1,0 +1,20 @@
+Loaded backbone from results/gift/random_aug_seed_60/backbone/best_model_phase2.pth; head params: 1488770
+Epoch   1: loss=1.9505 val_auc(conn,iso)=(0.7897,0.7887) val_ap(conn,iso)=(0.3717,0.3787) f1@0.5(conn)=0.4152 *
+Epoch   2: loss=0.5840 val_auc(conn,iso)=(0.8469,0.8391) val_ap(conn,iso)=(0.4780,0.4808) f1@0.5(conn)=0.4867 *
+Epoch   3: loss=0.5186 val_auc(conn,iso)=(0.8710,0.8691) val_ap(conn,iso)=(0.5626,0.5657) f1@0.5(conn)=0.5095 *
+Epoch   5: loss=0.2649 val_auc(conn,iso)=(0.8878,0.8819) val_ap(conn,iso)=(0.6272,0.6241) f1@0.5(conn)=0.5139 *
+Epoch   9: loss=0.2088 val_auc(conn,iso)=(0.8911,0.8857) val_ap(conn,iso)=(0.5921,0.5897) f1@0.5(conn)=0.4816 *
+Epoch  10: loss=0.2323 val_auc(conn,iso)=(0.9050,0.8967) val_ap(conn,iso)=(0.7151,0.7116) f1@0.5(conn)=0.6010 *
+Epoch  11: loss=0.1711 val_auc(conn,iso)=(0.9096,0.9009) val_ap(conn,iso)=(0.7274,0.7219) f1@0.5(conn)=0.5845 *
+Epoch  15: loss=0.1623 val_auc(conn,iso)=(0.9131,0.9085) val_ap(conn,iso)=(0.7455,0.7435) f1@0.5(conn)=0.6533 *
+Epoch  18: loss=0.1116 val_auc(conn,iso)=(0.9220,0.9127) val_ap(conn,iso)=(0.7850,0.7779) f1@0.5(conn)=0.6845 *
+Epoch  19: loss=0.1167 val_auc(conn,iso)=(0.9228,0.9162) val_ap(conn,iso)=(0.7716,0.7653) f1@0.5(conn)=0.6371 *
+Epoch  20: loss=0.0758 val_auc(conn,iso)=(0.9298,0.9237) val_ap(conn,iso)=(0.7895,0.7849) f1@0.5(conn)=0.6348 *
+Epoch  21: loss=0.1037 val_auc(conn,iso)=(0.9326,0.9249) val_ap(conn,iso)=(0.7946,0.7902) f1@0.5(conn)=0.6144 *
+Epoch  23: loss=0.0858 val_auc(conn,iso)=(0.9333,0.9294) val_ap(conn,iso)=(0.7912,0.7868) f1@0.5(conn)=0.7008 *
+Epoch  25: loss=0.0694 val_auc(conn,iso)=(0.9294,0.9219) val_ap(conn,iso)=(0.8007,0.7939) f1@0.5(conn)=0.6766
+Epoch  30: loss=0.0837 val_auc(conn,iso)=(0.9287,0.9229) val_ap(conn,iso)=(0.7970,0.7937) f1@0.5(conn)=0.5951
+Epoch  35: loss=0.0629 val_auc(conn,iso)=(0.9247,0.9227) val_ap(conn,iso)=(0.7633,0.7730) f1@0.5(conn)=0.6959
+Epoch  40: loss=0.0479 val_auc(conn,iso)=(0.9279,0.9213) val_ap(conn,iso)=(0.8024,0.7956) f1@0.5(conn)=0.7248
+Early stopping at epoch 43
+Model saved to: results/gift/random_aug_seed_60/head/trained_model.pth

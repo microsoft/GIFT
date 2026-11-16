@@ -1,0 +1,15 @@
+shared seeds (30): [42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71]
+== DrugBAN crop (a) vs nocrop (b) ==
+  roc_auc              crop 0.648±0.042  nocrop 0.643±0.033  p=0.4771064817905426
+  auprc                crop 0.286±0.048  nocrop 0.273±0.033  p=0.19092952087521553
+  per_target_roc_auc   crop 0.570±0.029  nocrop 0.571±0.027  p=0.9676735773682594
+  mcc                  crop 0.175±0.059  nocrop 0.162±0.044  p=0.3817984350025654
+  top10                crop 36.167±4.178  nocrop 37.667±4.887  p=0.15742083082825964
+  at1                  crop 4.667±1.373  nocrop 5.033±1.520  p=0.240062291152626
+== reproducibility: nocrop (a) vs published shared protocol (b), 30 seeds ==
+  roc_auc              nocrop 0.643  published 0.636  p=0.5425279382616282
+  auprc                nocrop 0.273  published 0.274  p=0.9838335812091827
+  per_target_roc_auc   nocrop 0.571  published 0.569  p=0.8235769439488649
+  mcc                  nocrop 0.162  published 0.164  p=0.935398668050766
+  top10                nocrop 37.667  published 36.733  p=0.11706123963952583
+  at1                  nocrop 5.033  published 5.633  p=0.11697433661334937

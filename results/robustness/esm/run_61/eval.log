@@ -1,0 +1,38 @@
+2026-11-04 01:10:04,077 - INFO - Using external ChEMBL36 interaction PKL: data/external_chembl36_median.pkl
+2026-11-04 01:10:04,123 - INFO - 
+Loaded ChEMBL36 validation data from PKLs
+2026-11-04 01:10:04,123 - INFO - External compounds with features and graph-target interactions: 95
+2026-11-04 01:10:04,124 - INFO - New external compound-protein interactions: 3243
+2026-11-04 01:10:04,124 - INFO - Graph targets referenced by PKL: 1391
+2026-11-04 01:10:04,124 - INFO - Skipped missing features: 0
+2026-11-04 01:10:04,124 - INFO - Skipped invalid features: 0
+2026-11-04 01:10:04,124 - INFO - Skipped compounds without graph targets: 0
+2026-11-04 01:10:04,125 - INFO - Using external ChEMBL36 interaction PKL: data/external_chembl36_median.pkl
+2026-11-04 01:10:04,157 - INFO - 
+Loaded ChEMBL36 validation data from PKLs
+2026-11-04 01:10:04,157 - INFO - External compounds with features and graph-target interactions: 95
+2026-11-04 01:10:04,157 - INFO - New external compound-protein interactions: 3243
+2026-11-04 01:10:04,157 - INFO - Graph targets referenced by PKL: 1391
+2026-11-04 01:10:04,157 - INFO - Skipped missing features: 0
+2026-11-04 01:10:04,157 - INFO - Skipped invalid features: 0
+2026-11-04 01:10:04,157 - INFO - Skipped compounds without graph targets: 0
+2026-11-04 01:10:04,184 - INFO - 
+Building external negative samples (ratio=5.0:1)
+2026-11-04 01:10:04,284 - INFO - Generated 16215 external negative samples
+2026-11-04 01:10:17,848 - INFO - RF {'n_estimators': 500, 'max_depth': None, 'min_samples_leaf': 1, 'max_features': 'sqrt'} val_auprc=0.8105
+2026-11-04 01:12:02,626 - INFO - RF {'n_estimators': 500, 'max_depth': None, 'min_samples_leaf': 1, 'max_features': 0.2} val_auprc=0.7887
+2026-11-04 01:12:12,737 - INFO - RF {'n_estimators': 500, 'max_depth': None, 'min_samples_leaf': 3, 'max_features': 'sqrt'} val_auprc=0.7912
+2026-11-04 01:13:47,782 - INFO - RF {'n_estimators': 500, 'max_depth': None, 'min_samples_leaf': 3, 'max_features': 0.2} val_auprc=0.7734
+2026-11-04 01:13:58,931 - INFO - RF {'n_estimators': 500, 'max_depth': 30, 'min_samples_leaf': 1, 'max_features': 'sqrt'} val_auprc=0.8110
+2026-11-04 01:15:58,294 - INFO - RF {'n_estimators': 500, 'max_depth': 30, 'min_samples_leaf': 1, 'max_features': 0.2} val_auprc=0.7890
+2026-11-04 01:16:10,870 - INFO - RF {'n_estimators': 500, 'max_depth': 30, 'min_samples_leaf': 3, 'max_features': 'sqrt'} val_auprc=0.7912
+2026-11-04 01:17:59,911 - INFO - RF {'n_estimators': 500, 'max_depth': 30, 'min_samples_leaf': 3, 'max_features': 0.2} val_auprc=0.7737
+2026-11-04 01:18:12,589 - INFO - RF selected on validation: {'params': {'n_estimators': 500, 'max_depth': 30, 'min_samples_leaf': 1, 'max_features': 'sqrt'}, 'val_auprc': 0.8109685896146249}
+2026-11-04 01:18:17,473 - INFO - gift (fixed threshold=0.5000) | same-version: roc_auc=0.9763 auprc=0.9260 f1=0.856 mcc=0.827 || matched: roc_auc=0.9215 auprc=0.7893 f1=0.658 mcc=0.593 || cross-version: roc_auc=0.7364 auprc=0.4212 f1=0.377 mcc=0.329
+2026-11-04 01:18:18,178 - INFO - tanimoto (fixed threshold=0.5000) | same-version: roc_auc=0.7975 auprc=0.5258 f1=0.211 mcc=0.305 || matched: roc_auc=0.8268 auprc=0.5790 f1=0.211 mcc=0.308 || cross-version: roc_auc=0.8245 auprc=0.4925 f1=0.065 mcc=0.119
+2026-11-04 01:18:18,886 - INFO - random_forest (fixed threshold=0.5000) | same-version: roc_auc=0.9539 auprc=0.8774 f1=0.660 mcc=0.606 || matched: roc_auc=0.8103 auprc=0.6653 f1=0.324 mcc=0.134 || cross-version: roc_auc=0.7179 auprc=0.3202 f1=0.320 mcc=0.210
+2026-11-04 01:18:19,590 - INFO - random_forest_tuned (fixed threshold=0.5000) | same-version: roc_auc=0.9550 auprc=0.8811 f1=0.663 mcc=0.610 || matched: roc_auc=0.8094 auprc=0.6798 f1=0.325 mcc=0.138 || cross-version: roc_auc=0.7246 auprc=0.3378 f1=0.352 mcc=0.260
+2026-11-04 01:18:20,126 - INFO - label-free compound_train_degree: {'same_version': {'roc_auc': 0.894788451881901, 'auprc': 0.7081988621943074, 'per_target_roc_auc': 0.9146784232365145}, 'same_version_allcompound': {'roc_auc': 0.9709260272735993, 'auprc': 0.8998057524501277, 'per_target_roc_auc': 0.9859333333333334}, 'same_version_matched': {'roc_auc': 0.5130519371156114, 'auprc': 0.17997320735250866, 'per_target_roc_auc': 0.580324074074074}, 'cross_version': {'roc_auc': 0.5, 'auprc': 0.16666666666666666, 'per_target_roc_auc': 0.5}}
+2026-11-04 01:18:20,670 - INFO - label-free protein_train_degree: {'same_version': {'roc_auc': 0.7686793687690772, 'auprc': 0.36710015959276066, 'per_target_roc_auc': 0.5}, 'same_version_allcompound': {'roc_auc': 0.7565704323491743, 'auprc': 0.35489654351000094, 'per_target_roc_auc': 0.5}, 'same_version_matched': {'roc_auc': 0.8163221808594044, 'auprc': 0.44339053384037375, 'per_target_roc_auc': 0.5}, 'cross_version': {'roc_auc': 0.7912047666603055, 'auprc': 0.3728684620310915, 'per_target_roc_auc': 0.5}}
+2026-11-04 01:18:20,766 - INFO - gift same-version with test compounds isolated: roc_auc=0.9756 auprc=0.9228 f1=0.851 mcc=0.822
+2026-11-04 01:18:20,774 - INFO - Saved core standalone comparison to: results/robustness/esm/run_61/eval_final.json

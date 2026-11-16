@@ -1,0 +1,460 @@
+{
+ "global": {
+  "k": 200000,
+  "candidates": 2166566,
+  "held_out": 862,
+  "held_out_in_top_k": 322,
+  "precision_top_k": 0.00161,
+  "base_rate": 0.00039786463924939284,
+  "enrichment": 4.046602389791183,
+  "roc_auc_all_candidates": 0.8039795714381569,
+  "roc_auc_compound_plus_protein_mean": 0.7848727456123152
+ },
+ "per_target_summary": {
+  "n_targets": 88,
+  "mean_roc_auc": 0.9113337671869188,
+  "mean_roc_auc_compound_mean": 0.918246355344655
+ },
+ "per_target": {
+  "CHEMBL1075167": {
+   "n_held_out": 4,
+   "roc_auc": 0.9888709677419355,
+   "roc_auc_compound_mean": 0.9803225806451613
+  },
+  "CHEMBL1163101": {
+   "n_held_out": 3,
+   "roc_auc": 0.9285254346426273,
+   "roc_auc_compound_mean": 0.9188667095943336
+  },
+  "CHEMBL1163126": {
+   "n_held_out": 3,
+   "roc_auc": 0.9734019734019734,
+   "roc_auc_compound_mean": 0.9791934791934792
+  },
+  "CHEMBL1293224": {
+   "n_held_out": 3,
+   "roc_auc": 0.6565460809646856,
+   "roc_auc_compound_mean": 0.657192075796727
+  },
+  "CHEMBL1293231": {
+   "n_held_out": 9,
+   "roc_auc": 0.82259691598213,
+   "roc_auc_compound_mean": 0.840322813085459
+  },
+  "CHEMBL1293232": {
+   "n_held_out": 4,
+   "roc_auc": 0.8465025906735751,
+   "roc_auc_compound_mean": 0.8832577720207254
+  },
+  "CHEMBL1293235": {
+   "n_held_out": 3,
+   "roc_auc": 0.7753999135322093,
+   "roc_auc_compound_mean": 0.846952010376135
+  },
+  "CHEMBL1293256": {
+   "n_held_out": 3,
+   "roc_auc": 0.8917525773195877,
+   "roc_auc_compound_mean": 0.9005584192439863
+  },
+  "CHEMBL1293294": {
+   "n_held_out": 3,
+   "roc_auc": 0.917312661498708,
+   "roc_auc_compound_mean": 0.8942721791559002
+  },
+  "CHEMBL1781": {
+   "n_held_out": 3,
+   "roc_auc": 0.9132861128997639,
+   "roc_auc_compound_mean": 0.80789869070616
+  },
+  "CHEMBL1829": {
+   "n_held_out": 4,
+   "roc_auc": 0.908666237113402,
+   "roc_auc_compound_mean": 0.8592139175257733
+  },
+  "CHEMBL1841": {
+   "n_held_out": 5,
+   "roc_auc": 0.8827319587628866,
+   "roc_auc_compound_mean": 0.9490979381443299
+  },
+  "CHEMBL1850": {
+   "n_held_out": 4,
+   "roc_auc": 0.6084996780424984,
+   "roc_auc_compound_mean": 0.7615904700579524
+  },
+  "CHEMBL1862": {
+   "n_held_out": 7,
+   "roc_auc": 0.940184331797235,
+   "roc_auc_compound_mean": 0.9517050691244238
+  },
+  "CHEMBL1906": {
+   "n_held_out": 3,
+   "roc_auc": 0.7187902187902188,
+   "roc_auc_compound_mean": 0.7548262548262549
+  },
+  "CHEMBL1908382": {
+   "n_held_out": 3,
+   "roc_auc": 0.9466237942122186,
+   "roc_auc_compound_mean": 0.9697749196141479
+  },
+  "CHEMBL1913": {
+   "n_held_out": 3,
+   "roc_auc": 0.8380645161290323,
+   "roc_auc_compound_mean": 0.9094623655913979
+  },
+  "CHEMBL1936": {
+   "n_held_out": 6,
+   "roc_auc": 0.9866494401378123,
+   "roc_auc_compound_mean": 0.9815891472868217
+  },
+  "CHEMBL1937": {
+   "n_held_out": 3,
+   "roc_auc": 0.8487773487773488,
+   "roc_auc_compound_mean": 0.8507078507078506
+  },
+  "CHEMBL1941": {
+   "n_held_out": 3,
+   "roc_auc": 0.7389532389532389,
+   "roc_auc_compound_mean": 0.7683397683397682
+  },
+  "CHEMBL1955": {
+   "n_held_out": 4,
+   "roc_auc": 0.9747100515463917,
+   "roc_auc_compound_mean": 0.9805090206185566
+  },
+  "CHEMBL1974": {
+   "n_held_out": 4,
+   "roc_auc": 0.9174237508111617,
+   "roc_auc_compound_mean": 0.9252109020116807
+  },
+  "CHEMBL1983": {
+   "n_held_out": 3,
+   "roc_auc": 0.6585051546391752,
+   "roc_auc_compound_mean": 0.7615979381443299
+  },
+  "CHEMBL203": {
+   "n_held_out": 3,
+   "roc_auc": 0.9068659302577431,
+   "roc_auc_compound_mean": 0.8819579813731862
+  },
+  "CHEMBL2034": {
+   "n_held_out": 18,
+   "roc_auc": 0.8192228132387708,
+   "roc_auc_compound_mean": 0.8265735815602837
+  },
+  "CHEMBL214": {
+   "n_held_out": 3,
+   "roc_auc": 0.7476896625832796,
+   "roc_auc_compound_mean": 0.7607994842037396
+  },
+  "CHEMBL217": {
+   "n_held_out": 3,
+   "roc_auc": 0.8398967075532602,
+   "roc_auc_compound_mean": 0.7271357865289434
+  },
+  "CHEMBL230": {
+   "n_held_out": 3,
+   "roc_auc": 0.8976833976833977,
+   "roc_auc_compound_mean": 0.9320034320034319
+  },
+  "CHEMBL2349": {
+   "n_held_out": 4,
+   "roc_auc": 0.9879032258064516,
+   "roc_auc_compound_mean": 0.9766129032258064
+  },
+  "CHEMBL237": {
+   "n_held_out": 7,
+   "roc_auc": 0.7751152073732719,
+   "roc_auc_compound_mean": 0.7741935483870968
+  },
+  "CHEMBL2393": {
+   "n_held_out": 3,
+   "roc_auc": 0.952656383890317,
+   "roc_auc_compound_mean": 0.9642245072836333
+  },
+  "CHEMBL240": {
+   "n_held_out": 4,
+   "roc_auc": 0.8766968325791855,
+   "roc_auc_compound_mean": 0.9183904330963154
+  },
+  "CHEMBL2431": {
+   "n_held_out": 3,
+   "roc_auc": 0.9279279279279279,
+   "roc_auc_compound_mean": 0.9236379236379236
+  },
+  "CHEMBL2595": {
+   "n_held_out": 5,
+   "roc_auc": 0.9843870967741936,
+   "roc_auc_compound_mean": 0.9858064516129033
+  },
+  "CHEMBL2637": {
+   "n_held_out": 3,
+   "roc_auc": 0.9851612903225806,
+   "roc_auc_compound_mean": 0.9827956989247313
+  },
+  "CHEMBL2695": {
+   "n_held_out": 3,
+   "roc_auc": 0.9785361665593475,
+   "roc_auc_compound_mean": 0.9660871431637691
+  },
+  "CHEMBL279": {
+   "n_held_out": 4,
+   "roc_auc": 0.9724015493867011,
+   "roc_auc_compound_mean": 0.9712717882504841
+  },
+  "CHEMBL2964": {
+   "n_held_out": 3,
+   "roc_auc": 0.9652509652509652,
+   "roc_auc_compound_mean": 0.9517374517374518
+  },
+  "CHEMBL299": {
+   "n_held_out": 3,
+   "roc_auc": 0.9888459888459888,
+   "roc_auc_compound_mean": 0.978978978978979
+  },
+  "CHEMBL3032": {
+   "n_held_out": 3,
+   "roc_auc": 0.9881948916076411,
+   "roc_auc_compound_mean": 0.9826142949130714
+  },
+  "CHEMBL3055": {
+   "n_held_out": 3,
+   "roc_auc": 0.9883870967741936,
+   "roc_auc_compound_mean": 0.9823655913978494
+  },
+  "CHEMBL308": {
+   "n_held_out": 3,
+   "roc_auc": 0.9860395189003437,
+   "roc_auc_compound_mean": 0.9810996563573883
+  },
+  "CHEMBL3125": {
+   "n_held_out": 3,
+   "roc_auc": 0.978307560137457,
+   "roc_auc_compound_mean": 0.9759450171821306
+  },
+  "CHEMBL3144": {
+   "n_held_out": 4,
+   "roc_auc": 0.7030440414507773,
+   "roc_auc_compound_mean": 0.7422279792746113
+  },
+  "CHEMBL3192": {
+   "n_held_out": 4,
+   "roc_auc": 0.9028672680412371,
+   "roc_auc_compound_mean": 0.8596971649484536
+  },
+  "CHEMBL325": {
+   "n_held_out": 4,
+   "roc_auc": 0.8700774693350549,
+   "roc_auc_compound_mean": 0.8712072304712717
+  },
+  "CHEMBL3357": {
+   "n_held_out": 4,
+   "roc_auc": 0.9795293359123147,
+   "roc_auc_compound_mean": 0.9708252740167633
+  },
+  "CHEMBL3368": {
+   "n_held_out": 3,
+   "roc_auc": 0.7598797250859106,
+   "roc_auc_compound_mean": 0.7770618556701031
+  },
+  "CHEMBL3371": {
+   "n_held_out": 4,
+   "roc_auc": 0.7219716494845361,
+   "roc_auc_compound_mean": 0.7356636597938144
+  },
+  "CHEMBL340": {
+   "n_held_out": 4,
+   "roc_auc": 0.946011673151751,
+   "roc_auc_compound_mean": 0.9202334630350194
+  },
+  "CHEMBL3553": {
+   "n_held_out": 3,
+   "roc_auc": 0.9903288201160542,
+   "roc_auc_compound_mean": 0.97678916827853
+  },
+  "CHEMBL3658": {
+   "n_held_out": 10,
+   "roc_auc": 0.657050032488629,
+   "roc_auc_compound_mean": 0.730019493177388
+  },
+  "CHEMBL3778": {
+   "n_held_out": 3,
+   "roc_auc": 0.989905498281787,
+   "roc_auc_compound_mean": 0.9753006872852233
+  },
+  "CHEMBL3863": {
+   "n_held_out": 3,
+   "roc_auc": 0.9830435715818846,
+   "roc_auc_compound_mean": 0.9755312298776562
+  },
+  "CHEMBL3906": {
+   "n_held_out": 3,
+   "roc_auc": 0.9806825499034129,
+   "roc_auc_compound_mean": 0.9763897832152822
+  },
+  "CHEMBL3920": {
+   "n_held_out": 5,
+   "roc_auc": 0.9884169884169886,
+   "roc_auc_compound_mean": 0.9785070785070784
+  },
+  "CHEMBL3981": {
+   "n_held_out": 3,
+   "roc_auc": 0.984955942402751,
+   "roc_auc_compound_mean": 0.9641091768751342
+  },
+  "CHEMBL4040": {
+   "n_held_out": 6,
+   "roc_auc": 0.837741935483871,
+   "roc_auc_compound_mean": 0.8749462365591398
+  },
+  "CHEMBL4096": {
+   "n_held_out": 4,
+   "roc_auc": 0.9584948320413438,
+   "roc_auc_compound_mean": 0.937015503875969
+  },
+  "CHEMBL4121": {
+   "n_held_out": 3,
+   "roc_auc": 0.9388280746941404,
+   "roc_auc_compound_mean": 0.9875509766044215
+  },
+  "CHEMBL4147": {
+   "n_held_out": 4,
+   "roc_auc": 0.9108751608751608,
+   "roc_auc_compound_mean": 0.9821428571428571
+  },
+  "CHEMBL4179": {
+   "n_held_out": 5,
+   "roc_auc": 0.9348807221147647,
+   "roc_auc_compound_mean": 0.9392649903288202
+  },
+  "CHEMBL4202": {
+   "n_held_out": 6,
+   "roc_auc": 0.9891327738325801,
+   "roc_auc_compound_mean": 0.9790187217559716
+  },
+  "CHEMBL4223": {
+   "n_held_out": 3,
+   "roc_auc": 0.9836664517515581,
+   "roc_auc_compound_mean": 0.9675478186116484
+  },
+  "CHEMBL4226": {
+   "n_held_out": 3,
+   "roc_auc": 0.9879802532732346,
+   "roc_auc_compound_mean": 0.9866924232667954
+  },
+  "CHEMBL4261": {
+   "n_held_out": 3,
+   "roc_auc": 0.892334194659776,
+   "roc_auc_compound_mean": 0.8535745047372953
+  },
+  "CHEMBL4372": {
+   "n_held_out": 3,
+   "roc_auc": 0.8934021061680637,
+   "roc_auc_compound_mean": 0.9194068343004513
+  },
+  "CHEMBL4598": {
+   "n_held_out": 3,
+   "roc_auc": 0.9714898177920687,
+   "roc_auc_compound_mean": 0.9779206859592712
+  },
+  "CHEMBL4627": {
+   "n_held_out": 3,
+   "roc_auc": 0.9652956298200515,
+   "roc_auc_compound_mean": 0.969151670951157
+  },
+  "CHEMBL4895": {
+   "n_held_out": 4,
+   "roc_auc": 0.9854932301740812,
+   "roc_auc_compound_mean": 0.9742101869761444
+  },
+  "CHEMBL4924": {
+   "n_held_out": 3,
+   "roc_auc": 0.9579037800687286,
+   "roc_auc_compound_mean": 0.9778780068728522
+  },
+  "CHEMBL4948": {
+   "n_held_out": 4,
+   "roc_auc": 0.9701997422680412,
+   "roc_auc_compound_mean": 0.9561855670103093
+  },
+  "CHEMBL5145": {
+   "n_held_out": 4,
+   "roc_auc": 0.9071152607855762,
+   "roc_auc_compound_mean": 0.8789439793947199
+  },
+  "CHEMBL5284": {
+   "n_held_out": 4,
+   "roc_auc": 0.9540914948453608,
+   "roc_auc_compound_mean": 0.9516752577319587
+  },
+  "CHEMBL5319": {
+   "n_held_out": 3,
+   "roc_auc": 0.9781209781209781,
+   "roc_auc_compound_mean": 0.9714714714714715
+  },
+  "CHEMBL5330": {
+   "n_held_out": 3,
+   "roc_auc": 0.9336340206185567,
+   "roc_auc_compound_mean": 0.9557560137457045
+  },
+  "CHEMBL5407": {
+   "n_held_out": 4,
+   "roc_auc": 0.99243399871217,
+   "roc_auc_compound_mean": 0.9861558274307792
+  },
+  "CHEMBL5408": {
+   "n_held_out": 4,
+   "roc_auc": 0.9766731016731017,
+   "roc_auc_compound_mean": 0.9795688545688546
+  },
+  "CHEMBL5469": {
+   "n_held_out": 5,
+   "roc_auc": 0.9766602192134107,
+   "roc_auc_compound_mean": 0.9831076724693746
+  },
+  "CHEMBL5491": {
+   "n_held_out": 3,
+   "roc_auc": 0.97491961414791,
+   "roc_auc_compound_mean": 0.97513397642015
+  },
+  "CHEMBL5650": {
+   "n_held_out": 3,
+   "roc_auc": 0.961340206185567,
+   "roc_auc_compound_mean": 0.9664948453608248
+  },
+  "CHEMBL5701": {
+   "n_held_out": 4,
+   "roc_auc": 0.9905022537025113,
+   "roc_auc_compound_mean": 0.9763361236316807
+  },
+  "CHEMBL5749": {
+   "n_held_out": 3,
+   "roc_auc": 0.9637494637494637,
+   "roc_auc_compound_mean": 0.9787644787644788
+  },
+  "CHEMBL5776": {
+   "n_held_out": 3,
+   "roc_auc": 0.9395109395109396,
+   "roc_auc_compound_mean": 0.9703989703989704
+  },
+  "CHEMBL5861": {
+   "n_held_out": 4,
+   "roc_auc": 0.8599678456591641,
+   "roc_auc_compound_mean": 0.9747588424437299
+  },
+  "CHEMBL5903": {
+   "n_held_out": 3,
+   "roc_auc": 0.9770632368703108,
+   "roc_auc_compound_mean": 0.9819935691318328
+  },
+  "CHEMBL6005": {
+   "n_held_out": 4,
+   "roc_auc": 0.9884169884169886,
+   "roc_auc_compound_mean": 0.9861647361647362
+  },
+  "CHEMBL6167": {
+   "n_held_out": 3,
+   "roc_auc": 0.9577434577434578,
+   "roc_auc_compound_mean": 0.9761904761904762
+  }
+ }
+}

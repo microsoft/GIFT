@@ -1,0 +1,119 @@
+{
+  "seed": 60,
+  "lead": {
+    "deepdta": {
+      "per_driver": {
+        "EGFR": {
+          "active_at_1": 1,
+          "hits_top10": 7,
+          "n_actives": 26
+        },
+        "ERBB2": {
+          "active_at_1": 1,
+          "hits_top10": 6,
+          "n_actives": 16
+        },
+        "ALK": {
+          "active_at_1": 1,
+          "hits_top10": 3,
+          "n_actives": 16
+        },
+        "MET": {
+          "active_at_1": 1,
+          "hits_top10": 3,
+          "n_actives": 16
+        },
+        "RET": {
+          "active_at_1": 1,
+          "hits_top10": 6,
+          "n_actives": 24
+        },
+        "ROS1": {
+          "active_at_1": 1,
+          "hits_top10": 3,
+          "n_actives": 11
+        },
+        "BRAF": {
+          "active_at_1": 0,
+          "hits_top10": 2,
+          "n_actives": 11
+        },
+        "NTRK1": {
+          "active_at_1": 0,
+          "hits_top10": 2,
+          "n_actives": 12
+        },
+        "NTRK2": {
+          "active_at_1": 0,
+          "hits_top10": 1,
+          "n_actives": 9
+        },
+        "NTRK3": {
+          "active_at_1": 0,
+          "hits_top10": 1,
+          "n_actives": 8
+        }
+      },
+      "drivers_active_at_1": 6,
+      "hits_top10_sum": 34,
+      "n_drivers": 10
+    },
+    "graphdta": {
+      "per_driver": {
+        "EGFR": {
+          "active_at_1": 1,
+          "hits_top10": 3,
+          "n_actives": 26
+        },
+        "ERBB2": {
+          "active_at_1": 0,
+          "hits_top10": 3,
+          "n_actives": 16
+        },
+        "ALK": {
+          "active_at_1": 1,
+          "hits_top10": 6,
+          "n_actives": 16
+        },
+        "MET": {
+          "active_at_1": 1,
+          "hits_top10": 5,
+          "n_actives": 16
+        },
+        "RET": {
+          "active_at_1": 1,
+          "hits_top10": 5,
+          "n_actives": 24
+        },
+        "ROS1": {
+          "active_at_1": 1,
+          "hits_top10": 3,
+          "n_actives": 11
+        },
+        "BRAF": {
+          "active_at_1": 0,
+          "hits_top10": 4,
+          "n_actives": 11
+        },
+        "NTRK1": {
+          "active_at_1": 1,
+          "hits_top10": 2,
+          "n_actives": 12
+        },
+        "NTRK2": {
+          "active_at_1": 0,
+          "hits_top10": 1,
+          "n_actives": 9
+        },
+        "NTRK3": {
+          "active_at_1": 0,
+          "hits_top10": 1,
+          "n_actives": 8
+        }
+      },
+      "drivers_active_at_1": 6,
+      "hits_top10_sum": 33,
+      "n_drivers": 10
+    }
+  }
+}

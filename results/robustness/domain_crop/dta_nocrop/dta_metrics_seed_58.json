@@ -1,0 +1,144 @@
+{
+  "seed": 58,
+  "graph_path": "graph_data_s58.pkl",
+  "protocol": "trained from scratch on run ChEMBL35 training pairs; 1:1 resampled training negatives; standard published configuration, no search; up to 300 epochs, patience 20; external compounds inference only; threshold 0.5",
+  "n_train_positives": 2017,
+  "n_val": 2520,
+  "n_external_compounds": 95,
+  "external_compounds_structure_in_training": 0,
+  "bench_sizes": {
+    "same_version": [
+      428,
+      2140
+    ],
+    "same_version_matched": [
+      428,
+      2045
+    ],
+    "external": [
+      3243,
+      15646
+    ]
+  },
+  "seconds": 54.1368510723114,
+  "results": {
+    "deepdta": {
+      "val_roc_auc": 0.9563185941043084,
+      "config": {
+        "smi_kernel": [
+          4,
+          6,
+          8
+        ],
+        "seq_kernel": [
+          4,
+          8,
+          12
+        ],
+        "lr": 0.001,
+        "dropout": 0.1
+      },
+      "stopped_at_epoch": 148,
+      "best_epoch": 128,
+      "same_version": {
+        "roc_auc": 0.9628351821119749,
+        "auprc": 0.8847502354514725,
+        "per_target_roc_auc": 0.9417420814479638,
+        "per_target_n": 221,
+        "accuracy": 0.8808411214953271,
+        "precision": 0.5913173652694611,
+        "recall": 0.9228971962616822,
+        "f1": 0.7208029197080292,
+        "mcc": 0.6756309280674142,
+        "tp": 395,
+        "fn": 33,
+        "fp": 273,
+        "tn": 1867
+      },
+      "same_version_matched": {
+        "roc_auc": 0.905530927952837,
+        "auprc": 0.7063726378621015,
+        "per_target_roc_auc": 0.8573070607553366,
+        "per_target_n": 203,
+        "accuracy": 0.7432268499797816,
+        "precision": 0.39618856569709127,
+        "recall": 0.9228971962616822,
+        "f1": 0.5543859649122806,
+        "mcc": 0.48472715073753236,
+        "tp": 395,
+        "fn": 33,
+        "fp": 602,
+        "tn": 1443
+      },
+      "external": {
+        "roc_auc": 0.5924785974483473,
+        "auprc": 0.2635237414709515,
+        "per_target_roc_auc": 0.6036885499939043,
+        "per_target_n": 675,
+        "accuracy": 0.779077770130764,
+        "precision": 0.29922279792746115,
+        "recall": 0.21369102682701202,
+        "f1": 0.24932541824069077,
+        "mcc": 0.12642526653146635,
+        "tp": 693,
+        "fn": 2550,
+        "fp": 1623,
+        "tn": 14023
+      }
+    },
+    "graphdta": {
+      "val_roc_auc": 0.9306944444444444,
+      "config": {
+        "lr": 0.0005,
+        "dropout": 0.2
+      },
+      "stopped_at_epoch": 154,
+      "best_epoch": 134,
+      "same_version": {
+        "roc_auc": 0.9442418551838588,
+        "auprc": 0.825955688828828,
+        "per_target_roc_auc": 0.922134238310709,
+        "per_target_n": 221,
+        "accuracy": 0.9217289719626168,
+        "precision": 0.7505518763796909,
+        "recall": 0.794392523364486,
+        "f1": 0.771850170261067,
+        "mcc": 0.7250828577018553,
+        "tp": 340,
+        "fn": 88,
+        "fp": 113,
+        "tn": 2027
+      },
+      "same_version_matched": {
+        "roc_auc": 0.8446358796243402,
+        "auprc": 0.6147650040509657,
+        "per_target_roc_auc": 0.7512725779967159,
+        "per_target_n": 203,
+        "accuracy": 0.770319450060655,
+        "precision": 0.4146341463414634,
+        "recall": 0.794392523364486,
+        "f1": 0.5448717948717948,
+        "mcc": 0.4497385180558166,
+        "tp": 340,
+        "fn": 88,
+        "fp": 480,
+        "tn": 1565
+      },
+      "external": {
+        "roc_auc": 0.6791596756309197,
+        "auprc": 0.3844424412936062,
+        "per_target_roc_auc": 0.567045800603513,
+        "per_target_n": 675,
+        "accuracy": 0.816824606914077,
+        "precision": 0.4553681612505142,
+        "recall": 0.34135060129509714,
+        "f1": 0.39020091646105043,
+        "mcc": 0.28911320673738333,
+        "tp": 1107,
+        "fn": 2136,
+        "fp": 1324,
+        "tn": 14322
+      }
+    }
+  }
+}

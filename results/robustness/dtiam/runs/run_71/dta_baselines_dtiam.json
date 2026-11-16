@@ -1,0 +1,151 @@
+{
+  "seed": 71,
+  "graph_path": "graph_data_s71.pkl",
+  "protocol": "trained from scratch on run ChEMBL35 training pairs; 1:1 resampled training negatives; standard published configuration, no search; up to 300 epochs, patience 20; external compounds inference only; threshold 0.5",
+  "n_train_positives": 1985,
+  "n_val": 2736,
+  "n_external_compounds": 95,
+  "external_compounds_structure_in_training": 0,
+  "bench_sizes": {
+    "same_version": [
+      424,
+      2120
+    ],
+    "same_version_matched": [
+      424,
+      2021
+    ],
+    "external": [
+      3243,
+      15646
+    ]
+  },
+  "seconds": 1.7891075611114502,
+  "results": {
+    "dtiam": {
+      "val_roc_auc": 0.9377111226531241,
+      "config": {
+        "head": "AutoGluon TabularPredictor, default presets (medium_quality), eval_metric roc_auc",
+        "best_model": "WeightedEnsemble_L2",
+        "n_train_rows": 3970,
+        "n_features": 2048,
+        "training_negatives_per_positive": 1,
+        "leaderboard": [
+          {
+            "model": "WeightedEnsemble_L2",
+            "score_val": 0.93771,
+            "fit_time": 99.01636
+          },
+          {
+            "model": "NeuralNetTorch",
+            "score_val": 0.92439,
+            "fit_time": 26.39613
+          },
+          {
+            "model": "RandomForestEntr",
+            "score_val": 0.90962,
+            "fit_time": 2.12975
+          },
+          {
+            "model": "RandomForestGini",
+            "score_val": 0.90535,
+            "fit_time": 3.45828
+          },
+          {
+            "model": "ExtraTreesGini",
+            "score_val": 0.90522,
+            "fit_time": 0.5834
+          },
+          {
+            "model": "ExtraTreesEntr",
+            "score_val": 0.9045,
+            "fit_time": 0.63303
+          },
+          {
+            "model": "LightGBMXT",
+            "score_val": 0.79395,
+            "fit_time": 24.20618
+          },
+          {
+            "model": "XGBoost",
+            "score_val": 0.78394,
+            "fit_time": 40.05822
+          },
+          {
+            "model": "LightGBM",
+            "score_val": 0.77643,
+            "fit_time": 20.52999
+          },
+          {
+            "model": "KNeighborsDist",
+            "score_val": 0.7659,
+            "fit_time": 0.58639
+          },
+          {
+            "model": "CatBoost",
+            "score_val": 0.7599,
+            "fit_time": 38.33271
+          },
+          {
+            "model": "KNeighborsUnif",
+            "score_val": 0.7518,
+            "fit_time": 0.17709
+          },
+          {
+            "model": "LightGBMLarge",
+            "score_val": 0.71968,
+            "fit_time": 68.54135
+          }
+        ]
+      },
+      "stopped_at_epoch": null,
+      "best_epoch": null,
+      "implementation": "DTIAM (github.com/CSUBioGroup/DTIAM, commit 61d68b8): frozen BerMol (BerMolModel_base.pkl) + ESM-2 650M representations, AutoGluon 0.5.2 TabularPredictor head",
+      "same_version": {
+        "roc_auc": 0.9556798460306158,
+        "auprc": 0.8534437841719146,
+        "per_target_roc_auc": 0.9668888888888889,
+        "per_target_n": 225,
+        "accuracy": 0.7849842767295597,
+        "precision": 0.43422459893048126,
+        "recall": 0.9575471698113207,
+        "f1": 0.5974981604120677,
+        "mcc": 0.547282879688365,
+        "tp": 406,
+        "fn": 18,
+        "fp": 529,
+        "tn": 1591
+      },
+      "same_version_matched": {
+        "roc_auc": 0.7998323032685108,
+        "auprc": 0.5690017044399585,
+        "per_target_roc_auc": 0.7596219931271478,
+        "per_target_n": 194,
+        "accuracy": 0.3852760736196319,
+        "precision": 0.21470121628767846,
+        "recall": 0.9575471698113207,
+        "f1": 0.350755939524838,
+        "mcc": 0.20146858935887216,
+        "tp": 406,
+        "fn": 18,
+        "fp": 1485,
+        "tn": 536
+      },
+      "external": {
+        "roc_auc": 0.6730703154818081,
+        "auprc": 0.27687821796592926,
+        "per_target_roc_auc": 0.6025423287282917,
+        "per_target_n": 675,
+        "accuracy": 0.5930435703319392,
+        "precision": 0.25436657086004866,
+        "recall": 0.7095282146160962,
+        "f1": 0.3744812433883961,
+        "mcc": 0.2101819458830557,
+        "tp": 2301,
+        "fn": 942,
+        "fp": 6745,
+        "tn": 8901
+      }
+    }
+  }
+}

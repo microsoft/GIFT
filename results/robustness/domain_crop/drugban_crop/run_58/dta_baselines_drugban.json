@@ -1,0 +1,83 @@
+{
+  "seed": 58,
+  "graph_path": "graph_data_s58.pkl",
+  "protocol": "trained from scratch on run ChEMBL35 training pairs; 1:1 resampled training negatives; standard published configuration, no search; up to 300 epochs, patience 20; external compounds inference only; threshold 0.5",
+  "n_train_positives": 2017,
+  "n_val": 2520,
+  "n_external_compounds": 95,
+  "external_compounds_structure_in_training": 0,
+  "bench_sizes": {
+    "same_version": [
+      428,
+      2140
+    ],
+    "same_version_matched": [
+      428,
+      2045
+    ],
+    "external": [
+      3243,
+      15646
+    ]
+  },
+  "seconds": 2.5293054580688477,
+  "results": {
+    "drugban": {
+      "val_roc_auc": 0.8667403628117913,
+      "config": {
+        "lr": 5e-05,
+        "batch": 64,
+        "max_drug_nodes": 290,
+        "ban_heads": 2
+      },
+      "stopped_at_epoch": 30,
+      "best_epoch": 10,
+      "implementation": "official DrugBAN (github.com/peizhenbai/DrugBAN, commit 9923f8c), DGL 2.4.0",
+      "same_version": {
+        "roc_auc": 0.9057750676915015,
+        "auprc": 0.7152174941671732,
+        "per_target_roc_auc": 0.8816365007541478,
+        "per_target_n": 221,
+        "accuracy": 0.6117601246105919,
+        "precision": 0.2945848375451264,
+        "recall": 0.9532710280373832,
+        "f1": 0.4500827357970215,
+        "mcc": 0.37139068202088543,
+        "tp": 408,
+        "fn": 20,
+        "fp": 977,
+        "tn": 1163
+      },
+      "same_version_matched": {
+        "roc_auc": 0.6211331490071521,
+        "auprc": 0.23419460324163455,
+        "per_target_roc_auc": 0.5836206896551724,
+        "per_target_n": 203,
+        "accuracy": 0.2527294783663567,
+        "precision": 0.18246869409660108,
+        "recall": 0.9532710280373832,
+        "f1": 0.3063063063063063,
+        "mcc": 0.07631751847021066,
+        "tp": 408,
+        "fn": 20,
+        "fp": 1828,
+        "tn": 217
+      },
+      "external": {
+        "roc_auc": 0.5550837053969554,
+        "auprc": 0.20474026903931053,
+        "per_target_roc_auc": 0.5306889233961645,
+        "per_target_n": 675,
+        "accuracy": 0.4886971253110276,
+        "precision": 0.1920898531247,
+        "recall": 0.6170212765957447,
+        "f1": 0.2929721815519766,
+        "mcc": 0.05999268422489374,
+        "tp": 2001,
+        "fn": 1242,
+        "fp": 8416,
+        "tn": 7230
+      }
+    }
+  }
+}

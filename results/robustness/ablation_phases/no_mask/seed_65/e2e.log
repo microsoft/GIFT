@@ -1,0 +1,25 @@
+Initialized from results/robustness/ablation_phases/no_mask/seed_65/head/trained_model.pth
+Init (core): val_auc(conn,iso)=(0.9485,0.9271) val_ap(conn,iso)=(0.8661,0.8390)
+Step   10: loss=0.0341 val_auc(conn,iso)=(0.9528,0.9382) val_ap(conn,iso)=(0.8810,0.8611) f1@0.5(conn)=0.7814 *
+Step   20: loss=0.0287 val_auc(conn,iso)=(0.9544,0.9508) val_ap(conn,iso)=(0.8519,0.8579) f1@0.5(conn)=0.7887 *
+Step   30: loss=0.0094 val_auc(conn,iso)=(0.9505,0.9429) val_ap(conn,iso)=(0.8645,0.8534) f1@0.5(conn)=0.7987
+Step   40: loss=0.0113 val_auc(conn,iso)=(0.9487,0.9390) val_ap(conn,iso)=(0.8777,0.8662) f1@0.5(conn)=0.8035
+Step   50: loss=0.0091 val_auc(conn,iso)=(0.9520,0.9424) val_ap(conn,iso)=(0.8831,0.8731) f1@0.5(conn)=0.8078
+Step   60: loss=0.0195 val_auc(conn,iso)=(0.9540,0.9444) val_ap(conn,iso)=(0.8780,0.8696) f1@0.5(conn)=0.7928
+Step   70: loss=0.0142 val_auc(conn,iso)=(0.9538,0.9449) val_ap(conn,iso)=(0.8753,0.8674) f1@0.5(conn)=0.8086
+Step   80: loss=0.0164 val_auc(conn,iso)=(0.9547,0.9459) val_ap(conn,iso)=(0.8827,0.8752) f1@0.5(conn)=0.7840
+Step   90: loss=0.0134 val_auc(conn,iso)=(0.9574,0.9479) val_ap(conn,iso)=(0.8843,0.8774) f1@0.5(conn)=0.8230 *
+Step  100: loss=0.0088 val_auc(conn,iso)=(0.9549,0.9458) val_ap(conn,iso)=(0.8915,0.8836) f1@0.5(conn)=0.8035
+Step  110: loss=0.0142 val_auc(conn,iso)=(0.9545,0.9457) val_ap(conn,iso)=(0.8816,0.8746) f1@0.5(conn)=0.8274
+Step  120: loss=0.0039 val_auc(conn,iso)=(0.9512,0.9416) val_ap(conn,iso)=(0.8806,0.8724) f1@0.5(conn)=0.8115
+Step  130: loss=0.0206 val_auc(conn,iso)=(0.9516,0.9415) val_ap(conn,iso)=(0.8860,0.8795) f1@0.5(conn)=0.8160
+Step  140: loss=0.0327 val_auc(conn,iso)=(0.9529,0.9436) val_ap(conn,iso)=(0.8880,0.8821) f1@0.5(conn)=0.8215
+Step  150: loss=0.0034 val_auc(conn,iso)=(0.9528,0.9432) val_ap(conn,iso)=(0.8946,0.8847) f1@0.5(conn)=0.8207
+Step  160: loss=0.0106 val_auc(conn,iso)=(0.9553,0.9458) val_ap(conn,iso)=(0.8956,0.8861) f1@0.5(conn)=0.8136
+Step  170: loss=0.0082 val_auc(conn,iso)=(0.9563,0.9460) val_ap(conn,iso)=(0.8954,0.8854) f1@0.5(conn)=0.8309
+Step  180: loss=0.0111 val_auc(conn,iso)=(0.9569,0.9460) val_ap(conn,iso)=(0.8957,0.8861) f1@0.5(conn)=0.8193
+Step  190: loss=0.0143 val_auc(conn,iso)=(0.9569,0.9465) val_ap(conn,iso)=(0.8934,0.8845) f1@0.5(conn)=0.8245
+Step  200: loss=0.0161 val_auc(conn,iso)=(0.9574,0.9466) val_ap(conn,iso)=(0.8957,0.8872) f1@0.5(conn)=0.8352
+Step  210: loss=0.0043 val_auc(conn,iso)=(0.9575,0.9463) val_ap(conn,iso)=(0.8965,0.8886) f1@0.5(conn)=0.8307
+Early stopping at step 210
+Model saved to: results/robustness/ablation_phases/no_mask/seed_65/e2e/trained_model.pth

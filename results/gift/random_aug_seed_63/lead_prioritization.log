@@ -1,0 +1,413 @@
+2026-10-25 06:19:43,145 - INFO - Using external ChEMBL36 interaction PKL: data/external_compounds_labels.pkl
+2026-10-25 06:19:43,193 - INFO - 
+Loaded ChEMBL36 validation data from PKLs
+2026-10-25 06:19:43,193 - INFO - External compounds with features and graph-target interactions: 95
+2026-10-25 06:19:43,193 - INFO - New external compound-protein interactions: 3243
+2026-10-25 06:19:43,193 - INFO - Graph targets referenced by PKL: 1391
+2026-10-25 06:19:43,193 - INFO - Skipped missing features: 0
+2026-10-25 06:19:43,193 - INFO - Skipped invalid features: 0
+2026-10-25 06:19:43,193 - INFO - Skipped compounds without graph targets: 0
+2026-10-25 06:19:43,194 - INFO - Using external ChEMBL36 interaction PKL: data/external_compounds_labels.pkl
+2026-10-25 06:19:43,247 - INFO - 
+Loaded ChEMBL36 validation data from PKLs
+2026-10-25 06:19:43,247 - INFO - External compounds with features and graph-target interactions: 95
+2026-10-25 06:19:43,247 - INFO - New external compound-protein interactions: 3243
+2026-10-25 06:19:43,247 - INFO - Graph targets referenced by PKL: 1391
+2026-10-25 06:19:43,247 - INFO - Skipped missing features: 0
+2026-10-25 06:19:43,247 - INFO - Skipped invalid features: 0
+2026-10-25 06:19:43,247 - INFO - Skipped compounds without graph targets: 0
+2026-10-25 06:19:48,009 - INFO - 
+Building external negative samples (ratio=5.0:1)
+2026-10-25 06:19:48,298 - INFO - Generated 16215 external negative samples
+sanity: per-target ROC-AUC 0.6284 vs eval_final 0.6284
+{
+ "n_kinase_proteins": 482,
+ "drivers_all_kinase": true,
+ "all": {
+  "n_targets": 252,
+  "gnn": {
+   "roc_auc_mean": 0.6775461828661865,
+   "hits_top_mean": 1.746031746031746,
+   "ef_top_mean": 1.7829511035619838
+  },
+  "rf": {
+   "roc_auc_mean": 0.6567939242106571,
+   "hits_top_mean": 1.753968253968254,
+   "ef_top_mean": 1.743218066465463
+  },
+  "tanimoto": {
+   "roc_auc_mean": 0.6815801841842839,
+   "hits_top_mean": 2.0555555555555554,
+   "ef_top_mean": 2.055642753769695
+  },
+  "gnn_shared": {
+   "roc_auc_mean": 0.6085148567946498,
+   "hits_top_mean": 1.5119047619047619,
+   "ef_top_mean": 1.515536005512866
+  },
+  "gnn_family": {
+   "roc_auc_mean": 0.6478705133650686,
+   "hits_top_mean": 1.6031746031746033,
+   "ef_top_mean": 1.6485377078773134
+  },
+  "rf_shared": {
+   "roc_auc_mean": 0.6356717425675686,
+   "hits_top_mean": 1.5198412698412698,
+   "ef_top_mean": 1.4662792226968713
+  },
+  "rf_family": {
+   "roc_auc_mean": 0.6486124410972716,
+   "hits_top_mean": 1.5158730158730158,
+   "ef_top_mean": 1.4633793447969934
+  },
+  "tanimoto_shared": {
+   "roc_auc_mean": 0.6366773756715822,
+   "hits_top_mean": 1.8253968253968254,
+   "ef_top_mean": 1.814497138400477
+  },
+  "tanimoto_family": {
+   "roc_auc_mean": 0.6562890893834264,
+   "hits_top_mean": 1.3928571428571428,
+   "ef_top_mean": 1.276083881197829
+  },
+  "random_hits_top_mean": 0.9895572263993317,
+  "gnn_better_than_rf": 151,
+  "wilcoxon_p_vs_rf": 0.0011727468128175948,
+  "gnn_better_than_tanimoto": 117,
+  "wilcoxon_p_vs_tanimoto": 0.19485227084577006
+ },
+ "kinase": {
+  "n_targets": 189,
+  "gnn": {
+   "roc_auc_mean": 0.7246438807319103,
+   "hits_top_mean": 1.8677248677248677,
+   "ef_top_mean": 1.8361177903496646
+  },
+  "rf": {
+   "roc_auc_mean": 0.7228240720235478,
+   "hits_top_mean": 2.074074074074074,
+   "ef_top_mean": 2.0440483699795395
+  },
+  "tanimoto": {
+   "roc_auc_mean": 0.7369326196168898,
+   "hits_top_mean": 2.259259259259259,
+   "ef_top_mean": 2.210139821968974
+  },
+  "gnn_shared": {
+   "roc_auc_mean": 0.6506411308380011,
+   "hits_top_mean": 1.82010582010582,
+   "ef_top_mean": 1.8179348063504988
+  },
+  "gnn_family": {
+   "roc_auc_mean": 0.6984252616458287,
+   "hits_top_mean": 1.82010582010582,
+   "ef_top_mean": 1.8179348063504988
+  },
+  "rf_shared": {
+   "roc_auc_mean": 0.7063957315289197,
+   "hits_top_mean": 1.8941798941798942,
+   "ef_top_mean": 1.8265822616972496
+  },
+  "rf_family": {
+   "roc_auc_mean": 0.7226328559445614,
+   "hits_top_mean": 1.8941798941798942,
+   "ef_top_mean": 1.8265822616972496
+  },
+  "tanimoto_shared": {
+   "roc_auc_mean": 0.7090038151748782,
+   "hits_top_mean": 2.248677248677249,
+   "ef_top_mean": 2.2130097487440787
+  },
+  "tanimoto_family": {
+   "roc_auc_mean": 0.7374194560973265,
+   "hits_top_mean": 1.656084656084656,
+   "ef_top_mean": 1.4756556544688826
+  },
+  "random_hits_top_mean": 1.012531328320802,
+  "gnn_better_than_rf": 100,
+  "wilcoxon_p_vs_rf": 0.582479040810375,
+  "gnn_better_than_tanimoto": 86,
+  "wilcoxon_p_vs_tanimoto": 0.03484998917929587
+ },
+ "drivers": {
+  "n_targets": 10,
+  "gnn": {
+   "roc_auc_mean": 0.7755579370859682,
+   "hits_top_mean": 4.6,
+   "ef_top_mean": 3.086623445998446
+  },
+  "rf": {
+   "roc_auc_mean": 0.759827239953544,
+   "hits_top_mean": 3.5,
+   "ef_top_mean": 2.313548951048951
+  },
+  "tanimoto": {
+   "roc_auc_mean": 0.7783452304972164,
+   "hits_top_mean": 4.6,
+   "ef_top_mean": 2.956385975135975
+  },
+  "gnn_shared": {
+   "roc_auc_mean": 0.7155932940711465,
+   "hits_top_mean": 3.7,
+   "ef_top_mean": 2.412507284382284
+  },
+  "gnn_family": {
+   "roc_auc_mean": 0.7550017232289222,
+   "hits_top_mean": 3.7,
+   "ef_top_mean": 2.412507284382284
+  },
+  "rf_shared": {
+   "roc_auc_mean": 0.7499401370808007,
+   "hits_top_mean": 3.8,
+   "ef_top_mean": 2.4490457459207464
+  },
+  "rf_family": {
+   "roc_auc_mean": 0.7696260683487469,
+   "hits_top_mean": 3.8,
+   "ef_top_mean": 2.4490457459207464
+  },
+  "tanimoto_shared": {
+   "roc_auc_mean": 0.737595606332303,
+   "hits_top_mean": 4.1,
+   "ef_top_mean": 2.6541593822843823
+  },
+  "tanimoto_family": {
+   "roc_auc_mean": 0.7617657927684773,
+   "hits_top_mean": 3.7,
+   "ef_top_mean": 2.268475621600621
+  },
+  "random_hits_top_mean": 1.5684210526315787,
+  "gnn_better_than_rf": 7,
+  "wilcoxon_p_vs_rf": 0.556640625,
+  "gnn_better_than_tanimoto": 5,
+  "wilcoxon_p_vs_tanimoto": 0.921875
+ },
+ "driver_selectivity": {
+  "gnn": {
+   "mean_roc_auc": 0.61937343358396,
+   "n_compounds": 38
+  },
+  "rf": {
+   "mean_roc_auc": 0.6522545948203843,
+   "n_compounds": 38
+  },
+  "tanimoto": {
+   "mean_roc_auc": 0.6851101712614871,
+   "n_compounds": 38
+  }
+ },
+ "driver_sensitivity_tested_only": {
+  "ERBB2": {
+   "n_tested": 67,
+   "n_actives": 17,
+   "n_actives_chembl36": 16,
+   "gnn": 0.7023529411764706,
+   "rf": 0.8976470588235294,
+   "tanimoto": 0.9188235294117646,
+   "gnn_shared": 0.6588235294117647,
+   "gnn_family": 0.7023529411764705,
+   "rf_shared": 0.8541176470588235,
+   "rf_family": 0.8835294117647059,
+   "tanimoto_shared": 0.8764705882352941,
+   "tanimoto_family": 0.9035294117647058
+  },
+  "EGFR": {
+   "n_tested": 81,
+   "n_actives": 26,
+   "n_actives_chembl36": 26,
+   "gnn": 0.6839160839160838,
+   "rf": 0.7503496503496503,
+   "tanimoto": 0.7657342657342657,
+   "gnn_shared": 0.665034965034965,
+   "gnn_family": 0.7125874125874125,
+   "rf_shared": 0.7622377622377623,
+   "rf_family": 0.7874125874125875,
+   "tanimoto_shared": 0.8293706293706293,
+   "tanimoto_family": 0.8524475524475524
+  },
+  "RET": {
+   "n_tested": 40,
+   "n_actives": 26,
+   "n_actives_chembl36": 24,
+   "gnn": 0.5796703296703296,
+   "rf": 0.49038461538461536,
+   "tanimoto": 0.5769230769230769,
+   "gnn_shared": 0.5824175824175823,
+   "gnn_family": 0.5576923076923077,
+   "rf_shared": 0.5054945054945055,
+   "rf_family": 0.5082417582417583,
+   "tanimoto_shared": 0.5247252747252747,
+   "tanimoto_family": 0.5274725274725274
+  },
+  "NTRK1": {
+   "n_tested": 41,
+   "n_actives": 13,
+   "n_actives_chembl36": 12,
+   "gnn": 0.6153846153846154,
+   "rf": 0.5164835164835165,
+   "tanimoto": 0.5425824175824177,
+   "gnn_shared": 0.6153846153846154,
+   "gnn_family": 0.5879120879120879,
+   "rf_shared": 0.45054945054945056,
+   "rf_family": 0.4560439560439561,
+   "tanimoto_shared": 0.44230769230769235,
+   "tanimoto_family": 0.4285714285714286
+  },
+  "MET": {
+   "n_tested": 40,
+   "n_actives": 18,
+   "n_actives_chembl36": 16,
+   "gnn": 0.6060606060606061,
+   "rf": 0.582070707070707,
+   "tanimoto": 0.553030303030303,
+   "gnn_shared": 0.6540404040404041,
+   "gnn_family": 0.6363636363636364,
+   "rf_shared": 0.6262626262626263,
+   "rf_family": 0.6161616161616162,
+   "tanimoto_shared": 0.5303030303030303,
+   "tanimoto_family": 0.5631313131313131
+  },
+  "ALK": {
+   "n_tested": 31,
+   "n_actives": 17,
+   "n_actives_chembl36": 16,
+   "gnn": 0.6680672268907564,
+   "rf": 0.4642857142857143,
+   "tanimoto": 0.6449579831932774,
+   "gnn_shared": 0.6176470588235294,
+   "gnn_family": 0.634453781512605,
+   "rf_shared": 0.5210084033613446,
+   "rf_family": 0.5252100840336135,
+   "tanimoto_shared": 0.5504201680672268,
+   "tanimoto_family": 0.592436974789916
+  },
+  "NTRK2": {
+   "n_tested": 25,
+   "n_actives": 10,
+   "n_actives_chembl36": 9,
+   "gnn": 0.6266666666666667,
+   "rf": 0.53,
+   "tanimoto": 0.4766666666666666,
+   "gnn_shared": 0.6666666666666667,
+   "gnn_family": 0.6266666666666667,
+   "rf_shared": 0.52,
+   "rf_family": 0.5266666666666666,
+   "tanimoto_shared": 0.4266666666666667,
+   "tanimoto_family": 0.4066666666666667
+  },
+  "BRAF": {
+   "n_tested": 40,
+   "n_actives": 11,
+   "n_actives_chembl36": 11,
+   "gnn": 0.4263322884012539,
+   "rf": 0.445141065830721,
+   "tanimoto": 0.664576802507837,
+   "gnn_shared": 0.3887147335423198,
+   "gnn_family": 0.3793103448275862,
+   "rf_shared": 0.38557993730407525,
+   "rf_family": 0.3667711598746081,
+   "tanimoto_shared": 0.2163009404388715,
+   "tanimoto_family": 0.2225705329153605
+  },
+  "ROS1": {
+   "n_tested": 27,
+   "n_actives": 12,
+   "n_actives_chembl36": 11,
+   "gnn": 0.6388888888888888,
+   "rf": 0.5861111111111111,
+   "tanimoto": 0.7055555555555556,
+   "gnn_shared": 0.6555555555555556,
+   "gnn_family": 0.6499999999999999,
+   "rf_shared": 0.5666666666666667,
+   "rf_family": 0.5777777777777777,
+   "tanimoto_shared": 0.5722222222222222,
+   "tanimoto_family": 0.5277777777777778
+  },
+  "NTRK3": {
+   "n_tested": 22,
+   "n_actives": 9,
+   "n_actives_chembl36": 8,
+   "gnn": 0.5982905982905983,
+   "rf": 0.4743589743589743,
+   "tanimoto": 0.6538461538461539,
+   "gnn_shared": 0.5897435897435896,
+   "gnn_family": 0.5470085470085471,
+   "rf_shared": 0.5042735042735043,
+   "rf_family": 0.5213675213675213,
+   "tanimoto_shared": 0.3504273504273504,
+   "tanimoto_family": 0.3162393162393162
+  }
+ },
+ "driver_sensitivity_mean": {
+  "gnn": 0.614563024534627,
+  "rf": 0.5736832413698539,
+  "tanimoto": 0.6502696754451318,
+  "gnn_shared": 0.6094028700620993,
+  "gnn_family": 0.603434772574732,
+  "rf_shared": 0.5696190503208758,
+  "rf_family": 0.5769182539344812,
+  "tanimoto_shared": 0.5319214562764258,
+  "tanimoto_family": 0.5340843501776564
+ }
+}
+CHEMBL1824 ERBB2
+   {'compound_id': 'CHEMBL3301622', 'name': 'GILTERITINIB', 'parent_id': 'CHEMBL3301622', 'parent_name': 'GILTERITINIB', 'gnn_prob': 0.9994633793830872, 'rank_rf': 4, 'rank_tanimoto': 11, 'chembl36_pchembl': None, 'chembl_web': {'n_records': 0, 'max_pchembl': None}}
+   {'compound_id': 'CHEMBL189963', 'name': 'PALBOCICLIB', 'parent_id': 'CHEMBL189963', 'parent_name': 'PALBOCICLIB', 'gnn_prob': 0.9987096786499023, 'rank_rf': 37, 'rank_tanimoto': 26, 'chembl36_pchembl': None, 'chembl_web': {'n_records': 2, 'max_pchembl': None}}
+   {'compound_id': 'CHEMBL2105712', 'name': 'AFATINIB DIMALEATE', 'parent_id': 'CHEMBL1173655', 'parent_name': 'AFATINIB', 'gnn_prob': 0.9976072311401367, 'rank_rf': 2, 'rank_tanimoto': 1, 'chembl36_pchembl': 7.46}
+   {'compound_id': 'CHEMBL1535', 'name': 'HYDROXYCHLOROQUINE', 'parent_id': 'CHEMBL1535', 'parent_name': 'HYDROXYCHLOROQUINE', 'gnn_prob': 0.994232714176178, 'rank_rf': 56, 'rank_tanimoto': 43, 'chembl36_pchembl': None, 'chembl_web': {'n_records': 2, 'max_pchembl': None}}
+   {'compound_id': 'CHEMBL2403108', 'name': 'CERITINIB', 'parent_id': 'CHEMBL2403108', 'parent_name': 'CERITINIB', 'gnn_prob': 0.9937073588371277, 'rank_rf': 8, 'rank_tanimoto': 4, 'chembl36_pchembl': None, 'chembl_web': {'n_records': 0, 'max_pchembl': None}}
+CHEMBL203 EGFR
+   {'compound_id': 'CHEMBL2105712', 'name': 'AFATINIB DIMALEATE', 'parent_id': 'CHEMBL1173655', 'parent_name': 'AFATINIB', 'gnn_prob': 0.9999954700469971, 'rank_rf': 2, 'rank_tanimoto': 1, 'chembl36_pchembl': 8.65}
+   {'compound_id': 'CHEMBL112', 'name': 'ACETAMINOPHEN', 'parent_id': 'CHEMBL112', 'parent_name': 'ACETAMINOPHEN', 'gnn_prob': 0.9999951124191284, 'rank_rf': 9, 'rank_tanimoto': 30, 'chembl36_pchembl': None, 'chembl_web': {'n_records': 2, 'max_pchembl': None}}
+   {'compound_id': 'CHEMBL189963', 'name': 'PALBOCICLIB', 'parent_id': 'CHEMBL189963', 'parent_name': 'PALBOCICLIB', 'gnn_prob': 0.9999649524688721, 'rank_rf': 43, 'rank_tanimoto': 20, 'chembl36_pchembl': None, 'chembl_web': {'n_records': 26, 'max_pchembl': None}}
+   {'compound_id': 'CHEMBL2110732', 'name': 'DACOMITINIB ANHYDROUS', 'parent_id': 'CHEMBL2110732', 'parent_name': 'DACOMITINIB ANHYDROUS', 'gnn_prob': 0.9999550580978394, 'rank_rf': 3, 'rank_tanimoto': 2, 'chembl36_pchembl': 8.22}
+   {'compound_id': 'CHEMBL1336', 'name': 'SORAFENIB', 'parent_id': 'CHEMBL1336', 'parent_name': 'SORAFENIB', 'gnn_prob': 0.9999512434005737, 'rank_rf': 12, 'rank_tanimoto': 43, 'chembl36_pchembl': 6.96}
+CHEMBL2041 RET
+   {'compound_id': 'CHEMBL2403108', 'name': 'CERITINIB', 'parent_id': 'CHEMBL2403108', 'parent_name': 'CERITINIB', 'gnn_prob': 0.9999945163726807, 'rank_rf': 13, 'rank_tanimoto': 2, 'chembl36_pchembl': 6.02}
+   {'compound_id': 'CHEMBL601719', 'name': 'CRIZOTINIB', 'parent_id': 'CHEMBL601719', 'parent_name': 'CRIZOTINIB', 'gnn_prob': 0.9994617104530334, 'rank_rf': 13, 'rank_tanimoto': 23, 'chembl36_pchembl': 5.79}
+   {'compound_id': 'CHEMBL2110732', 'name': 'DACOMITINIB ANHYDROUS', 'parent_id': 'CHEMBL2110732', 'parent_name': 'DACOMITINIB ANHYDROUS', 'gnn_prob': 0.9993140697479248, 'rank_rf': 2, 'rank_tanimoto': 14, 'chembl36_pchembl': None, 'chembl_web': {'n_records': 1, 'max_pchembl': None}}
+   {'compound_id': 'CHEMBL554', 'name': 'LAPATINIB', 'parent_id': 'CHEMBL554', 'parent_name': 'LAPATINIB', 'gnn_prob': 0.9982233643531799, 'rank_rf': 28, 'rank_tanimoto': 21, 'chembl36_pchembl': 5.9}
+   {'compound_id': 'CHEMBL2105712', 'name': 'AFATINIB DIMALEATE', 'parent_id': 'CHEMBL1173655', 'parent_name': 'AFATINIB', 'gnn_prob': 0.9961448907852173, 'rank_rf': 2, 'rank_tanimoto': 15, 'chembl36_pchembl': None, 'chembl_web': {'n_records': 8, 'max_pchembl': 5.44}}
+CHEMBL2815 NTRK1
+   {'compound_id': 'CHEMBL2403108', 'name': 'CERITINIB', 'parent_id': 'CHEMBL2403108', 'parent_name': 'CERITINIB', 'gnn_prob': 0.9999477863311768, 'rank_rf': 12, 'rank_tanimoto': 2, 'chembl36_pchembl': 5.56}
+   {'compound_id': 'CHEMBL4298138', 'name': 'REPOTRECTINIB', 'parent_id': 'CHEMBL4298138', 'parent_name': 'REPOTRECTINIB', 'gnn_prob': 0.9996182918548584, 'rank_rf': 20, 'rank_tanimoto': 25, 'chembl36_pchembl': 8.85}
+   {'compound_id': 'CHEMBL189963', 'name': 'PALBOCICLIB', 'parent_id': 'CHEMBL189963', 'parent_name': 'PALBOCICLIB', 'gnn_prob': 0.9992809891700745, 'rank_rf': 42, 'rank_tanimoto': 22, 'chembl36_pchembl': None, 'chembl_web': {'n_records': 6, 'max_pchembl': None}}
+   {'compound_id': 'CHEMBL2110732', 'name': 'DACOMITINIB ANHYDROUS', 'parent_id': 'CHEMBL2110732', 'parent_name': 'DACOMITINIB ANHYDROUS', 'gnn_prob': 0.9991926550865173, 'rank_rf': 3, 'rank_tanimoto': 14, 'chembl36_pchembl': None, 'chembl_web': {'n_records': 1, 'max_pchembl': None}}
+   {'compound_id': 'CHEMBL3301622', 'name': 'GILTERITINIB', 'parent_id': 'CHEMBL3301622', 'parent_name': 'GILTERITINIB', 'gnn_prob': 0.9980250597000122, 'rank_rf': 4, 'rank_tanimoto': 4, 'chembl36_pchembl': None, 'chembl_web': {'n_records': 1, 'max_pchembl': None}}
+CHEMBL3717 MET
+   {'compound_id': 'CHEMBL2403108', 'name': 'CERITINIB', 'parent_id': 'CHEMBL2403108', 'parent_name': 'CERITINIB', 'gnn_prob': 0.9999977350234985, 'rank_rf': 13, 'rank_tanimoto': 2, 'chembl36_pchembl': 5.87}
+   {'compound_id': 'CHEMBL2110732', 'name': 'DACOMITINIB ANHYDROUS', 'parent_id': 'CHEMBL2110732', 'parent_name': 'DACOMITINIB ANHYDROUS', 'gnn_prob': 0.9999059438705444, 'rank_rf': 2, 'rank_tanimoto': 3, 'chembl36_pchembl': None, 'chembl_web': {'n_records': 1, 'max_pchembl': None}}
+   {'compound_id': 'CHEMBL554', 'name': 'LAPATINIB', 'parent_id': 'CHEMBL554', 'parent_name': 'LAPATINIB', 'gnn_prob': 0.9998300075531006, 'rank_rf': 20, 'rank_tanimoto': 8, 'chembl36_pchembl': None, 'chembl_web': {'n_records': 12, 'max_pchembl': None}}
+   {'compound_id': 'CHEMBL189963', 'name': 'PALBOCICLIB', 'parent_id': 'CHEMBL189963', 'parent_name': 'PALBOCICLIB', 'gnn_prob': 0.9997525811195374, 'rank_rf': 38, 'rank_tanimoto': 34, 'chembl36_pchembl': 5.6}
+   {'compound_id': 'CHEMBL601719', 'name': 'CRIZOTINIB', 'parent_id': 'CHEMBL601719', 'parent_name': 'CRIZOTINIB', 'gnn_prob': 0.999665379524231, 'rank_rf': 9, 'rank_tanimoto': 29, 'chembl36_pchembl': 8.3}
+CHEMBL4247 ALK
+   {'compound_id': 'CHEMBL2403108', 'name': 'CERITINIB', 'parent_id': 'CHEMBL2403108', 'parent_name': 'CERITINIB', 'gnn_prob': 0.9999188184738159, 'rank_rf': 11, 'rank_tanimoto': 28, 'chembl36_pchembl': 8.02}
+   {'compound_id': 'CHEMBL3301622', 'name': 'GILTERITINIB', 'parent_id': 'CHEMBL3301622', 'parent_name': 'GILTERITINIB', 'gnn_prob': 0.9984205961227417, 'rank_rf': 4, 'rank_tanimoto': 2, 'chembl36_pchembl': 8.92}
+   {'compound_id': 'CHEMBL189963', 'name': 'PALBOCICLIB', 'parent_id': 'CHEMBL189963', 'parent_name': 'PALBOCICLIB', 'gnn_prob': 0.9982648491859436, 'rank_rf': 29, 'rank_tanimoto': 22, 'chembl36_pchembl': 5.8}
+   {'compound_id': 'CHEMBL3545110', 'name': 'RIBOCICLIB', 'parent_id': 'CHEMBL3545110', 'parent_name': 'RIBOCICLIB', 'gnn_prob': 0.9950262904167175, 'rank_rf': 15, 'rank_tanimoto': 25, 'chembl36_pchembl': None, 'chembl_web': {'n_records': 0, 'max_pchembl': None}}
+   {'compound_id': 'CHEMBL4298138', 'name': 'REPOTRECTINIB', 'parent_id': 'CHEMBL4298138', 'parent_name': 'REPOTRECTINIB', 'gnn_prob': 0.9931567311286926, 'rank_rf': 38, 'rank_tanimoto': 23, 'chembl36_pchembl': 8.62}
+CHEMBL4898 NTRK2
+   {'compound_id': 'CHEMBL2403108', 'name': 'CERITINIB', 'parent_id': 'CHEMBL2403108', 'parent_name': 'CERITINIB', 'gnn_prob': 0.9999908208847046, 'rank_rf': 15, 'rank_tanimoto': 31, 'chembl36_pchembl': 5.74}
+   {'compound_id': 'CHEMBL4298138', 'name': 'REPOTRECTINIB', 'parent_id': 'CHEMBL4298138', 'parent_name': 'REPOTRECTINIB', 'gnn_prob': 0.9999717473983765, 'rank_rf': 18, 'rank_tanimoto': 18, 'chembl36_pchembl': 10.3}
+   {'compound_id': 'CHEMBL2110732', 'name': 'DACOMITINIB ANHYDROUS', 'parent_id': 'CHEMBL2110732', 'parent_name': 'DACOMITINIB ANHYDROUS', 'gnn_prob': 0.9998512268066406, 'rank_rf': 3, 'rank_tanimoto': 9, 'chembl36_pchembl': None, 'chembl_web': {'n_records': 0, 'max_pchembl': None}}
+   {'compound_id': 'CHEMBL554', 'name': 'LAPATINIB', 'parent_id': 'CHEMBL554', 'parent_name': 'LAPATINIB', 'gnn_prob': 0.9998025298118591, 'rank_rf': 14, 'rank_tanimoto': 39, 'chembl36_pchembl': None, 'chembl_web': {'n_records': 4, 'max_pchembl': None}}
+   {'compound_id': 'CHEMBL189963', 'name': 'PALBOCICLIB', 'parent_id': 'CHEMBL189963', 'parent_name': 'PALBOCICLIB', 'gnn_prob': 0.9997163414955139, 'rank_rf': 37, 'rank_tanimoto': 16, 'chembl36_pchembl': None, 'chembl_web': {'n_records': 3, 'max_pchembl': None}}
+CHEMBL5145 BRAF
+   {'compound_id': 'CHEMBL2403108', 'name': 'CERITINIB', 'parent_id': 'CHEMBL2403108', 'parent_name': 'CERITINIB', 'gnn_prob': 0.9993783235549927, 'rank_rf': 26, 'rank_tanimoto': 36, 'chembl36_pchembl': None, 'chembl_web': {'n_records': 1, 'max_pchembl': None}}
+   {'compound_id': 'CHEMBL4298138', 'name': 'REPOTRECTINIB', 'parent_id': 'CHEMBL4298138', 'parent_name': 'REPOTRECTINIB', 'gnn_prob': 0.9960468411445618, 'rank_rf': 19, 'rank_tanimoto': 39, 'chembl36_pchembl': None, 'chembl_web': {'n_records': 0, 'max_pchembl': None}}
+   {'compound_id': 'CHEMBL2105712', 'name': 'AFATINIB DIMALEATE', 'parent_id': 'CHEMBL1173655', 'parent_name': 'AFATINIB', 'gnn_prob': 0.9947476983070374, 'rank_rf': 2, 'rank_tanimoto': 43, 'chembl36_pchembl': None, 'chembl_web': {'n_records': 3, 'max_pchembl': None}}
+   {'compound_id': 'CHEMBL189963', 'name': 'PALBOCICLIB', 'parent_id': 'CHEMBL189963', 'parent_name': 'PALBOCICLIB', 'gnn_prob': 0.9923120141029358, 'rank_rf': 32, 'rank_tanimoto': 26, 'chembl36_pchembl': None, 'chembl_web': {'n_records': 5, 'max_pchembl': None}}
+   {'compound_id': 'CHEMBL554', 'name': 'LAPATINIB', 'parent_id': 'CHEMBL554', 'parent_name': 'LAPATINIB', 'gnn_prob': 0.9873685240745544, 'rank_rf': 24, 'rank_tanimoto': 6, 'chembl36_pchembl': None, 'chembl_web': {'n_records': 8, 'max_pchembl': None}}
+CHEMBL5568 ROS1
+   {'compound_id': 'CHEMBL189963', 'name': 'PALBOCICLIB', 'parent_id': 'CHEMBL189963', 'parent_name': 'PALBOCICLIB', 'gnn_prob': 0.9912089109420776, 'rank_rf': 45, 'rank_tanimoto': 14, 'chembl36_pchembl': None, 'chembl_web': {'n_records': 2, 'max_pchembl': None}}
+   {'compound_id': 'CHEMBL2403108', 'name': 'CERITINIB', 'parent_id': 'CHEMBL2403108', 'parent_name': 'CERITINIB', 'gnn_prob': 0.9818208813667297, 'rank_rf': 13, 'rank_tanimoto': 2, 'chembl36_pchembl': 8.68}
+   {'compound_id': 'CHEMBL3301622', 'name': 'GILTERITINIB', 'parent_id': 'CHEMBL3301622', 'parent_name': 'GILTERITINIB', 'gnn_prob': 0.980847954750061, 'rank_rf': 4, 'rank_tanimoto': 4, 'chembl36_pchembl': 8.72}
+   {'compound_id': 'CHEMBL4298138', 'name': 'REPOTRECTINIB', 'parent_id': 'CHEMBL4298138', 'parent_name': 'REPOTRECTINIB', 'gnn_prob': 0.9773698449134827, 'rank_rf': 23, 'rank_tanimoto': 16, 'chembl36_pchembl': 9.96}
+   {'compound_id': 'CHEMBL2110732', 'name': 'DACOMITINIB ANHYDROUS', 'parent_id': 'CHEMBL2110732', 'parent_name': 'DACOMITINIB ANHYDROUS', 'gnn_prob': 0.9740816354751587, 'rank_rf': 2, 'rank_tanimoto': 9, 'chembl36_pchembl': None, 'chembl_web': {'n_records': 0, 'max_pchembl': None}}
+CHEMBL5608 NTRK3
+   {'compound_id': 'CHEMBL2403108', 'name': 'CERITINIB', 'parent_id': 'CHEMBL2403108', 'parent_name': 'CERITINIB', 'gnn_prob': 0.9993425011634827, 'rank_rf': 21, 'rank_tanimoto': 71, 'chembl36_pchembl': None, 'chembl_web': {'n_records': 0, 'max_pchembl': None}}
+   {'compound_id': 'CHEMBL4298138', 'name': 'REPOTRECTINIB', 'parent_id': 'CHEMBL4298138', 'parent_name': 'REPOTRECTINIB', 'gnn_prob': 0.9991752505302429, 'rank_rf': 21, 'rank_tanimoto': 6, 'chembl36_pchembl': 10.0}
+   {'compound_id': 'CHEMBL189963', 'name': 'PALBOCICLIB', 'parent_id': 'CHEMBL189963', 'parent_name': 'PALBOCICLIB', 'gnn_prob': 0.9990000128746033, 'rank_rf': 40, 'rank_tanimoto': 5, 'chembl36_pchembl': None, 'chembl_web': {'n_records': 3, 'max_pchembl': None}}
+   {'compound_id': 'CHEMBL2110732', 'name': 'DACOMITINIB ANHYDROUS', 'parent_id': 'CHEMBL2110732', 'parent_name': 'DACOMITINIB ANHYDROUS', 'gnn_prob': 0.9947388768196106, 'rank_rf': 3, 'rank_tanimoto': 13, 'chembl36_pchembl': None, 'chembl_web': {'n_records': 0, 'max_pchembl': None}}
+   {'compound_id': 'CHEMBL3301622', 'name': 'GILTERITINIB', 'parent_id': 'CHEMBL3301622', 'parent_name': 'GILTERITINIB', 'gnn_prob': 0.9917689561843872, 'rank_rf': 4, 'rank_tanimoto': 11, 'chembl36_pchembl': None, 'chembl_web': {'n_records': 0, 'max_pchembl': None}}
+saved results/gift/random_aug_seed_63/lead_prioritization.json

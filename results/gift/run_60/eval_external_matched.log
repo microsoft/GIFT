@@ -1,0 +1,23 @@
+2026-10-10 15:31:16,157 - INFO - Using external ChEMBL36 interaction PKL: data/external_compounds_labels.pkl
+2026-10-10 15:31:16,219 - INFO - 
+Loaded ChEMBL36 validation data from PKLs
+2026-10-10 15:31:16,219 - INFO - External compounds with features and graph-target interactions: 95
+2026-10-10 15:31:16,219 - INFO - New external compound-protein interactions: 3243
+2026-10-10 15:31:16,219 - INFO - Graph targets referenced by PKL: 1391
+2026-10-10 15:31:16,219 - INFO - Skipped missing features: 0
+2026-10-10 15:31:16,219 - INFO - Skipped invalid features: 0
+2026-10-10 15:31:16,219 - INFO - Skipped compounds without graph targets: 0
+2026-10-10 15:31:16,221 - INFO - Using external ChEMBL36 interaction PKL: data/external_compounds_labels.pkl
+2026-10-10 15:31:16,271 - INFO - 
+Loaded ChEMBL36 validation data from PKLs
+2026-10-10 15:31:16,271 - INFO - External compounds with features and graph-target interactions: 95
+2026-10-10 15:31:16,272 - INFO - New external compound-protein interactions: 3243
+2026-10-10 15:31:16,272 - INFO - Graph targets referenced by PKL: 1391
+2026-10-10 15:31:16,272 - INFO - Skipped missing features: 0
+2026-10-10 15:31:16,272 - INFO - Skipped invalid features: 0
+2026-10-10 15:31:16,272 - INFO - Skipped compounds without graph targets: 0
+gift {'roc_auc': 0.7156, 'auprc': 0.4386, 'per_target_roc_auc': 0.601, 'precision': 0.6262, 'recall': 0.2624, 'f1': 0.3698, 'mcc': 0.3356}
+random_forest {'roc_auc': 0.5569, 'auprc': 0.211, 'per_target_roc_auc': 0.5498, 'precision': 0.2127, 'recall': 0.1884, 'f1': 0.1998, 'mcc': 0.046}
+random_forest_tuned {'roc_auc': 0.5815, 'auprc': 0.2297, 'per_target_roc_auc': 0.5697, 'precision': 0.2488, 'recall': 0.1422, 'f1': 0.1809, 'mcc': 0.0674}
+compound_train_degree {'roc_auc': 0.5, 'auprc': 0.1717, 'per_target_roc_auc': 0.5}
+protein_train_degree {'roc_auc': 0.8484, 'auprc': 0.4944, 'per_target_roc_auc': 0.5}

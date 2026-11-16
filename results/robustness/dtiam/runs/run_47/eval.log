@@ -1,0 +1,10 @@
+2026-11-03 09:02:48,158 - INFO - Using external ChEMBL36 interaction PKL: data/external_chembl36_median.pkl
+2026-11-03 09:02:48,177 - INFO - 
+Loaded ChEMBL36 validation data from PKLs
+2026-11-03 09:02:48,177 - INFO - External compounds with features and graph-target interactions: 95
+2026-11-03 09:02:48,177 - INFO - New external compound-protein interactions: 3243
+2026-11-03 09:02:48,177 - INFO - Graph targets referenced by PKL: 1391
+2026-11-03 09:02:48,177 - INFO - Skipped missing features: 0
+2026-11-03 09:02:48,177 - INFO - Skipped invalid features: 0
+2026-11-03 09:02:48,178 - INFO - Skipped compounds without graph targets: 0
+dtiam {'same_version': {'roc_auc': 0.941, 'auprc': 0.833, 'mcc': 0.55}, 'same_version_matched': {'roc_auc': 0.77, 'auprc': 0.566, 'mcc': 0.179}, 'external': {'roc_auc': 0.661, 'auprc': 0.265, 'mcc': 0.212}}

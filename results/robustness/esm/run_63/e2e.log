@@ -1,0 +1,23 @@
+Initialized from results/robustness/esm/run_63/head/trained_model.pth
+Init (core): val_auc(conn,iso)=(0.9634,0.9611) val_ap(conn,iso)=(0.8781,0.8819)
+Step   10: loss=0.0329 val_auc(conn,iso)=(0.9648,0.9619) val_ap(conn,iso)=(0.8813,0.8789) f1@0.5(conn)=0.7596 *
+Step   20: loss=0.0277 val_auc(conn,iso)=(0.9646,0.9625) val_ap(conn,iso)=(0.8698,0.8756) f1@0.5(conn)=0.7569 *
+Step   30: loss=0.0152 val_auc(conn,iso)=(0.9660,0.9628) val_ap(conn,iso)=(0.8964,0.9015) f1@0.5(conn)=0.7536 *
+Step   40: loss=0.0337 val_auc(conn,iso)=(0.9671,0.9643) val_ap(conn,iso)=(0.8991,0.9036) f1@0.5(conn)=0.7992 *
+Step   50: loss=0.0201 val_auc(conn,iso)=(0.9672,0.9638) val_ap(conn,iso)=(0.8958,0.8933) f1@0.5(conn)=0.7787
+Step   60: loss=0.0168 val_auc(conn,iso)=(0.9663,0.9629) val_ap(conn,iso)=(0.8961,0.8897) f1@0.5(conn)=0.7959
+Step   70: loss=0.0160 val_auc(conn,iso)=(0.9677,0.9657) val_ap(conn,iso)=(0.8921,0.8943) f1@0.5(conn)=0.7971 *
+Step   80: loss=0.0343 val_auc(conn,iso)=(0.9658,0.9635) val_ap(conn,iso)=(0.8959,0.9002) f1@0.5(conn)=0.7988
+Step   90: loss=0.0232 val_auc(conn,iso)=(0.9646,0.9624) val_ap(conn,iso)=(0.8948,0.8936) f1@0.5(conn)=0.8041
+Step  100: loss=0.0163 val_auc(conn,iso)=(0.9638,0.9614) val_ap(conn,iso)=(0.8936,0.8921) f1@0.5(conn)=0.8122
+Step  110: loss=0.0363 val_auc(conn,iso)=(0.9641,0.9607) val_ap(conn,iso)=(0.8969,0.8967) f1@0.5(conn)=0.7882
+Step  120: loss=0.0210 val_auc(conn,iso)=(0.9661,0.9630) val_ap(conn,iso)=(0.8986,0.8996) f1@0.5(conn)=0.8189
+Step  130: loss=0.0285 val_auc(conn,iso)=(0.9657,0.9628) val_ap(conn,iso)=(0.9042,0.9068) f1@0.5(conn)=0.8102
+Step  140: loss=0.0255 val_auc(conn,iso)=(0.9650,0.9619) val_ap(conn,iso)=(0.8980,0.8990) f1@0.5(conn)=0.8136
+Step  150: loss=0.0232 val_auc(conn,iso)=(0.9658,0.9627) val_ap(conn,iso)=(0.8949,0.8983) f1@0.5(conn)=0.8153
+Step  160: loss=0.0103 val_auc(conn,iso)=(0.9651,0.9620) val_ap(conn,iso)=(0.8948,0.9005) f1@0.5(conn)=0.8089
+Step  170: loss=0.0250 val_auc(conn,iso)=(0.9654,0.9621) val_ap(conn,iso)=(0.8950,0.8955) f1@0.5(conn)=0.8279
+Step  180: loss=0.0265 val_auc(conn,iso)=(0.9643,0.9609) val_ap(conn,iso)=(0.9010,0.9025) f1@0.5(conn)=0.7914
+Step  190: loss=0.0153 val_auc(conn,iso)=(0.9650,0.9627) val_ap(conn,iso)=(0.8980,0.8980) f1@0.5(conn)=0.8021
+Early stopping at step 190
+Model saved to: results/robustness/esm/run_63/e2e/trained_model.pth

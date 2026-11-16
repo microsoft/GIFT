@@ -1,0 +1,287 @@
+{
+ "1000": {
+  "n_cropped": 249,
+  "rules": {
+   "max_coverage": 160,
+   "centered_union": 89
+  },
+  "n_no_domain_prefix_kept": 0,
+  "domain_residue_coverage_prefix": 0.6528400354597497,
+  "domain_residue_coverage_crop": 0.7695516946054101,
+  "n_with_kinase_domain": 92,
+  "n_kinase_domain_complete_prefix": 57,
+  "n_kinase_domain_complete_crop": 92,
+  "drivers": {
+   "EGFR": {
+    "start": 12,
+    "end": 1011,
+    "length": 1210,
+    "rule": "centered_union",
+    "domains": [
+     "PF01030:Recep_L_domain:57-167",
+     "PF00757:Furin-like:185-338",
+     "PF01030:Recep_L_domain:361-480",
+     "PF14843:GF_recep_IV:505-637",
+     "PF21314:Epidermal growth factor receptor transmembrane-juxtamembrane segment:646-681",
+     "PF07714:Pkinase_Tyr:714-966"
+    ],
+    "domain_residues_total": 807,
+    "domain_residues_kept": 807,
+    "domain_residues_kept_prefix": 807,
+    "pk_residues_total": 253,
+    "pk_residues_kept": 253,
+    "pk_residues_kept_prefix": 253
+   },
+   "ERBB2": {
+    "start": 14,
+    "end": 1013,
+    "length": 1255,
+    "rule": "centered_union",
+    "domains": [
+     "PF01030:Recep_L_domain:52-172",
+     "PF00757:Furin-like:190-343",
+     "PF01030:Recep_L_domain:366-484",
+     "PF14843:GF_recep_IV:511-642",
+     "PF21314:Epidermal growth factor receptor transmembrane-juxtamembrane segment:654-688",
+     "PF07714:Pkinase_Tyr:722-975"
+    ],
+    "domain_residues_total": 815,
+    "domain_residues_kept": 815,
+    "domain_residues_kept_prefix": 815,
+    "pk_residues_total": 254,
+    "pk_residues_kept": 254,
+    "pk_residues_kept_prefix": 254
+   },
+   "ALK": {
+    "start": 432,
+    "end": 1431,
+    "length": 1620,
+    "rule": "centered_union",
+    "domains": [
+     "PF00629:MAM:480-634",
+     "PF12810:Gly_rich:733-961",
+     "PF07714:Pkinase_Tyr:1116-1382"
+    ],
+    "domain_residues_total": 651,
+    "domain_residues_kept": 651,
+    "domain_residues_kept_prefix": 384,
+    "pk_residues_total": 267,
+    "pk_residues_kept": 267,
+    "pk_residues_kept_prefix": 0
+   },
+   "ROS1": {
+    "start": 1282,
+    "end": 2281,
+    "length": 2347,
+    "rule": "max_coverage",
+    "domains": [
+     "PF00041:fn3:204-280",
+     "PF00041:fn3:1669-1745",
+     "PF07714:Pkinase_Tyr:1948-2215"
+    ],
+    "domain_residues_total": 422,
+    "domain_residues_kept": 345,
+    "domain_residues_kept_prefix": 77,
+    "pk_residues_total": 268,
+    "pk_residues_kept": 268,
+    "pk_residues_kept_prefix": 0
+   },
+   "RET": {
+    "start": 18,
+    "end": 1017,
+    "length": 1114,
+    "rule": "centered_union",
+    "domains": [
+     "PF17756:RET_CLD1:29-153",
+     "PF00028:Cadherin:173-260",
+     "PF17812:RET_CLD3:265-379",
+     "PF17813:RET_CLD4:405-506",
+     "PF22540:RET, Cysteine Rich Domain:518-620",
+     "PF07714:Pkinase_Tyr:725-1005"
+    ],
+    "domain_residues_total": 814,
+    "domain_residues_kept": 814,
+    "domain_residues_kept_prefix": 809,
+    "pk_residues_total": 281,
+    "pk_residues_kept": 281,
+    "pk_residues_kept_prefix": 276
+   },
+   "MET": {
+    "start": 337,
+    "end": 1336,
+    "length": 1390,
+    "rule": "max_coverage",
+    "domains": [
+     "PF01403:Sema:317-490",
+     "PF01437:PSI:520-561",
+     "PF01833:TIG:563-654",
+     "PF01833:TIG:657-728",
+     "PF01833:TIG:742-817",
+     "PF07714:Pkinase_Tyr:1078-1336"
+    ],
+    "domain_residues_total": 715,
+    "domain_residues_kept": 695,
+    "domain_residues_kept_prefix": 456,
+    "pk_residues_total": 259,
+    "pk_residues_kept": 259,
+    "pk_residues_kept_prefix": 0
+   },
+   "BRAF": {
+    "length": 766,
+    "rule": "not_cropped (length <= limit)"
+   },
+   "NTRK1": {
+    "length": 796,
+    "rule": "not_cropped (length <= limit)"
+   },
+   "NTRK2": {
+    "length": 822,
+    "rule": "not_cropped (length <= limit)"
+   },
+   "NTRK3": {
+    "length": 839,
+    "rule": "not_cropped (length <= limit)"
+   }
+  }
+ },
+ "1200": {
+  "n_cropped": 171,
+  "rules": {
+   "max_coverage": 85,
+   "centered_union": 86
+  },
+  "n_no_domain_prefix_kept": 0,
+  "domain_residue_coverage_prefix": 0.6974770806125697,
+  "domain_residue_coverage_crop": 0.8060022480816587,
+  "n_with_kinase_domain": 59,
+  "n_kinase_domain_complete_prefix": 40,
+  "n_kinase_domain_complete_crop": 59,
+  "drivers": {
+   "EGFR": {
+    "start": 1,
+    "end": 1200,
+    "length": 1210,
+    "rule": "centered_union",
+    "domains": [
+     "PF01030:Recep_L_domain:57-167",
+     "PF00757:Furin-like:185-338",
+     "PF01030:Recep_L_domain:361-480",
+     "PF14843:GF_recep_IV:505-637",
+     "PF21314:Epidermal growth factor receptor transmembrane-juxtamembrane segment:646-681",
+     "PF07714:Pkinase_Tyr:714-966"
+    ],
+    "domain_residues_total": 807,
+    "domain_residues_kept": 807,
+    "domain_residues_kept_prefix": 807,
+    "pk_residues_total": 253,
+    "pk_residues_kept": 253,
+    "pk_residues_kept_prefix": 253
+   },
+   "ERBB2": {
+    "start": 1,
+    "end": 1200,
+    "length": 1255,
+    "rule": "centered_union",
+    "domains": [
+     "PF01030:Recep_L_domain:52-172",
+     "PF00757:Furin-like:190-343",
+     "PF01030:Recep_L_domain:366-484",
+     "PF14843:GF_recep_IV:511-642",
+     "PF21314:Epidermal growth factor receptor transmembrane-juxtamembrane segment:654-688",
+     "PF07714:Pkinase_Tyr:722-975"
+    ],
+    "domain_residues_total": 815,
+    "domain_residues_kept": 815,
+    "domain_residues_kept_prefix": 815,
+    "pk_residues_total": 254,
+    "pk_residues_kept": 254,
+    "pk_residues_kept_prefix": 254
+   },
+   "ALK": {
+    "start": 332,
+    "end": 1531,
+    "length": 1620,
+    "rule": "centered_union",
+    "domains": [
+     "PF00629:MAM:480-634",
+     "PF12810:Gly_rich:733-961",
+     "PF07714:Pkinase_Tyr:1116-1382"
+    ],
+    "domain_residues_total": 651,
+    "domain_residues_kept": 651,
+    "domain_residues_kept_prefix": 469,
+    "pk_residues_total": 267,
+    "pk_residues_kept": 267,
+    "pk_residues_kept_prefix": 85
+   },
+   "ROS1": {
+    "start": 1082,
+    "end": 2281,
+    "length": 2347,
+    "rule": "max_coverage",
+    "domains": [
+     "PF00041:fn3:204-280",
+     "PF00041:fn3:1669-1745",
+     "PF07714:Pkinase_Tyr:1948-2215"
+    ],
+    "domain_residues_total": 422,
+    "domain_residues_kept": 345,
+    "domain_residues_kept_prefix": 77,
+    "pk_residues_total": 268,
+    "pk_residues_kept": 268,
+    "pk_residues_kept_prefix": 0
+   },
+   "RET": {
+    "length": 1114,
+    "rule": "not_cropped (length <= limit)"
+   },
+   "MET": {
+    "start": 191,
+    "end": 1390,
+    "length": 1390,
+    "rule": "centered_union",
+    "domains": [
+     "PF01403:Sema:317-490",
+     "PF01437:PSI:520-561",
+     "PF01833:TIG:563-654",
+     "PF01833:TIG:657-728",
+     "PF01833:TIG:742-817",
+     "PF07714:Pkinase_Tyr:1078-1336"
+    ],
+    "domain_residues_total": 715,
+    "domain_residues_kept": 715,
+    "domain_residues_kept_prefix": 579,
+    "pk_residues_total": 259,
+    "pk_residues_kept": 259,
+    "pk_residues_kept_prefix": 123
+   },
+   "BRAF": {
+    "length": 766,
+    "rule": "not_cropped (length <= limit)"
+   },
+   "NTRK1": {
+    "length": 796,
+    "rule": "not_cropped (length <= limit)"
+   },
+   "NTRK2": {
+    "length": 822,
+    "rule": "not_cropped (length <= limit)"
+   },
+   "NTRK3": {
+    "length": 839,
+    "rule": "not_cropped (length <= limit)"
+   }
+  }
+ },
+ "component_match": {
+  "exact_sequence": 1390,
+  "same_length": 0,
+  "no_matching_component": 1
+ },
+ "component_match_among_gt1000": {
+  "exact_sequence": 249,
+  "same_length": 0,
+  "no_matching_component": 0
+ },
+ "n_proteins": 1391
+}

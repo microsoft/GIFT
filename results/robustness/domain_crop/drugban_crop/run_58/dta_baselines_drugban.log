@@ -1,0 +1,55 @@
+2026-11-03 19:35:23,486 - INFO - Using external ChEMBL36 interaction PKL: data/external_chembl36_median.pkl
+2026-11-03 19:35:23,498 - INFO - 
+Loaded ChEMBL36 validation data from PKLs
+2026-11-03 19:35:23,498 - INFO - External compounds with features and graph-target interactions: 95
+2026-11-03 19:35:23,498 - INFO - New external compound-protein interactions: 3243
+2026-11-03 19:35:23,498 - INFO - Graph targets referenced by PKL: 1391
+2026-11-03 19:35:23,498 - INFO - Skipped missing features: 0
+2026-11-03 19:35:23,498 - INFO - Skipped invalid features: 0
+2026-11-03 19:35:23,498 - INFO - Skipped compounds without graph targets: 0
+domain crop: 249 proteins cropped to 1000, 171 to 1200
+exported protocol to recomb_review/pt6_domain_crop/drugban_crop/run_58/drugban_dgl/protocol.pkl
+seed 58 epoch 1 val_auc=0.6737 best=0.6737@1 23s
+seed 58 epoch 2 val_auc=0.7596 best=0.7596@2 21s
+seed 58 epoch 3 val_auc=0.8005 best=0.8005@3 21s
+seed 58 epoch 4 val_auc=0.7707 best=0.8005@3 21s
+seed 58 epoch 5 val_auc=0.8162 best=0.8162@5 19s
+seed 58 epoch 6 val_auc=0.8237 best=0.8237@6 18s
+seed 58 epoch 7 val_auc=0.8445 best=0.8445@7 18s
+seed 58 epoch 8 val_auc=0.8351 best=0.8445@7 21s
+seed 58 epoch 9 val_auc=0.8512 best=0.8512@9 21s
+seed 58 epoch 10 val_auc=0.8667 best=0.8667@10 21s
+seed 58 epoch 11 val_auc=0.7888 best=0.8667@10 21s
+seed 58 epoch 12 val_auc=0.8179 best=0.8667@10 22s
+seed 58 epoch 13 val_auc=0.8188 best=0.8667@10 21s
+seed 58 epoch 14 val_auc=0.8292 best=0.8667@10 21s
+seed 58 epoch 15 val_auc=0.8146 best=0.8667@10 21s
+seed 58 epoch 16 val_auc=0.8401 best=0.8667@10 21s
+seed 58 epoch 17 val_auc=0.8326 best=0.8667@10 22s
+seed 58 epoch 18 val_auc=0.8298 best=0.8667@10 21s
+seed 58 epoch 19 val_auc=0.8119 best=0.8667@10 21s
+seed 58 epoch 20 val_auc=0.8241 best=0.8667@10 21s
+seed 58 epoch 21 val_auc=0.8403 best=0.8667@10 22s
+seed 58 epoch 22 val_auc=0.7936 best=0.8667@10 21s
+seed 58 epoch 23 val_auc=0.8392 best=0.8667@10 21s
+seed 58 epoch 24 val_auc=0.8444 best=0.8667@10 21s
+seed 58 epoch 25 val_auc=0.8156 best=0.8667@10 20s
+seed 58 epoch 26 val_auc=0.8543 best=0.8667@10 21s
+seed 58 epoch 27 val_auc=0.8490 best=0.8667@10 18s
+seed 58 epoch 28 val_auc=0.8539 best=0.8667@10 18s
+seed 58 epoch 29 val_auc=0.8491 best=0.8667@10 18s
+seed 58 epoch 30 val_auc=0.8461 best=0.8667@10 21s
+seed 58 drugban val_auc=0.8667 best_epoch=10 stop=30
+2026-11-03 19:46:30,893 - INFO - Using external ChEMBL36 interaction PKL: data/external_chembl36_median.pkl
+2026-11-03 19:46:30,919 - INFO - 
+Loaded ChEMBL36 validation data from PKLs
+2026-11-03 19:46:30,919 - INFO - External compounds with features and graph-target interactions: 95
+2026-11-03 19:46:30,919 - INFO - New external compound-protein interactions: 3243
+2026-11-03 19:46:30,919 - INFO - Graph targets referenced by PKL: 1391
+2026-11-03 19:46:30,919 - INFO - Skipped missing features: 0
+2026-11-03 19:46:30,919 - INFO - Skipped invalid features: 0
+2026-11-03 19:46:30,919 - INFO - Skipped compounds without graph targets: 0
+domain crop: 249 proteins cropped to 1000, 171 to 1200
+drugban {'same_version': {'roc_auc': 0.906, 'auprc': 0.715, 'mcc': 0.371}, 'same_version_matched': {'roc_auc': 0.621, 'auprc': 0.234, 'mcc': 0.076}, 'external': {'roc_auc': 0.555, 'auprc': 0.205, 'mcc': 0.06}}
+resumed after epoch 30
+seed 58 drugban lead: top1=4 top10=43

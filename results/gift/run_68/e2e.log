@@ -1,0 +1,21 @@
+Initialized from results/gift/run_68/head/trained_model.pth
+Init (Phase 3a): val_auc(conn,iso)=(0.9496,0.9490) val_ap(conn,iso)=(0.8660,0.8662)
+Step   10: loss=0.0300 val_auc(conn,iso)=(0.9513,0.9506) val_ap(conn,iso)=(0.8759,0.8759) f1@0.5(conn)=0.8017 *
+Step   20: loss=0.0190 val_auc(conn,iso)=(0.9496,0.9490) val_ap(conn,iso)=(0.8717,0.8706) f1@0.5(conn)=0.7832
+Step   30: loss=0.0124 val_auc(conn,iso)=(0.9486,0.9479) val_ap(conn,iso)=(0.8800,0.8784) f1@0.5(conn)=0.8044
+Step   40: loss=0.0166 val_auc(conn,iso)=(0.9506,0.9499) val_ap(conn,iso)=(0.8796,0.8784) f1@0.5(conn)=0.8148
+Step   50: loss=0.0399 val_auc(conn,iso)=(0.9513,0.9507) val_ap(conn,iso)=(0.8790,0.8781) f1@0.5(conn)=0.8079 *
+Step   60: loss=0.0154 val_auc(conn,iso)=(0.9501,0.9495) val_ap(conn,iso)=(0.8881,0.8865) f1@0.5(conn)=0.8110
+Step   70: loss=0.0204 val_auc(conn,iso)=(0.9487,0.9482) val_ap(conn,iso)=(0.8789,0.8769) f1@0.5(conn)=0.8113
+Step   80: loss=0.0145 val_auc(conn,iso)=(0.9481,0.9477) val_ap(conn,iso)=(0.8814,0.8795) f1@0.5(conn)=0.8049
+Step   90: loss=0.0087 val_auc(conn,iso)=(0.9491,0.9487) val_ap(conn,iso)=(0.8817,0.8798) f1@0.5(conn)=0.8071
+Step  100: loss=0.0169 val_auc(conn,iso)=(0.9492,0.9488) val_ap(conn,iso)=(0.8765,0.8751) f1@0.5(conn)=0.8117
+Step  110: loss=0.0169 val_auc(conn,iso)=(0.9478,0.9477) val_ap(conn,iso)=(0.8777,0.8767) f1@0.5(conn)=0.8041
+Step  120: loss=0.0169 val_auc(conn,iso)=(0.9493,0.9489) val_ap(conn,iso)=(0.8763,0.8754) f1@0.5(conn)=0.8136
+Step  130: loss=0.0250 val_auc(conn,iso)=(0.9495,0.9490) val_ap(conn,iso)=(0.8744,0.8734) f1@0.5(conn)=0.8131
+Step  140: loss=0.0145 val_auc(conn,iso)=(0.9480,0.9475) val_ap(conn,iso)=(0.8763,0.8741) f1@0.5(conn)=0.8183
+Step  150: loss=0.0121 val_auc(conn,iso)=(0.9489,0.9485) val_ap(conn,iso)=(0.8742,0.8726) f1@0.5(conn)=0.8209
+Step  160: loss=0.0184 val_auc(conn,iso)=(0.9499,0.9494) val_ap(conn,iso)=(0.8819,0.8804) f1@0.5(conn)=0.8202
+Step  170: loss=0.0109 val_auc(conn,iso)=(0.9500,0.9497) val_ap(conn,iso)=(0.8797,0.8781) f1@0.5(conn)=0.8253
+Early stopping at step 170
+Model saved to: results/gift/run_68/e2e/trained_model.pth

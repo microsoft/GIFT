@@ -1,0 +1,144 @@
+2026-11-03 18:51:42,476 - INFO - Using external ChEMBL36 interaction PKL: data/external_chembl36_median.pkl
+2026-11-03 18:51:42,487 - INFO - 
+Loaded ChEMBL36 validation data from PKLs
+2026-11-03 18:51:42,487 - INFO - External compounds with features and graph-target interactions: 95
+2026-11-03 18:51:42,487 - INFO - New external compound-protein interactions: 3243
+2026-11-03 18:51:42,487 - INFO - Graph targets referenced by PKL: 1391
+2026-11-03 18:51:42,487 - INFO - Skipped missing features: 0
+2026-11-03 18:51:42,487 - INFO - Skipped invalid features: 0
+2026-11-03 18:51:42,487 - INFO - Skipped compounds without graph targets: 0
+domain crop: 249 proteins cropped to 1000, 171 to 1200
+exported protocol to recomb_review/pt6_domain_crop/drugban_crop/run_54/drugban_dgl/protocol.pkl
+seed 54 epoch 1 val_auc=0.7044 best=0.7044@1 22s
+seed 54 epoch 2 val_auc=0.7707 best=0.7707@2 21s
+seed 54 epoch 3 val_auc=0.7914 best=0.7914@3 19s
+seed 54 epoch 4 val_auc=0.8074 best=0.8074@4 20s
+seed 54 epoch 5 val_auc=0.8057 best=0.8074@4 19s
+seed 54 epoch 6 val_auc=0.8060 best=0.8074@4 22s
+seed 54 epoch 7 val_auc=0.8215 best=0.8215@7 22s
+seed 54 epoch 8 val_auc=0.8260 best=0.8260@8 22s
+seed 54 epoch 9 val_auc=0.8343 best=0.8343@9 22s
+seed 54 epoch 10 val_auc=0.8335 best=0.8343@9 22s
+seed 54 epoch 11 val_auc=0.8308 best=0.8343@9 22s
+seed 54 epoch 12 val_auc=0.8292 best=0.8343@9 20s
+seed 54 epoch 13 val_auc=0.8493 best=0.8493@13 20s
+seed 54 epoch 14 val_auc=0.8531 best=0.8531@14 20s
+seed 54 epoch 15 val_auc=0.8403 best=0.8531@14 20s
+seed 54 epoch 16 val_auc=0.8534 best=0.8534@16 22s
+seed 54 epoch 17 val_auc=0.8614 best=0.8614@17 22s
+seed 54 epoch 18 val_auc=0.8617 best=0.8617@18 22s
+seed 54 epoch 19 val_auc=0.8680 best=0.8680@19 22s
+seed 54 epoch 20 val_auc=0.8599 best=0.8680@19 21s
+seed 54 epoch 21 val_auc=0.8768 best=0.8768@21 21s
+seed 54 epoch 22 val_auc=0.8664 best=0.8768@21 21s
+seed 54 epoch 23 val_auc=0.8648 best=0.8768@21 21s
+seed 54 epoch 24 val_auc=0.8681 best=0.8768@21 22s
+seed 54 epoch 25 val_auc=0.8783 best=0.8783@25 22s
+seed 54 epoch 26 val_auc=0.8810 best=0.8810@26 21s
+seed 54 epoch 27 val_auc=0.8807 best=0.8810@26 22s
+seed 54 epoch 28 val_auc=0.8830 best=0.8830@28 22s
+seed 54 epoch 29 val_auc=0.8862 best=0.8862@29 22s
+seed 54 epoch 30 val_auc=0.8782 best=0.8862@29 22s
+seed 54 epoch 31 val_auc=0.8789 best=0.8862@29 21s
+seed 54 epoch 32 val_auc=0.8699 best=0.8862@29 20s
+seed 54 epoch 33 val_auc=0.8719 best=0.8862@29 20s
+seed 54 epoch 34 val_auc=0.8853 best=0.8862@29 20s
+seed 54 epoch 35 val_auc=0.8609 best=0.8862@29 19s
+seed 54 epoch 36 val_auc=0.8832 best=0.8862@29 21s
+seed 54 epoch 37 val_auc=0.8715 best=0.8862@29 22s
+seed 54 epoch 38 val_auc=0.8815 best=0.8862@29 21s
+seed 54 epoch 39 val_auc=0.8853 best=0.8862@29 23s
+seed 54 epoch 40 val_auc=0.8919 best=0.8919@40 22s
+seed 54 epoch 41 val_auc=0.8876 best=0.8919@40 21s
+seed 54 epoch 42 val_auc=0.8799 best=0.8919@40 21s
+seed 54 epoch 43 val_auc=0.8874 best=0.8919@40 21s
+seed 54 epoch 44 val_auc=0.8925 best=0.8925@44 22s
+seed 54 epoch 45 val_auc=0.8857 best=0.8925@44 22s
+seed 54 epoch 46 val_auc=0.8842 best=0.8925@44 22s
+seed 54 epoch 47 val_auc=0.8918 best=0.8925@44 22s
+seed 54 epoch 48 val_auc=0.8936 best=0.8936@48 22s
+seed 54 epoch 49 val_auc=0.8836 best=0.8936@48 23s
+seed 54 epoch 50 val_auc=0.8792 best=0.8936@48 22s
+seed 54 epoch 51 val_auc=0.8903 best=0.8936@48 22s
+seed 54 epoch 52 val_auc=0.8790 best=0.8936@48 22s
+seed 54 epoch 53 val_auc=0.8943 best=0.8943@53 22s
+seed 54 epoch 54 val_auc=0.8896 best=0.8943@53 20s
+seed 54 epoch 55 val_auc=0.8896 best=0.8943@53 20s
+seed 54 epoch 56 val_auc=0.8981 best=0.8981@56 20s
+seed 54 epoch 57 val_auc=0.8872 best=0.8981@56 19s
+seed 54 epoch 58 val_auc=0.8865 best=0.8981@56 21s
+seed 54 epoch 59 val_auc=0.8838 best=0.8981@56 22s
+seed 54 epoch 60 val_auc=0.8919 best=0.8981@56 22s
+seed 54 epoch 61 val_auc=0.8914 best=0.8981@56 22s
+seed 54 epoch 62 val_auc=0.8868 best=0.8981@56 23s
+seed 54 epoch 63 val_auc=0.8817 best=0.8981@56 20s
+seed 54 epoch 64 val_auc=0.8834 best=0.8981@56 20s
+seed 54 epoch 65 val_auc=0.8954 best=0.8981@56 19s
+seed 54 epoch 66 val_auc=0.8878 best=0.8981@56 21s
+seed 54 epoch 67 val_auc=0.8908 best=0.8981@56 21s
+seed 54 epoch 68 val_auc=0.9061 best=0.9061@68 19s
+seed 54 epoch 69 val_auc=0.8996 best=0.9061@68 19s
+seed 54 epoch 70 val_auc=0.8816 best=0.9061@68 20s
+seed 54 epoch 71 val_auc=0.8967 best=0.9061@68 22s
+seed 54 epoch 72 val_auc=0.8820 best=0.9061@68 22s
+seed 54 epoch 73 val_auc=0.8936 best=0.9061@68 22s
+seed 54 epoch 74 val_auc=0.9025 best=0.9061@68 21s
+seed 54 epoch 75 val_auc=0.8850 best=0.9061@68 21s
+seed 54 epoch 76 val_auc=0.8904 best=0.9061@68 21s
+seed 54 epoch 77 val_auc=0.8884 best=0.9061@68 23s
+seed 54 epoch 78 val_auc=0.9022 best=0.9061@68 22s
+seed 54 epoch 79 val_auc=0.9067 best=0.9067@79 21s
+seed 54 epoch 80 val_auc=0.8970 best=0.9067@79 22s
+seed 54 epoch 81 val_auc=0.8908 best=0.9067@79 22s
+seed 54 epoch 82 val_auc=0.8895 best=0.9067@79 22s
+seed 54 epoch 83 val_auc=0.8965 best=0.9067@79 22s
+seed 54 epoch 84 val_auc=0.8900 best=0.9067@79 22s
+seed 54 epoch 85 val_auc=0.9061 best=0.9067@79 21s
+seed 54 epoch 86 val_auc=0.9021 best=0.9067@79 22s
+seed 54 epoch 87 val_auc=0.9074 best=0.9074@87 22s
+seed 54 epoch 88 val_auc=0.9018 best=0.9074@87 22s
+seed 54 epoch 89 val_auc=0.9036 best=0.9074@87 19s
+seed 54 epoch 90 val_auc=0.9032 best=0.9074@87 19s
+seed 54 epoch 91 val_auc=0.9053 best=0.9074@87 17s
+seed 54 epoch 92 val_auc=0.8935 best=0.9074@87 18s
+seed 54 epoch 93 val_auc=0.8854 best=0.9074@87 19s
+seed 54 epoch 94 val_auc=0.9049 best=0.9074@87 19s
+seed 54 epoch 95 val_auc=0.9005 best=0.9074@87 22s
+seed 54 epoch 96 val_auc=0.9018 best=0.9074@87 22s
+seed 54 epoch 97 val_auc=0.9090 best=0.9090@97 22s
+seed 54 epoch 98 val_auc=0.9087 best=0.9090@97 22s
+seed 54 epoch 99 val_auc=0.9185 best=0.9185@99 22s
+seed 54 epoch 100 val_auc=0.9137 best=0.9185@99 22s
+seed 54 epoch 101 val_auc=0.9093 best=0.9185@99 22s
+seed 54 epoch 102 val_auc=0.8940 best=0.9185@99 22s
+seed 54 epoch 103 val_auc=0.9084 best=0.9185@99 22s
+seed 54 epoch 104 val_auc=0.9005 best=0.9185@99 23s
+seed 54 epoch 105 val_auc=0.9085 best=0.9185@99 22s
+seed 54 epoch 106 val_auc=0.9022 best=0.9185@99 22s
+seed 54 epoch 107 val_auc=0.9121 best=0.9185@99 22s
+seed 54 epoch 108 val_auc=0.9107 best=0.9185@99 22s
+seed 54 epoch 109 val_auc=0.9155 best=0.9185@99 21s
+seed 54 epoch 110 val_auc=0.9141 best=0.9185@99 21s
+seed 54 epoch 111 val_auc=0.9128 best=0.9185@99 21s
+seed 54 epoch 112 val_auc=0.9055 best=0.9185@99 21s
+seed 54 epoch 113 val_auc=0.9157 best=0.9185@99 21s
+seed 54 epoch 114 val_auc=0.9060 best=0.9185@99 21s
+seed 54 epoch 115 val_auc=0.9085 best=0.9185@99 21s
+seed 54 epoch 116 val_auc=0.9000 best=0.9185@99 21s
+seed 54 epoch 117 val_auc=0.8952 best=0.9185@99 21s
+seed 54 epoch 118 val_auc=0.8944 best=0.9185@99 22s
+seed 54 epoch 119 val_auc=0.9056 best=0.9185@99 22s
+seed 54 drugban val_auc=0.9185 best_epoch=99 stop=119
+2026-11-03 19:34:45,311 - INFO - Using external ChEMBL36 interaction PKL: data/external_chembl36_median.pkl
+2026-11-03 19:34:45,359 - INFO - 
+Loaded ChEMBL36 validation data from PKLs
+2026-11-03 19:34:45,359 - INFO - External compounds with features and graph-target interactions: 95
+2026-11-03 19:34:45,359 - INFO - New external compound-protein interactions: 3243
+2026-11-03 19:34:45,359 - INFO - Graph targets referenced by PKL: 1391
+2026-11-03 19:34:45,359 - INFO - Skipped missing features: 0
+2026-11-03 19:34:45,359 - INFO - Skipped invalid features: 0
+2026-11-03 19:34:45,359 - INFO - Skipped compounds without graph targets: 0
+domain crop: 249 proteins cropped to 1000, 171 to 1200
+drugban {'same_version': {'roc_auc': 0.944, 'auprc': 0.848, 'mcc': 0.66}, 'same_version_matched': {'roc_auc': 0.772, 'auprc': 0.411, 'mcc': 0.27}, 'external': {'roc_auc': 0.667, 'auprc': 0.32, 'mcc': 0.207}}
+resumed after epoch 119
+seed 54 drugban lead: top1=5 top10=37

@@ -1,0 +1,465 @@
+{
+  "timestamp": "2026-11-04T01:02:17.397267",
+  "evaluation_type": "chembl_standalone_classification",
+  "seed": 57,
+  "threshold_calibration": "none; fixed threshold=0.5 for all methods",
+  "gnn_graph": "training CP edges only; all val+test CP pairs removed from message passing and edge-mask candidates",
+  "negative_policy": "evaluation negatives drawn from a fixed 20% reserve of pairs (negative_pool_v77); same_version: random negatives over compounds with >= 1 known potent interaction (DTI standard); same_version_allcompound: random negatives over all compounds (reference); training negatives (GNN and RF) exclude training positives and the reserve only",
+  "rf_baselines": {
+    "random_forest": "primary: scikit-learn default hyperparameters (100 trees, no class weight), one training negative per positive, no search",
+    "random_forest_tuned": "secondary robustness check: 8-config grid selected on validation AUPRC"
+  },
+  "rf_selection": {
+    "criterion": "validation AUPRC, GNN checkpoint-selection validation set",
+    "selected": {
+      "params": {
+        "n_estimators": 500,
+        "max_depth": 30,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt"
+      },
+      "val_auprc": 0.8304050925776898
+    },
+    "grid": [
+      {
+        "params": {
+          "n_estimators": 500,
+          "max_depth": null,
+          "min_samples_leaf": 1,
+          "max_features": "sqrt"
+        },
+        "val_auprc": 0.8293553166681151
+      },
+      {
+        "params": {
+          "n_estimators": 500,
+          "max_depth": null,
+          "min_samples_leaf": 1,
+          "max_features": 0.2
+        },
+        "val_auprc": 0.7952379754943173
+      },
+      {
+        "params": {
+          "n_estimators": 500,
+          "max_depth": null,
+          "min_samples_leaf": 3,
+          "max_features": "sqrt"
+        },
+        "val_auprc": 0.8147677169632823
+      },
+      {
+        "params": {
+          "n_estimators": 500,
+          "max_depth": null,
+          "min_samples_leaf": 3,
+          "max_features": 0.2
+        },
+        "val_auprc": 0.7986174094072852
+      },
+      {
+        "params": {
+          "n_estimators": 500,
+          "max_depth": 30,
+          "min_samples_leaf": 1,
+          "max_features": "sqrt"
+        },
+        "val_auprc": 0.8304050925776898
+      },
+      {
+        "params": {
+          "n_estimators": 500,
+          "max_depth": 30,
+          "min_samples_leaf": 1,
+          "max_features": 0.2
+        },
+        "val_auprc": 0.7956945608110618
+      },
+      {
+        "params": {
+          "n_estimators": 500,
+          "max_depth": 30,
+          "min_samples_leaf": 3,
+          "max_features": "sqrt"
+        },
+        "val_auprc": 0.8147677169632823
+      },
+      {
+        "params": {
+          "n_estimators": 500,
+          "max_depth": 30,
+          "min_samples_leaf": 3,
+          "max_features": 0.2
+        },
+        "val_auprc": 0.7987764200914028
+      }
+    ]
+  },
+  "num_same_version_positives": 408,
+  "num_same_version_negatives": 2040,
+  "num_same_version_matched_negatives": 1995,
+  "num_cross_version_positives": 3243,
+  "num_cross_version_negatives": 16215,
+  "surpasses_rf_on_roc_auc_auprc_f1_mcc": {
+    "same_version": true,
+    "same_version_isolated": true,
+    "same_version_matched": true,
+    "cross_version": false
+  },
+  "surpasses_tuned_rf_on_roc_auc_auprc_f1_mcc": {
+    "same_version": true,
+    "same_version_matched": true,
+    "cross_version": false
+  },
+  "label_free_baselines": {
+    "compound_train_degree": {
+      "same_version": {
+        "roc_auc": 0.8750468569780854,
+        "auprc": 0.6587666798291432,
+        "per_target_roc_auc": 0.8888032305433187
+      },
+      "same_version_allcompound": {
+        "roc_auc": 0.9657349336793541,
+        "auprc": 0.9036598818288751,
+        "per_target_roc_auc": 0.9916666666666667
+      },
+      "same_version_matched": {
+        "roc_auc": 0.5100662194702443,
+        "auprc": 0.17671563568002494,
+        "per_target_roc_auc": 0.6023679417122041
+      },
+      "cross_version": {
+        "roc_auc": 0.5,
+        "auprc": 0.16666666666666666,
+        "per_target_roc_auc": 0.5
+      }
+    },
+    "protein_train_degree": {
+      "same_version": {
+        "roc_auc": 0.7550791762783545,
+        "auprc": 0.36998426465228335,
+        "per_target_roc_auc": 0.5
+      },
+      "same_version_allcompound": {
+        "roc_auc": 0.7462640570934255,
+        "auprc": 0.36660025019146386,
+        "per_target_roc_auc": 0.5
+      },
+      "same_version_matched": {
+        "roc_auc": 0.7953050518452996,
+        "auprc": 0.4232906998717877,
+        "per_target_roc_auc": 0.5
+      },
+      "cross_version": {
+        "roc_auc": 0.7928560283402692,
+        "auprc": 0.3770859275427425,
+        "per_target_roc_auc": 0.5
+      }
+    }
+  },
+  "tanimoto_reference": "raw max Tanimoto (nearest neighbour); all training positives; 256-bit",
+  "results_by_method": {
+    "gift": {
+      "same_version": {
+        "roc_auc": 0.9675965974625145,
+        "auprc": 0.9162950518990439,
+        "per_target_roc_auc": 0.9596182085168868,
+        "per_target_n": 227,
+        "accuracy": 0.9595588235294118,
+        "balanced_accuracy": 0.9218137254901961,
+        "precision": 0.889168765743073,
+        "recall": 0.8651960784313726,
+        "f1": 0.8770186335403727,
+        "mcc": 0.852938630653427,
+        "brier_score": 0.03495279415768874,
+        "threshold_used": 0.5
+      },
+      "same_version_matched": {
+        "roc_auc": 0.9137132045800777,
+        "auprc": 0.7559755803989487,
+        "per_target_roc_auc": 0.9052823315118398,
+        "per_target_n": 183,
+        "accuracy": 0.8759883478984603,
+        "balanced_accuracy": 0.8716957835765886,
+        "precision": 0.5922818791946308,
+        "recall": 0.8651960784313726,
+        "f1": 0.703187250996016,
+        "mcc": 0.6462744037602276,
+        "brier_score": 0.10310714308090932,
+        "threshold_used": 0.5
+      },
+      "cross_version": {
+        "roc_auc": 0.7534720718711114,
+        "auprc": 0.4424202409299967,
+        "per_target_roc_auc": 0.670828976964973,
+        "per_target_n": 690,
+        "accuracy": 0.851218008017268,
+        "balanced_accuracy": 0.6076780758556892,
+        "precision": 0.6421568627450981,
+        "recall": 0.242368177613321,
+        "f1": 0.3519140362659503,
+        "mcc": 0.33056551748407625,
+        "brier_score": 0.13476262723302496,
+        "threshold_used": 0.5
+      },
+      "same_version_allcompound": {
+        "roc_auc": 0.9919778450595925,
+        "auprc": 0.9776768759313184,
+        "per_target_roc_auc": 0.9976190476190476,
+        "per_target_n": 210,
+        "accuracy": 0.9754901960784313,
+        "balanced_accuracy": 0.9313725490196079,
+        "precision": 0.9860335195530726,
+        "recall": 0.8651960784313726,
+        "f1": 0.9216710182767625,
+        "mcc": 0.9099405294453674,
+        "brier_score": 0.021373954939563664,
+        "threshold_used": 0.5
+      },
+      "same_version_protein_matched": {
+        "roc_auc": 0.9598614062151334,
+        "auprc": 0.898937112916639,
+        "per_target_roc_auc": 0.9629863192363193,
+        "per_target_n": 286,
+        "accuracy": 0.9501852614244545,
+        "balanced_accuracy": 0.9162694889930243,
+        "precision": 0.8424821002386634,
+        "recall": 0.8651960784313726,
+        "f1": 0.8536880290205562,
+        "mcc": 0.8237829018595619,
+        "brier_score": 0.04220502889675155,
+        "threshold_used": 0.5
+      },
+      "same_version_isolated": {
+        "roc_auc": 0.9642048731257209,
+        "auprc": 0.9134022452562198,
+        "per_target_roc_auc": 0.9552129221732745,
+        "per_target_n": 227,
+        "accuracy": 0.9595588235294118,
+        "balanced_accuracy": 0.9218137254901961,
+        "precision": 0.889168765743073,
+        "recall": 0.8651960784313726,
+        "f1": 0.8770186335403727,
+        "mcc": 0.852938630653427,
+        "brier_score": 0.035292683341027246,
+        "threshold_used": 0.5
+      }
+    },
+    "tanimoto": {
+      "same_version": {
+        "roc_auc": 0.7827872693194924,
+        "auprc": 0.5029335580789439,
+        "per_target_roc_auc": 0.6297723935389132,
+        "per_target_n": 227,
+        "accuracy": 0.8521241830065359,
+        "balanced_accuracy": 0.5612745098039216,
+        "precision": 0.9107142857142857,
+        "recall": 0.125,
+        "f1": 0.21982758620689655,
+        "mcc": 0.30547832832768784,
+        "brier_score": null,
+        "threshold_used": 0.5
+      },
+      "same_version_matched": {
+        "roc_auc": 0.809016413582977,
+        "auprc": 0.5431434023779701,
+        "per_target_roc_auc": 0.6090163934426229,
+        "per_target_n": 183,
+        "accuracy": 0.8510195588847275,
+        "balanced_accuracy": 0.5622493734335839,
+        "precision": 0.9807692307692307,
+        "recall": 0.125,
+        "f1": 0.2217391304347826,
+        "mcc": 0.32124658918607946,
+        "brier_score": null,
+        "threshold_used": 0.5
+      },
+      "cross_version": {
+        "roc_auc": 0.8209238351936936,
+        "auprc": 0.4971868644961972,
+        "per_target_roc_auc": 0.6205881885166513,
+        "per_target_n": 690,
+        "accuracy": 0.836519683420701,
+        "balanced_accuracy": 0.516836262719704,
+        "precision": 0.6722222222222223,
+        "recall": 0.03731113166820845,
+        "f1": 0.07069821793748174,
+        "mcc": 0.1310811974294377,
+        "brier_score": null,
+        "threshold_used": 0.5
+      },
+      "same_version_allcompound": {
+        "roc_auc": 0.7695015138408305,
+        "auprc": 0.47616993611189234,
+        "per_target_roc_auc": 0.6078344671201814,
+        "per_target_n": 210,
+        "accuracy": 0.8517156862745098,
+        "balanced_accuracy": 0.5610294117647059,
+        "precision": 0.8947368421052632,
+        "recall": 0.125,
+        "f1": 0.21935483870967742,
+        "mcc": 0.3016387476684011,
+        "brier_score": null,
+        "threshold_used": 0.5
+      },
+      "same_version_protein_matched": {
+        "roc_auc": 0.6122612082933124,
+        "auprc": 0.369323382823738,
+        "per_target_roc_auc": 0.6231036324786324,
+        "per_target_n": 286,
+        "accuracy": 0.8460271716755866,
+        "balanced_accuracy": 0.558294161306284,
+        "precision": 0.75,
+        "recall": 0.125,
+        "f1": 0.21428571428571427,
+        "mcc": 0.264220093825507,
+        "brier_score": null,
+        "threshold_used": 0.5
+      }
+    },
+    "random_forest": {
+      "same_version": {
+        "roc_auc": 0.9468155276816609,
+        "auprc": 0.8674250438318034,
+        "per_target_roc_auc": 0.9366189427312775,
+        "per_target_n": 227,
+        "accuracy": 0.8406862745098039,
+        "balanced_accuracy": 0.8622549019607844,
+        "precision": 0.5126404494382022,
+        "recall": 0.8946078431372549,
+        "f1": 0.6517857142857143,
+        "mcc": 0.5945310960324418,
+        "brier_score": 0.1267887663398693,
+        "threshold_used": 0.5
+      },
+      "same_version_matched": {
+        "roc_auc": 0.8059929234851836,
+        "auprc": 0.6440424965675612,
+        "per_target_roc_auc": 0.7655282331511838,
+        "per_target_n": 183,
+        "accuracy": 0.3766125676238036,
+        "balanced_accuracy": 0.5826422674332892,
+        "precision": 0.20054945054945056,
+        "recall": 0.8946078431372549,
+        "f1": 0.3276481149012567,
+        "mcc": 0.1447650684883973,
+        "brier_score": 0.3497873491468997,
+        "threshold_used": 0.5
+      },
+      "cross_version": {
+        "roc_auc": 0.7447468201393757,
+        "auprc": 0.346226561812128,
+        "per_target_roc_auc": 0.6477723300107174,
+        "per_target_n": 690,
+        "accuracy": 0.8064549285640867,
+        "balanced_accuracy": 0.6211532531606537,
+        "precision": 0.4048744998181157,
+        "recall": 0.34320074005550416,
+        "f1": 0.37149532710280375,
+        "mcc": 0.2592593496139089,
+        "brier_score": 0.16313527083975743,
+        "threshold_used": 0.5
+      },
+      "same_version_allcompound": {
+        "roc_auc": 0.9849150567089581,
+        "auprc": 0.9510636623689828,
+        "per_target_roc_auc": 0.9905952380952381,
+        "per_target_n": 210,
+        "accuracy": 0.9534313725490197,
+        "balanced_accuracy": 0.9299019607843138,
+        "precision": 0.8371559633027523,
+        "recall": 0.8946078431372549,
+        "f1": 0.8649289099526066,
+        "mcc": 0.8375048949619964,
+        "brier_score": 0.05590972222222223,
+        "threshold_used": 0.5
+      },
+      "same_version_protein_matched": {
+        "roc_auc": 0.9322693822704737,
+        "auprc": 0.8401429319118401,
+        "per_target_roc_auc": 0.9200303169053169,
+        "per_target_n": 286,
+        "accuracy": 0.7875668999588308,
+        "balanced_accuracy": 0.8302826449728828,
+        "precision": 0.43556085918854415,
+        "recall": 0.8946078431372549,
+        "f1": 0.5858747993579454,
+        "mcc": 0.5194836564266746,
+        "brier_score": 0.15139176615891312,
+        "threshold_used": 0.5
+      }
+    },
+    "random_forest_tuned": {
+      "same_version": {
+        "roc_auc": 0.9484158737024221,
+        "auprc": 0.8702131997737311,
+        "per_target_roc_auc": 0.9315345080763585,
+        "per_target_n": 227,
+        "accuracy": 0.8406862745098039,
+        "balanced_accuracy": 0.8651960784313726,
+        "precision": 0.5125348189415042,
+        "recall": 0.9019607843137255,
+        "f1": 0.6536412078152753,
+        "mcc": 0.5978827075158467,
+        "brier_score": 0.12640492980212578,
+        "threshold_used": 0.5
+      },
+      "same_version_matched": {
+        "roc_auc": 0.8045794633642931,
+        "auprc": 0.6600368721385842,
+        "per_target_roc_auc": 0.7590619307832421,
+        "per_target_n": 183,
+        "accuracy": 0.3645443196004994,
+        "balanced_accuracy": 0.5782986878962111,
+        "precision": 0.19838274932614555,
+        "recall": 0.9019607843137255,
+        "f1": 0.3252319929297393,
+        "mcc": 0.14012762954054464,
+        "brier_score": 0.3608301462391625,
+        "threshold_used": 0.5
+      },
+      "cross_version": {
+        "roc_auc": 0.739628197985956,
+        "auprc": 0.3583937443970848,
+        "per_target_roc_auc": 0.6405981808528742,
+        "per_target_n": 690,
+        "accuracy": 0.8230547846644054,
+        "balanced_accuracy": 0.6230958988590811,
+        "precision": 0.4564459930313589,
+        "recall": 0.32315757015109464,
+        "f1": 0.3784076548113378,
+        "mcc": 0.28440396040112326,
+        "brier_score": 0.16207458020601415,
+        "threshold_used": 0.5
+      },
+      "same_version_allcompound": {
+        "roc_auc": 0.986165777585544,
+        "auprc": 0.9550091291141866,
+        "per_target_roc_auc": 0.993373015873016,
+        "per_target_n": 210,
+        "accuracy": 0.9583333333333334,
+        "balanced_accuracy": 0.9357843137254902,
+        "precision": 0.8558139534883721,
+        "recall": 0.9019607843137255,
+        "f1": 0.8782816229116945,
+        "mcc": 0.8535951635594746,
+        "brier_score": 0.05340389710088862,
+        "threshold_used": 0.5
+      },
+      "same_version_protein_matched": {
+        "roc_auc": 0.9349853499044348,
+        "auprc": 0.847912908021786,
+        "per_target_roc_auc": 0.9242073898323899,
+        "per_target_n": 286,
+        "accuracy": 0.7933305887196377,
+        "balanced_accuracy": 0.8366805405982285,
+        "precision": 0.4433734939759036,
+        "recall": 0.9019607843137255,
+        "f1": 0.5945072697899838,
+        "mcc": 0.5307597388656715,
+        "brier_score": 0.14981780131958936,
+        "threshold_used": 0.5
+      }
+    }
+  }
+}

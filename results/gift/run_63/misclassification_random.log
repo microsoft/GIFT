@@ -1,0 +1,335 @@
+2026-10-10 16:12:34,315 - INFO - maxp pruned
+2026-10-10 16:12:34,350 - INFO - cmap pruned
+2026-10-10 16:12:34,393 - INFO - kern dropped
+2026-10-10 16:12:34,394 - INFO - post pruned
+2026-10-10 16:12:34,417 - INFO - FFTM dropped
+2026-10-10 16:12:34,421 - INFO - GPOS pruned
+2026-10-10 16:12:34,428 - INFO - GSUB pruned
+2026-10-10 16:12:34,440 - INFO - glyf pruned
+2026-10-10 16:12:34,442 - INFO - Added gid0 to subset
+2026-10-10 16:12:34,442 - INFO - Added first four glyphs to subset
+2026-10-10 16:12:34,442 - INFO - Closing glyph list over 'MATH': 34 glyphs before
+2026-10-10 16:12:34,443 - INFO - Glyph names: ['.notdef', '.null', 'E', 'F', 'N', 'S', 'T', 'a', 'comma', 'e', 'eight', 'equal', 'five', 'four', 'g', 'hyphen', 'i', 'l', 'n', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'r', 's', 'six', 'space', 't', 'three', 'two', 'u', 'v']
+2026-10-10 16:12:34,445 - INFO - Glyph IDs:   [0, 1, 2, 3, 11, 12, 15, 16, 20, 21, 22, 23, 24, 25, 27, 32, 40, 41, 49, 54, 55, 68, 72, 74, 76, 79, 81, 82, 83, 85, 86, 87, 88, 89]
+2026-10-10 16:12:34,446 - INFO - Closed glyph list over 'MATH': 40 glyphs after
+2026-10-10 16:12:34,446 - INFO - Glyph names: ['.notdef', '.null', 'E', 'F', 'N', 'S', 'T', 'a', 'comma', 'e', 'eight', 'equal', 'five', 'four', 'g', 'hyphen', 'i', 'l', 'n', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'r', 's', 'six', 'space', 't', 'three', 'two', 'u', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'v']
+2026-10-10 16:12:34,447 - INFO - Glyph IDs:   [0, 1, 2, 3, 11, 12, 15, 16, 20, 21, 22, 23, 24, 25, 27, 32, 40, 41, 49, 54, 55, 68, 72, 74, 76, 79, 81, 82, 83, 85, 86, 87, 88, 89, 3506, 3507, 3508, 3509, 3510, 3511]
+2026-10-10 16:12:34,447 - INFO - Closing glyph list over 'GSUB': 40 glyphs before
+2026-10-10 16:12:34,447 - INFO - Glyph names: ['.notdef', '.null', 'E', 'F', 'N', 'S', 'T', 'a', 'comma', 'e', 'eight', 'equal', 'five', 'four', 'g', 'hyphen', 'i', 'l', 'n', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'r', 's', 'six', 'space', 't', 'three', 'two', 'u', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'v']
+2026-10-10 16:12:34,448 - INFO - Glyph IDs:   [0, 1, 2, 3, 11, 12, 15, 16, 20, 21, 22, 23, 24, 25, 27, 32, 40, 41, 49, 54, 55, 68, 72, 74, 76, 79, 81, 82, 83, 85, 86, 87, 88, 89, 3506, 3507, 3508, 3509, 3510, 3511]
+2026-10-10 16:12:34,455 - INFO - Closed glyph list over 'GSUB': 40 glyphs after
+2026-10-10 16:12:34,455 - INFO - Glyph names: ['.notdef', '.null', 'E', 'F', 'N', 'S', 'T', 'a', 'comma', 'e', 'eight', 'equal', 'five', 'four', 'g', 'hyphen', 'i', 'l', 'n', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'r', 's', 'six', 'space', 't', 'three', 'two', 'u', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'v']
+2026-10-10 16:12:34,456 - INFO - Glyph IDs:   [0, 1, 2, 3, 11, 12, 15, 16, 20, 21, 22, 23, 24, 25, 27, 32, 40, 41, 49, 54, 55, 68, 72, 74, 76, 79, 81, 82, 83, 85, 86, 87, 88, 89, 3506, 3507, 3508, 3509, 3510, 3511]
+2026-10-10 16:12:34,456 - INFO - Closing glyph list over 'glyf': 40 glyphs before
+2026-10-10 16:12:34,457 - INFO - Glyph names: ['.notdef', '.null', 'E', 'F', 'N', 'S', 'T', 'a', 'comma', 'e', 'eight', 'equal', 'five', 'four', 'g', 'hyphen', 'i', 'l', 'n', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'r', 's', 'six', 'space', 't', 'three', 'two', 'u', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'v']
+2026-10-10 16:12:34,457 - INFO - Glyph IDs:   [0, 1, 2, 3, 11, 12, 15, 16, 20, 21, 22, 23, 24, 25, 27, 32, 40, 41, 49, 54, 55, 68, 72, 74, 76, 79, 81, 82, 83, 85, 86, 87, 88, 89, 3506, 3507, 3508, 3509, 3510, 3511]
+2026-10-10 16:12:34,457 - INFO - Closed glyph list over 'glyf': 40 glyphs after
+2026-10-10 16:12:34,458 - INFO - Glyph names: ['.notdef', '.null', 'E', 'F', 'N', 'S', 'T', 'a', 'comma', 'e', 'eight', 'equal', 'five', 'four', 'g', 'hyphen', 'i', 'l', 'n', 'nonmarkingreturn', 'o', 'one', 'p', 'parenleft', 'parenright', 'r', 's', 'six', 'space', 't', 'three', 'two', 'u', 'uni239B', 'uni239C', 'uni239D', 'uni239E', 'uni239F', 'uni23A0', 'v']
+2026-10-10 16:12:34,458 - INFO - Glyph IDs:   [0, 1, 2, 3, 11, 12, 15, 16, 20, 21, 22, 23, 24, 25, 27, 32, 40, 41, 49, 54, 55, 68, 72, 74, 76, 79, 81, 82, 83, 85, 86, 87, 88, 89, 3506, 3507, 3508, 3509, 3510, 3511]
+2026-10-10 16:12:34,459 - INFO - Retaining 40 glyphs
+2026-10-10 16:12:34,460 - INFO - head subsetting not needed
+2026-10-10 16:12:34,460 - INFO - hhea subsetting not needed
+2026-10-10 16:12:34,460 - INFO - maxp subsetting not needed
+2026-10-10 16:12:34,460 - INFO - OS/2 subsetting not needed
+2026-10-10 16:12:34,467 - INFO - hmtx subsetted
+2026-10-10 16:12:34,471 - INFO - cmap subsetted
+2026-10-10 16:12:34,471 - INFO - fpgm subsetting not needed
+2026-10-10 16:12:34,471 - INFO - prep subsetting not needed
+2026-10-10 16:12:34,471 - INFO - cvt  subsetting not needed
+2026-10-10 16:12:34,472 - INFO - loca subsetting not needed
+2026-10-10 16:12:34,472 - INFO - post subsetted
+2026-10-10 16:12:34,472 - INFO - gasp subsetting not needed
+2026-10-10 16:12:34,472 - INFO - MATH subsetted
+2026-10-10 16:12:34,476 - INFO - GDEF subsetted
+2026-10-10 16:12:34,506 - INFO - GPOS subsetted
+2026-10-10 16:12:34,509 - INFO - GSUB subsetted
+2026-10-10 16:12:34,509 - INFO - name subsetting not needed
+2026-10-10 16:12:34,511 - INFO - glyf subsetted
+2026-10-10 16:12:34,511 - INFO - head pruned
+2026-10-10 16:12:34,512 - INFO - OS/2 Unicode ranges pruned: [0]
+2026-10-10 16:12:34,512 - INFO - OS/2 CodePage ranges pruned: [0]
+2026-10-10 16:12:34,513 - INFO - glyf pruned
+2026-10-10 16:12:34,513 - INFO - GDEF pruned
+2026-10-10 16:12:34,514 - INFO - GPOS pruned
+2026-10-10 16:12:34,514 - INFO - GSUB pruned
+2026-10-10 16:12:34,523 - INFO - name pruned
+{
+ "n": 2676,
+ "counts": {
+  "TN": 2165,
+  "TP": 364,
+  "FN": 82,
+  "FP": 65
+ },
+ "accuracy": 0.945067264573991,
+ "f1": 0.832,
+ "precision": 0.8484848484848485,
+ "recall": 0.8161434977578476,
+ "roc_auc": 0.9542198717046392,
+ "errors_score_lt_0.1_or_gt_0.9": 96,
+ "errors_score_0.4_0.6": 11,
+ "neg_compounds_with_training_interactions": 1928,
+ "fp_compounds_with_training_interactions": 64,
+ "fn_protein_deg_0": 34,
+ "pos_protein_deg_0": 66,
+ "fn_protein_deg_1_5": 39,
+ "pos_protein_deg_1_5": 292,
+ "fn_protein_deg_gt5": 9,
+ "pos_protein_deg_gt5": 88,
+ "fn_compound_deg_median": 10.0,
+ "tp_compound_deg_median": 63.0,
+ "n_compounds": 216,
+ "n_compounds_with_error": 75,
+ "n_proteins": 1166,
+ "n_proteins_with_error": 135,
+ "max_errors_per_protein": 3,
+ "top_compounds": [
+  {
+   "id": "CHEMBL249697",
+   "name": "BMS-345541",
+   "errors": 7,
+   "fp": 2,
+   "fn": 5,
+   "n_pos": 11,
+   "train_deg": 17
+  },
+  {
+   "id": "CHEMBL301982",
+   "name": "CELASTROL",
+   "errors": 6,
+   "fp": 1,
+   "fn": 5,
+   "n_pos": 5,
+   "train_deg": 10
+  },
+  {
+   "id": "CHEMBL220241",
+   "name": "GSK-269962A",
+   "errors": 5,
+   "fp": 4,
+   "fn": 1,
+   "n_pos": 5,
+   "train_deg": 38
+  },
+  {
+   "id": "CHEMBL3301610",
+   "name": "ABEMACICLIB",
+   "errors": 4,
+   "fp": 1,
+   "fn": 3,
+   "n_pos": 9,
+   "train_deg": 30
+  },
+  {
+   "id": "CHEMBL535",
+   "name": "SUNITINIB",
+   "errors": 4,
+   "fp": 4,
+   "fn": 0,
+   "n_pos": 48,
+   "train_deg": 229
+  },
+  {
+   "id": "CHEMBL1980391",
+   "name": "RG-1530",
+   "errors": 4,
+   "fp": 4,
+   "fn": 0,
+   "n_pos": 12,
+   "train_deg": 63
+  },
+  {
+   "id": "CHEMBL98",
+   "name": "VORINOSTAT",
+   "errors": 4,
+   "fp": 2,
+   "fn": 2,
+   "n_pos": 3,
+   "train_deg": 24
+  },
+  {
+   "id": "CHEMBL1448",
+   "name": "NICLOSAMIDE",
+   "errors": 4,
+   "fp": 1,
+   "fn": 3,
+   "n_pos": 4,
+   "train_deg": 25
+  }
+ ],
+ "knn_outcome_composition": {
+  "TP": {
+   "TP": 0.7175824175824176,
+   "FN": 0.01703296703296703,
+   "FP": 0.05054945054945055,
+   "TN": 0.21483516483516482
+  },
+  "FN": {
+   "TP": 0.41097560975609754,
+   "FN": 0.03780487804878049,
+   "FP": 0.05975609756097561,
+   "TN": 0.49146341463414633
+  },
+  "FP": {
+   "TP": 0.5338461538461539,
+   "FN": 0.047692307692307694,
+   "FP": 0.021538461538461538,
+   "TN": 0.39692307692307693
+  },
+  "TN": {
+   "TP": 0.2215242494226328,
+   "FN": 0.023741339491916858,
+   "FP": 0.02678983833718245,
+   "TN": 0.7279445727482678
+  }
+ },
+ "knn_same_label_pos": 0.6820627802690583,
+ "knn_same_label_neg": 0.744932735426009
+}
+{'compound_id': 'CHEMBL328673', 'compound_name': '', 'protein_id': 'CHEMBL4685', 'protein_name': 'Indoleamine 2,3-dioxygenase 1', 'outcome': 'FN', 'score': 2.0156393101909004e-13, 'compound_train_deg': 0, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL4288751', 'compound_name': '', 'protein_id': 'CHEMBL4296242', 'protein_name': 'Connector enhancer of kinase suppressor of ras 1', 'outcome': 'FN', 'score': 2.474907501159862e-10, 'compound_train_deg': 0, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL159', 'compound_name': 'VINBLASTINE', 'protein_id': 'CHEMBL3467', 'protein_name': 'ATP-dependent translocase ABCB1', 'outcome': 'FN', 'score': 8.62277715896198e-08, 'compound_train_deg': 2, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL259181', 'compound_name': '', 'protein_id': 'CHEMBL5465332', 'protein_name': 'ADP-ribosylation factor GTPase-activating protein 1', 'outcome': 'FN', 'score': 1.6461839891235286e-07, 'compound_train_deg': 1, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL441158', 'compound_name': '', 'protein_id': 'CHEMBL247', 'protein_name': 'Human immunodeficiency virus type 1 reverse transcriptase', 'outcome': 'FN', 'score': 4.167282270373107e-07, 'compound_train_deg': 0, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL3545185', 'compound_name': 'SELINEXOR', 'protein_id': 'CHEMBL5661', 'protein_name': 'Exportin-1', 'outcome': 'FN', 'score': 6.00140594997356e-07, 'compound_train_deg': 1, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL18981', 'compound_name': 'THIOCOLCHICINE', 'protein_id': 'CHEMBL3394', 'protein_name': 'Tubulin beta chain', 'outcome': 'FN', 'score': 6.30216618446866e-07, 'compound_train_deg': 1, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL472940', 'compound_name': '', 'protein_id': 'CHEMBL4600', 'protein_name': 'Serine/threonine-protein kinase PAK 1', 'outcome': 'FN', 'score': 2.1781611394544598e-06, 'compound_train_deg': 1, 'protein_train_deg': 2}
+{'compound_id': 'CHEMBL465843', 'compound_name': 'PIPLARTINE', 'protein_id': 'CHEMBL1927', 'protein_name': 'Thioredoxin reductase 1, cytoplasmic', 'outcome': 'FN', 'score': 2.2141846329759574e-06, 'compound_train_deg': 5, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL26559', 'compound_name': '', 'protein_id': 'CHEMBL2742', 'protein_name': 'Fibroblast growth factor receptor 3', 'outcome': 'FN', 'score': 2.407934061920969e-06, 'compound_train_deg': 1, 'protein_train_deg': 4}
+{'compound_id': 'CHEMBL185', 'compound_name': 'FLUOROURACIL', 'protein_id': 'CHEMBL1978', 'protein_name': 'Aromatase', 'outcome': 'FN', 'score': 3.6313799682829995e-06, 'compound_train_deg': 8, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL274070', 'compound_name': '9-AMINOCAMPTOTHECIN', 'protein_id': 'CHEMBL1293234', 'protein_name': 'Fructose-bisphosphate aldolase', 'outcome': 'FN', 'score': 3.7243762562866323e-06, 'compound_train_deg': 2, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL53463', 'compound_name': 'DOXORUBICIN', 'protein_id': 'CHEMBL4722', 'protein_name': 'Aurora kinase A', 'outcome': 'FN', 'score': 5.087568752060179e-06, 'compound_train_deg': 12, 'protein_train_deg': 7}
+{'compound_id': 'CHEMBL595583', 'compound_name': '', 'protein_id': 'CHEMBL4523286', 'protein_name': 'GRB2-associated-binding protein 1', 'outcome': 'FN', 'score': 8.556899047107436e-06, 'compound_train_deg': 2, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL325041', 'compound_name': 'BORTEZOMIB', 'protein_id': 'CHEMBL5631', 'protein_name': 'Beta-carbonic anhydrase 1', 'outcome': 'FN', 'score': 2.3969891117303632e-05, 'compound_train_deg': 26, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL301982', 'compound_name': 'CELASTROL', 'protein_id': 'CHEMBL4971', 'protein_name': 'Cytochrome P450 2C11', 'outcome': 'FN', 'score': 3.0482307920465246e-05, 'compound_train_deg': 10, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL64925', 'compound_name': 'MG-132', 'protein_id': 'CHEMBL4523582', 'protein_name': 'Replicase polyprotein 1ab', 'outcome': 'FN', 'score': 3.176890459144488e-05, 'compound_train_deg': 6, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL558642', 'compound_name': 'GSK-650394', 'protein_id': 'CHEMBL4722', 'protein_name': 'Aurora kinase A', 'outcome': 'FN', 'score': 4.156180875725113e-05, 'compound_train_deg': 1, 'protein_train_deg': 7}
+{'compound_id': 'CHEMBL301982', 'compound_name': 'CELASTROL', 'protein_id': 'CHEMBL4685', 'protein_name': 'Indoleamine 2,3-dioxygenase 1', 'outcome': 'FN', 'score': 8.280595648102462e-05, 'compound_train_deg': 10, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL182032', 'compound_name': '', 'protein_id': 'CHEMBL4411', 'protein_name': 'Prostaglandin E synthase 2', 'outcome': 'FN', 'score': 9.488956129644066e-05, 'compound_train_deg': 1, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL310396', 'compound_name': '', 'protein_id': 'CHEMBL1947', 'protein_name': 'Thyroid hormone receptor beta', 'outcome': 'FN', 'score': 0.00014164995809551328, 'compound_train_deg': 7, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL1601133', 'compound_name': '', 'protein_id': 'CHEMBL1293228', 'protein_name': 'Streptokinase A', 'outcome': 'FN', 'score': 0.00018487639317754656, 'compound_train_deg': 9, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL301982', 'compound_name': 'CELASTROL', 'protein_id': 'CHEMBL1926497', 'protein_name': 'NADPH oxidase 5', 'outcome': 'FN', 'score': 0.00021069232025183737, 'compound_train_deg': 10, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL1091644', 'compound_name': 'LINSITINIB', 'protein_id': 'CHEMBL5393', 'protein_name': 'Broad substrate specificity ATP-binding cassette transporter ABCG2', 'outcome': 'FN', 'score': 0.0002254217106383294, 'compound_train_deg': 16, 'protein_train_deg': 4}
+{'compound_id': 'CHEMBL107', 'compound_name': 'COLCHICINE', 'protein_id': 'CHEMBL5444', 'protein_name': 'Tubulin beta-5 chain', 'outcome': 'FN', 'score': 0.00024121554451994598, 'compound_train_deg': 16, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL413', 'compound_name': 'SIROLIMUS', 'protein_id': 'CHEMBL2430', 'protein_name': 'Peptidyl-prolyl cis-trans isomerase FKBP1B', 'outcome': 'FN', 'score': 0.00028695474611595273, 'compound_train_deg': 17, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL356066', 'compound_name': 'DACINOSTAT', 'protein_id': 'CHEMBL3310', 'protein_name': 'Histone deacetylase 11', 'outcome': 'FN', 'score': 0.00032002112129703164, 'compound_train_deg': 7, 'protein_train_deg': 2}
+{'compound_id': 'CHEMBL513909', 'compound_name': 'BI-2536', 'protein_id': 'CHEMBL1075181', 'protein_name': 'Pyridoxal kinase', 'outcome': 'FN', 'score': 0.0005486491718329489, 'compound_train_deg': 61, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL449158', 'compound_name': 'BRYOSTATIN 1', 'protein_id': 'CHEMBL299', 'protein_name': 'Protein kinase C alpha type', 'outcome': 'FN', 'score': 0.0005844733095727861, 'compound_train_deg': 1, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL58', 'compound_name': 'MITOXANTRONE', 'protein_id': 'CHEMBL3108645', 'protein_name': 'Histone-lysine N-methyltransferase NSD2', 'outcome': 'FN', 'score': 0.0010324370814487338, 'compound_train_deg': 31, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL90555', 'compound_name': 'VINCRISTINE', 'protein_id': 'CHEMBL5514', 'protein_name': 'Huntingtin', 'outcome': 'FN', 'score': 0.0010637459345161915, 'compound_train_deg': 3, 'protein_train_deg': 8}
+{'compound_id': 'CHEMBL413', 'compound_name': 'SIROLIMUS', 'protein_id': 'CHEMBL1951', 'protein_name': 'Amine oxidase [flavin-containing] A', 'outcome': 'FN', 'score': 0.0012002981966361403, 'compound_train_deg': 17, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL200976', 'compound_name': '', 'protein_id': 'CHEMBL279', 'protein_name': 'Vascular endothelial growth factor receptor 2', 'outcome': 'FN', 'score': 0.0013273211661726236, 'compound_train_deg': 1, 'protein_train_deg': 6}
+{'compound_id': 'CHEMBL3301610', 'compound_name': 'ABEMACICLIB', 'protein_id': 'CHEMBL288', 'protein_name': "3',5'-cyclic-AMP phosphodiesterase 4D", 'outcome': 'FN', 'score': 0.0013350225053727627, 'compound_train_deg': 30, 'protein_train_deg': 2}
+{'compound_id': 'CHEMBL159', 'compound_name': 'VINBLASTINE', 'protein_id': 'CHEMBL3186', 'protein_name': 'Beta tubulin', 'outcome': 'FN', 'score': 0.0014355314197018743, 'compound_train_deg': 2, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL300389', 'compound_name': '', 'protein_id': 'CHEMBL1293251', 'protein_name': 'ATP-dependent molecular chaperone HSP82', 'outcome': 'FN', 'score': 0.0015653715236112475, 'compound_train_deg': 7, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL131', 'compound_name': 'PREDNISOLONE', 'protein_id': 'CHEMBL5738', 'protein_name': 'Fatty acid-binding protein, liver', 'outcome': 'FN', 'score': 0.0018508144421502948, 'compound_train_deg': 11, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL1448', 'compound_name': 'NICLOSAMIDE', 'protein_id': 'CHEMBL4523582', 'protein_name': 'Replicase polyprotein 1ab', 'outcome': 'FN', 'score': 0.001876200782135129, 'compound_train_deg': 25, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL107', 'compound_name': 'COLCHICINE', 'protein_id': 'CHEMBL5747', 'protein_name': 'CREB-binding protein', 'outcome': 'FN', 'score': 0.0022650687023997307, 'compound_train_deg': 16, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL1256459', 'compound_name': 'TORIN1', 'protein_id': 'CHEMBL3268', 'protein_name': 'Phosphatidylinositol 4-kinase beta', 'outcome': 'FN', 'score': 0.00423488998785615, 'compound_train_deg': 10, 'protein_train_deg': 2}
+{'compound_id': 'CHEMBL202244', 'compound_name': '', 'protein_id': 'CHEMBL279', 'protein_name': 'Vascular endothelial growth factor receptor 2', 'outcome': 'FN', 'score': 0.004297755192965269, 'compound_train_deg': 2, 'protein_train_deg': 6}
+{'compound_id': 'CHEMBL178', 'compound_name': 'DAUNORUBICIN', 'protein_id': 'CHEMBL3401', 'protein_name': 'Nuclear receptor subfamily 1 group I member 2', 'outcome': 'FN', 'score': 0.005933754611760378, 'compound_train_deg': 14, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL325041', 'compound_name': 'BORTEZOMIB', 'protein_id': 'CHEMBL248', 'protein_name': 'Neutrophil elastase', 'outcome': 'FN', 'score': 0.0061567313969135284, 'compound_train_deg': 26, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL249697', 'compound_name': 'BMS-345541', 'protein_id': 'CHEMBL1908385', 'protein_name': 'Serine/threonine-protein kinase PknB', 'outcome': 'FN', 'score': 0.006605147384107113, 'compound_train_deg': 17, 'protein_train_deg': 2}
+{'compound_id': 'CHEMBL413', 'compound_name': 'SIROLIMUS', 'protein_id': 'CHEMBL4848', 'protein_name': 'Eukaryotic translation initiation factor 4E', 'outcome': 'FN', 'score': 0.006731837522238493, 'compound_train_deg': 17, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL34259', 'compound_name': 'METHOTREXATE', 'protein_id': 'CHEMBL3243913', 'protein_name': 'Dihydrofolate reductase', 'outcome': 'FN', 'score': 0.008656052872538567, 'compound_train_deg': 20, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL249697', 'compound_name': 'BMS-345541', 'protein_id': 'CHEMBL301', 'protein_name': 'Cyclin-dependent kinase 2', 'outcome': 'FN', 'score': 0.009133168496191502, 'compound_train_deg': 17, 'protein_train_deg': 3}
+{'compound_id': 'CHEMBL803', 'compound_name': 'CYTARABINE', 'protein_id': 'CHEMBL1795089', 'protein_name': 'Latent membrane protein 1', 'outcome': 'FN', 'score': 0.010577213019132614, 'compound_train_deg': 4, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL300389', 'compound_name': '', 'protein_id': 'CHEMBL1795195', 'protein_name': 'Serine/threonine-protein kinase SMG1', 'outcome': 'FN', 'score': 0.013170313090085983, 'compound_train_deg': 7, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL98', 'compound_name': 'VORINOSTAT', 'protein_id': 'CHEMBL1795094', 'protein_name': 'Nuclear receptor subfamily 0 group B member 1', 'outcome': 'FN', 'score': 0.017043352127075195, 'compound_train_deg': 24, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL64925', 'compound_name': 'MG-132', 'protein_id': 'CHEMBL2382', 'protein_name': 'Calpain-2 catalytic subunit', 'outcome': 'FN', 'score': 0.01983584091067314, 'compound_train_deg': 6, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL338790', 'compound_name': '', 'protein_id': 'CHEMBL3468', 'protein_name': 'Caspase-7', 'outcome': 'FN', 'score': 0.026470480486750603, 'compound_train_deg': 7, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL558642', 'compound_name': 'GSK-650394', 'protein_id': 'CHEMBL5256', 'protein_name': 'Calcium/calmodulin-dependent protein kinase kinase 1', 'outcome': 'FN', 'score': 0.027127256616950035, 'compound_train_deg': 1, 'protein_train_deg': 5}
+{'compound_id': 'CHEMBL67', 'compound_name': 'COMBRETASTATIN A4', 'protein_id': 'CHEMBL2597', 'protein_name': 'Tubulin beta-3 chain', 'outcome': 'FN', 'score': 0.029828187078237534, 'compound_train_deg': 1, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL98', 'compound_name': 'VORINOSTAT', 'protein_id': 'CHEMBL1163125', 'protein_name': 'Bromodomain-containing protein 4', 'outcome': 'FN', 'score': 0.036499131470918655, 'compound_train_deg': 24, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL48449', 'compound_name': 'CANTHARIDIN', 'protein_id': 'CHEMBL4703', 'protein_name': 'Serine/threonine-protein phosphatase 2A catalytic subunit alpha isoform', 'outcome': 'FN', 'score': 0.0366169735789299, 'compound_train_deg': 11, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL67', 'compound_name': 'COMBRETASTATIN A4', 'protein_id': 'CHEMBL3394', 'protein_name': 'Tubulin beta chain', 'outcome': 'FN', 'score': 0.04850013926625252, 'compound_train_deg': 1, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL84', 'compound_name': 'TOPOTECAN', 'protein_id': 'CHEMBL4261', 'protein_name': 'Hypoxia-inducible factor 1-alpha', 'outcome': 'FN', 'score': 0.05705982819199562, 'compound_train_deg': 3, 'protein_train_deg': 9}
+{'compound_id': 'CHEMBL131037', 'compound_name': '', 'protein_id': 'CHEMBL1293294', 'protein_name': 'Ras-related protein Rab-9A', 'outcome': 'FN', 'score': 0.05768534168601036, 'compound_train_deg': 10, 'protein_train_deg': 5}
+{'compound_id': 'CHEMBL131037', 'compound_name': '', 'protein_id': 'CHEMBL5313', 'protein_name': 'Heat shock factor protein 1', 'outcome': 'FN', 'score': 0.09072812646627426, 'compound_train_deg': 10, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL939', 'compound_name': 'GEFITINIB', 'protein_id': 'CHEMBL3832', 'protein_name': 'Serine/threonine-protein kinase ULK3', 'outcome': 'FN', 'score': 0.09559179097414017, 'compound_train_deg': 61, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL301982', 'compound_name': 'CELASTROL', 'protein_id': 'CHEMBL1287627', 'protein_name': 'NADPH oxidase 2', 'outcome': 'FN', 'score': 0.10043905675411224, 'compound_train_deg': 10, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL249697', 'compound_name': 'BMS-345541', 'protein_id': 'CHEMBL5416', 'protein_name': 'Cyclin-dependent kinase 11A', 'outcome': 'FN', 'score': 0.12423868477344513, 'compound_train_deg': 17, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL107', 'compound_name': 'COLCHICINE', 'protein_id': 'CHEMBL3397', 'protein_name': 'Cytochrome P450 2C9', 'outcome': 'FN', 'score': 0.1312970668077469, 'compound_train_deg': 16, 'protein_train_deg': 4}
+{'compound_id': 'CHEMBL58', 'compound_name': 'MITOXANTRONE', 'protein_id': 'CHEMBL1806', 'protein_name': 'DNA topoisomerase 2-alpha', 'outcome': 'FN', 'score': 0.13349461555480957, 'compound_train_deg': 31, 'protein_train_deg': 4}
+{'compound_id': 'CHEMBL65', 'compound_name': 'CAMPTOTHECIN', 'protein_id': 'CHEMBL1293256', 'protein_name': 'Thrombopoietin', 'outcome': 'FN', 'score': 0.17851199209690094, 'compound_train_deg': 21, 'protein_train_deg': 6}
+{'compound_id': 'CHEMBL3301610', 'compound_name': 'ABEMACICLIB', 'protein_id': 'CHEMBL6029', 'protein_name': 'Eukaryotic translation initiation factor 2-alpha kinase 1', 'outcome': 'FN', 'score': 0.21532092988491058, 'compound_train_deg': 30, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL1173655', 'compound_name': 'AFATINIB', 'protein_id': 'CHEMBL2349', 'protein_name': 'Phosphorylase b kinase gamma catalytic chain, liver/testis isoform', 'outcome': 'FN', 'score': 0.22313237190246582, 'compound_train_deg': 25, 'protein_train_deg': 5}
+{'compound_id': 'CHEMBL575448', 'compound_name': 'BMS-754807', 'protein_id': 'CHEMBL2695', 'protein_name': 'Focal adhesion kinase 1', 'outcome': 'FN', 'score': 0.30093109607696533, 'compound_train_deg': 16, 'protein_train_deg': 4}
+{'compound_id': 'CHEMBL1448', 'compound_name': 'NICLOSAMIDE', 'protein_id': 'CHEMBL2026', 'protein_name': 'Beta-lactamase', 'outcome': 'FN', 'score': 0.3055305480957031, 'compound_train_deg': 25, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL1448', 'compound_name': 'NICLOSAMIDE', 'protein_id': 'CHEMBL2842', 'protein_name': 'Serine/threonine-protein kinase mTOR', 'outcome': 'FN', 'score': 0.3081623613834381, 'compound_train_deg': 25, 'protein_train_deg': 7}
+{'compound_id': 'CHEMBL249697', 'compound_name': 'BMS-345541', 'protein_id': 'CHEMBL5426', 'protein_name': 'Myosin light chain kinase family member 4', 'outcome': 'FN', 'score': 0.31827160716056824, 'compound_train_deg': 17, 'protein_train_deg': 2}
+{'compound_id': 'CHEMBL301982', 'compound_name': 'CELASTROL', 'protein_id': 'CHEMBL1250375', 'protein_name': 'NADPH oxidase 4', 'outcome': 'FN', 'score': 0.3601362705230713, 'compound_train_deg': 10, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL220241', 'compound_name': 'GSK-269962A', 'protein_id': 'CHEMBL3231', 'protein_name': 'Rho-associated protein kinase 1', 'outcome': 'FN', 'score': 0.3631117641925812, 'compound_train_deg': 38, 'protein_train_deg': 2}
+{'compound_id': 'CHEMBL3301610', 'compound_name': 'ABEMACICLIB', 'protein_id': 'CHEMBL308', 'protein_name': 'Cyclin-dependent kinase 1', 'outcome': 'FN', 'score': 0.37677502632141113, 'compound_train_deg': 30, 'protein_train_deg': 4}
+{'compound_id': 'CHEMBL1173655', 'compound_name': 'AFATINIB', 'protein_id': 'CHEMBL4004', 'protein_name': 'Phosphorylase b kinase gamma catalytic chain, skeletal muscle/heart isoform', 'outcome': 'FN', 'score': 0.3781306743621826, 'compound_train_deg': 25, 'protein_train_deg': 2}
+{'compound_id': 'CHEMBL1601133', 'compound_name': '', 'protein_id': 'CHEMBL1293277', 'protein_name': 'NPC intracellular cholesterol transporter 1', 'outcome': 'FN', 'score': 0.39523446559906006, 'compound_train_deg': 9, 'protein_train_deg': 6}
+{'compound_id': 'CHEMBL356066', 'compound_name': 'DACINOSTAT', 'protein_id': 'CHEMBL3524', 'protein_name': 'Histone deacetylase 4', 'outcome': 'FN', 'score': 0.4068506062030792, 'compound_train_deg': 7, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL249697', 'compound_name': 'BMS-345541', 'protein_id': 'CHEMBL5261', 'protein_name': 'Serine/threonine-protein kinase TAO1', 'outcome': 'FN', 'score': 0.40922126173973083, 'compound_train_deg': 17, 'protein_train_deg': 4}
+{'compound_id': 'CHEMBL65', 'compound_name': 'CAMPTOTHECIN', 'protein_id': 'CHEMBL1293278', 'protein_name': 'Geminin', 'outcome': 'FN', 'score': 0.41682928800582886, 'compound_train_deg': 21, 'protein_train_deg': 3}
+{'compound_id': 'CHEMBL123', 'compound_name': 'ELLIPTECINE', 'protein_id': 'CHEMBL1293285', 'protein_name': 'Endonuclease 4', 'outcome': 'FN', 'score': 0.4211157560348511, 'compound_train_deg': 18, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL123', 'compound_name': 'ELLIPTECINE', 'protein_id': 'CHEMBL1293228', 'protein_name': 'Streptokinase A', 'outcome': 'FN', 'score': 0.4349932074546814, 'compound_train_deg': 18, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL1448', 'compound_name': 'NICLOSAMIDE', 'protein_id': 'CHEMBL4438', 'protein_name': 'Serine/threonine-protein phosphatase PP1-gamma catalytic subunit', 'outcome': 'FP', 'score': 0.5218641757965088, 'compound_train_deg': 25, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL283120', 'compound_name': 'AXL-1717', 'protein_id': 'CHEMBL2046267', 'protein_name': 'Anoctamin-1', 'outcome': 'FP', 'score': 0.5241292715072632, 'compound_train_deg': 2, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL67', 'compound_name': 'COMBRETASTATIN A4', 'protein_id': 'CHEMBL1641355', 'protein_name': 'Aldehyde oxidase 1', 'outcome': 'FP', 'score': 0.5680890083312988, 'compound_train_deg': 1, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL118218', 'compound_name': 'IROFULVEN', 'protein_id': 'CHEMBL2334', 'protein_name': 'Caspase-3', 'outcome': 'FP', 'score': 0.57845139503479, 'compound_train_deg': 1, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL249697', 'compound_name': 'BMS-345541', 'protein_id': 'CHEMBL5859', 'protein_name': 'RAC-alpha serine/threonine-protein kinase', 'outcome': 'FP', 'score': 0.5812183618545532, 'compound_train_deg': 17, 'protein_train_deg': 2}
+{'compound_id': 'CHEMBL535', 'compound_name': 'SUNITINIB', 'protein_id': 'CHEMBL4071', 'protein_name': 'Cathepsin G', 'outcome': 'FP', 'score': 0.5849454402923584, 'compound_train_deg': 229, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL96926', 'compound_name': 'THAPSIGARGIN', 'protein_id': 'CHEMBL1865', 'protein_name': 'Protein deacetylase HDAC6', 'outcome': 'FP', 'score': 0.6063103079795837, 'compound_train_deg': 4, 'protein_train_deg': 8}
+{'compound_id': 'CHEMBL249697', 'compound_name': 'BMS-345541', 'protein_id': 'CHEMBL1169596', 'protein_name': 'Serine/threonine-protein kinase A-Raf', 'outcome': 'FP', 'score': 0.6293624043464661, 'compound_train_deg': 17, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL1091644', 'compound_name': 'LINSITINIB', 'protein_id': 'CHEMBL4376', 'protein_name': 'Dual specificity tyrosine-phosphorylation-regulated kinase 2', 'outcome': 'FP', 'score': 0.641920804977417, 'compound_train_deg': 16, 'protein_train_deg': 4}
+{'compound_id': 'CHEMBL98', 'compound_name': 'VORINOSTAT', 'protein_id': 'CHEMBL5386', 'protein_name': 'Nucleophosmin', 'outcome': 'FP', 'score': 0.6683434844017029, 'compound_train_deg': 24, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL307794', 'compound_name': '', 'protein_id': 'CHEMBL1955709', 'protein_name': 'Heterogeneous nuclear ribonucleoprotein A1', 'outcome': 'FP', 'score': 0.6965631246566772, 'compound_train_deg': 1, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL53463', 'compound_name': 'DOXORUBICIN', 'protein_id': 'CHEMBL2073', 'protein_name': 'Tyrosine-protein kinase Yes', 'outcome': 'FP', 'score': 0.7016600370407104, 'compound_train_deg': 12, 'protein_train_deg': 3}
+{'compound_id': 'CHEMBL58', 'compound_name': 'MITOXANTRONE', 'protein_id': 'CHEMBL2777', 'protein_name': 'Myosin light chain kinase 2, skeletal/cardiac muscle', 'outcome': 'FP', 'score': 0.7024843096733093, 'compound_train_deg': 31, 'protein_train_deg': 2}
+{'compound_id': 'CHEMBL356066', 'compound_name': 'DACINOSTAT', 'protein_id': 'CHEMBL1293235', 'protein_name': 'Prelamin-A/C', 'outcome': 'FP', 'score': 0.7042800188064575, 'compound_train_deg': 7, 'protein_train_deg': 12}
+{'compound_id': 'CHEMBL185', 'compound_name': 'FLUOROURACIL', 'protein_id': 'CHEMBL1293254', 'protein_name': 'Ferritin light chain', 'outcome': 'FP', 'score': 0.7256624102592468, 'compound_train_deg': 8, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL81111', 'compound_name': '', 'protein_id': 'CHEMBL208', 'protein_name': 'Progesterone receptor', 'outcome': 'FP', 'score': 0.7443253993988037, 'compound_train_deg': 1, 'protein_train_deg': 4}
+{'compound_id': 'CHEMBL379849', 'compound_name': '', 'protein_id': 'CHEMBL3004', 'protein_name': 'Multidrug resistance-associated protein 1', 'outcome': 'FP', 'score': 0.746915340423584, 'compound_train_deg': 3, 'protein_train_deg': 2}
+{'compound_id': 'CHEMBL509032', 'compound_name': 'TAE-684', 'protein_id': 'CHEMBL3492', 'protein_name': 'Proteasome Macropain subunit', 'outcome': 'FP', 'score': 0.7533865571022034, 'compound_train_deg': 212, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL535', 'compound_name': 'SUNITINIB', 'protein_id': 'CHEMBL2146312', 'protein_name': "Bifunctional 3'-5' exonuclease/ATP-dependent helicase WRN", 'outcome': 'FP', 'score': 0.7569589018821716, 'compound_train_deg': 229, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL939', 'compound_name': 'GEFITINIB', 'protein_id': 'CHEMBL5007', 'protein_name': 'Zinc finger protein GLI1', 'outcome': 'FP', 'score': 0.7690457701683044, 'compound_train_deg': 61, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL359744', 'compound_name': 'DOXORUBICIN HYDROCHLORIDE', 'protein_id': 'CHEMBL2563', 'protein_name': 'Histone deacetylase 5', 'outcome': 'FP', 'score': 0.7711699604988098, 'compound_train_deg': 14, 'protein_train_deg': 4}
+{'compound_id': 'CHEMBL131037', 'compound_name': '', 'protein_id': 'CHEMBL3797017', 'protein_name': 'Histone deacetylase 8', 'outcome': 'FP', 'score': 0.7767107486724854, 'compound_train_deg': 10, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL123', 'compound_name': 'ELLIPTECINE', 'protein_id': 'CHEMBL3394', 'protein_name': 'Tubulin beta chain', 'outcome': 'FP', 'score': 0.7827520370483398, 'compound_train_deg': 18, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL65', 'compound_name': 'CAMPTOTHECIN', 'protein_id': 'CHEMBL3004', 'protein_name': 'Multidrug resistance-associated protein 1', 'outcome': 'FP', 'score': 0.8411885499954224, 'compound_train_deg': 21, 'protein_train_deg': 2}
+{'compound_id': 'CHEMBL506862', 'compound_name': '', 'protein_id': 'CHEMBL2637', 'protein_name': 'Mitogen-activated protein kinase 10', 'outcome': 'FP', 'score': 0.8464491963386536, 'compound_train_deg': 2, 'protein_train_deg': 6}
+{'compound_id': 'CHEMBL196185', 'compound_name': '', 'protein_id': 'CHEMBL3144', 'protein_name': 'Glucocorticoid receptor', 'outcome': 'FP', 'score': 0.867143452167511, 'compound_train_deg': 0, 'protein_train_deg': 10}
+{'compound_id': 'CHEMBL428647', 'compound_name': 'PACLITAXEL', 'protein_id': 'CHEMBL1936', 'protein_name': 'Mast/stem cell growth factor receptor Kit', 'outcome': 'FP', 'score': 0.8697689175605774, 'compound_train_deg': 17, 'protein_train_deg': 10}
+{'compound_id': 'CHEMBL220241', 'compound_name': 'GSK-269962A', 'protein_id': 'CHEMBL5284', 'protein_name': 'Calcium/calmodulin-dependent protein kinase kinase 2', 'outcome': 'FP', 'score': 0.879920244216919, 'compound_train_deg': 38, 'protein_train_deg': 4}
+{'compound_id': 'CHEMBL513909', 'compound_name': 'BI-2536', 'protein_id': 'CHEMBL5490', 'protein_name': 'Rho-associated protein kinase 2', 'outcome': 'FP', 'score': 0.8849401473999023, 'compound_train_deg': 61, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL43', 'compound_name': 'AMSACRINE', 'protein_id': 'CHEMBL5564', 'protein_name': 'DNA topoisomerase 2-beta', 'outcome': 'FP', 'score': 0.8892850279808044, 'compound_train_deg': 23, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL535', 'compound_name': 'SUNITINIB', 'protein_id': 'CHEMBL1293228', 'protein_name': 'Streptokinase A', 'outcome': 'FP', 'score': 0.9101556539535522, 'compound_train_deg': 229, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL1980391', 'compound_name': 'RG-1530', 'protein_id': 'CHEMBL5686', 'protein_name': 'ATP-dependent 6-phosphofructokinase', 'outcome': 'FP', 'score': 0.9115681052207947, 'compound_train_deg': 63, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL17289', 'compound_name': 'CHS-828', 'protein_id': 'CHEMBL4282', 'protein_name': 'RAC-alpha serine/threonine-protein kinase', 'outcome': 'FP', 'score': 0.9203579425811768, 'compound_train_deg': 5, 'protein_train_deg': 7}
+{'compound_id': 'CHEMBL48449', 'compound_name': 'CANTHARIDIN', 'protein_id': 'CHEMBL3864', 'protein_name': 'Tyrosine-protein phosphatase non-receptor type 11', 'outcome': 'FP', 'score': 0.9242319464683533, 'compound_train_deg': 11, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL64925', 'compound_name': 'MG-132', 'protein_id': 'CHEMBL1681620', 'protein_name': 'Dihydrofolate reductase', 'outcome': 'FP', 'score': 0.9321240782737732, 'compound_train_deg': 6, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL608533', 'compound_name': 'MIDOSTAURIN', 'protein_id': 'CHEMBL2288', 'protein_name': 'Peptidyl-prolyl cis-trans isomerase NIMA-interacting 1', 'outcome': 'FP', 'score': 0.9352441430091858, 'compound_train_deg': 145, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL107', 'compound_name': 'COLCHICINE', 'protein_id': 'CHEMBL1743127', 'protein_name': 'Multidrug and toxin extrusion protein 2', 'outcome': 'FP', 'score': 0.955232560634613, 'compound_train_deg': 16, 'protein_train_deg': 2}
+{'compound_id': 'CHEMBL423439', 'compound_name': '', 'protein_id': 'CHEMBL3186', 'protein_name': 'Beta tubulin', 'outcome': 'FP', 'score': 0.9579121470451355, 'compound_train_deg': 1, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL514499', 'compound_name': 'GW843682X', 'protein_id': 'CHEMBL4853', 'protein_name': 'Mitogen-activated protein kinase kinase kinase 4', 'outcome': 'FP', 'score': 0.9633986949920654, 'compound_train_deg': 27, 'protein_train_deg': 3}
+{'compound_id': 'CHEMBL98', 'compound_name': 'VORINOSTAT', 'protein_id': 'CHEMBL1293238', 'protein_name': 'Inositol monophosphatase 1', 'outcome': 'FP', 'score': 0.9653152823448181, 'compound_train_deg': 24, 'protein_train_deg': 3}
+{'compound_id': 'CHEMBL3301610', 'compound_name': 'ABEMACICLIB', 'protein_id': 'CHEMBL1163129', 'protein_name': 'Serine/threonine-protein kinase SBK1', 'outcome': 'FP', 'score': 0.9667336344718933, 'compound_train_deg': 30, 'protein_train_deg': 4}
+{'compound_id': 'CHEMBL220241', 'compound_name': 'GSK-269962A', 'protein_id': 'CHEMBL4522', 'protein_name': 'BMP-2-inducible protein kinase', 'outcome': 'FP', 'score': 0.9706913828849792, 'compound_train_deg': 38, 'protein_train_deg': 4}
+{'compound_id': 'CHEMBL1563', 'compound_name': 'DAUNORUBICIN HYDROCHLORIDE', 'protein_id': 'CHEMBL5118', 'protein_name': 'Replicase polyprotein 1ab', 'outcome': 'FP', 'score': 0.9707140326499939, 'compound_train_deg': 9, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL608533', 'compound_name': 'MIDOSTAURIN', 'protein_id': 'CHEMBL3337330', 'protein_name': 'Serine/threonine-protein kinase PINK1, mitochondrial', 'outcome': 'FP', 'score': 0.9708772897720337, 'compound_train_deg': 145, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL1563', 'compound_name': 'DAUNORUBICIN HYDROCHLORIDE', 'protein_id': 'CHEMBL1841', 'protein_name': 'Tyrosine-protein kinase Fyn', 'outcome': 'FP', 'score': 0.9733414649963379, 'compound_train_deg': 9, 'protein_train_deg': 7}
+{'compound_id': 'CHEMBL1563', 'compound_name': 'DAUNORUBICIN HYDROCHLORIDE', 'protein_id': 'CHEMBL2146315', 'protein_name': 'Nuclear receptor subfamily 1 group I member 2', 'outcome': 'FP', 'score': 0.974334716796875, 'compound_train_deg': 9, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL939', 'compound_name': 'GEFITINIB', 'protein_id': 'CHEMBL4093', 'protein_name': 'Oxysterols receptor LXR-beta', 'outcome': 'FP', 'score': 0.9755280613899231, 'compound_train_deg': 61, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL428690', 'compound_name': 'ALVOCIDIB', 'protein_id': 'CHEMBL4383', 'protein_name': 'Gastric inhibitory polypeptide receptor', 'outcome': 'FP', 'score': 0.982667863368988, 'compound_train_deg': 107, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL301982', 'compound_name': 'CELASTROL', 'protein_id': 'CHEMBL3468', 'protein_name': 'Caspase-7', 'outcome': 'FP', 'score': 0.983123779296875, 'compound_train_deg': 10, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL1980391', 'compound_name': 'RG-1530', 'protein_id': 'CHEMBL5435', 'protein_name': 'Serine/threonine-protein kinase ULK2', 'outcome': 'FP', 'score': 0.9904170036315918, 'compound_train_deg': 63, 'protein_train_deg': 2}
+{'compound_id': 'CHEMBL9470', 'compound_name': 'SHIKONIN', 'protein_id': 'CHEMBL4938', 'protein_name': 'Adenylate kinase 2, mitochondrial', 'outcome': 'FP', 'score': 0.9916062355041504, 'compound_train_deg': 7, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL359744', 'compound_name': 'DOXORUBICIN HYDROCHLORIDE', 'protein_id': 'CHEMBL1741165', 'protein_name': 'Microphthalmia-associated transcription factor', 'outcome': 'FP', 'score': 0.9925475716590881, 'compound_train_deg': 14, 'protein_train_deg': 3}
+{'compound_id': 'CHEMBL1980391', 'compound_name': 'RG-1530', 'protein_id': 'CHEMBL5679', 'protein_name': 'Serine/threonine-protein kinase Nek3', 'outcome': 'FP', 'score': 0.9934468865394592, 'compound_train_deg': 63, 'protein_train_deg': 2}
+{'compound_id': 'CHEMBL440877', 'compound_name': '', 'protein_id': 'CHEMBL3368', 'protein_name': 'Glucocorticoid receptor', 'outcome': 'FP', 'score': 0.9943569302558899, 'compound_train_deg': 1, 'protein_train_deg': 5}
+{'compound_id': 'CHEMBL1601133', 'compound_name': '', 'protein_id': 'CHEMBL5804', 'protein_name': 'Toll-like receptor 9', 'outcome': 'FP', 'score': 0.9948478937149048, 'compound_train_deg': 9, 'protein_train_deg': 1}
+{'compound_id': 'CHEMBL535', 'compound_name': 'SUNITINIB', 'protein_id': 'CHEMBL2064', 'protein_name': 'Gamma-aminobutyric acid type B receptor subunit 1', 'outcome': 'FP', 'score': 0.9953446984291077, 'compound_train_deg': 229, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL1091644', 'compound_name': 'LINSITINIB', 'protein_id': 'CHEMBL2527', 'protein_name': 'Serine/threonine-protein kinase Chk2', 'outcome': 'FP', 'score': 0.9965673685073853, 'compound_train_deg': 16, 'protein_train_deg': 4}
+{'compound_id': 'CHEMBL220241', 'compound_name': 'GSK-269962A', 'protein_id': 'CHEMBL5274', 'protein_name': 'Tyrosine-protein kinase receptor Tie-1', 'outcome': 'FP', 'score': 0.9966598749160767, 'compound_train_deg': 38, 'protein_train_deg': 2}
+{'compound_id': 'CHEMBL283120', 'compound_name': 'AXL-1717', 'protein_id': 'CHEMBL3586', 'protein_name': 'DNA topoisomerase 2-alpha', 'outcome': 'FP', 'score': 0.9974536299705505, 'compound_train_deg': 2, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL310396', 'compound_name': '', 'protein_id': 'CHEMBL1293278', 'protein_name': 'Geminin', 'outcome': 'FP', 'score': 0.9974783062934875, 'compound_train_deg': 7, 'protein_train_deg': 3}
+{'compound_id': 'CHEMBL220241', 'compound_name': 'GSK-269962A', 'protein_id': 'CHEMBL331', 'protein_name': 'Cyclin-dependent kinase 4', 'outcome': 'FP', 'score': 0.9979436993598938, 'compound_train_deg': 38, 'protein_train_deg': 7}
+{'compound_id': 'CHEMBL509032', 'compound_name': 'TAE-684', 'protein_id': 'CHEMBL1932912', 'protein_name': 'Histone acetyltransferase KAT8', 'outcome': 'FP', 'score': 0.9996373653411865, 'compound_train_deg': 212, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL608533', 'compound_name': 'MIDOSTAURIN', 'protein_id': 'CHEMBL3187', 'protein_name': 'Insulin receptor', 'outcome': 'FP', 'score': 0.9996415376663208, 'compound_train_deg': 145, 'protein_train_deg': 0}
+{'compound_id': 'CHEMBL1980391', 'compound_name': 'RG-1530', 'protein_id': 'CHEMBL5552', 'protein_name': 'Serine/threonine-protein kinase 25', 'outcome': 'FP', 'score': 0.9996563196182251, 'compound_train_deg': 63, 'protein_train_deg': 3}
+{'compound_id': 'CHEMBL573339', 'compound_name': 'PI-103', 'protein_id': 'CHEMBL3879831', 'protein_name': 'Ferrochelatase, mitochondrial', 'outcome': 'FP', 'score': 0.9998162388801575, 'compound_train_deg': 26, 'protein_train_deg': 3}

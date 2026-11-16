@@ -1,0 +1,104 @@
+Beginning AutoGluon training ...
+AutoGluon will save models to "recomb_review/pt14_dtiam/runs/run_53/ag/"
+AutoGluon Version:  0.5.2
+Python Version:     3.9.25
+Operating System:   Linux
+Train Data Rows:    4024
+Train Data Columns: 2048
+Tuning Data Rows:    2544
+Tuning Data Columns: 2048
+Label Column: y
+Preprocessing data ...
+AutoGluon infers your prediction problem is: 'binary' (because only two unique label-values observed).
+	2 unique label values:  [1, 0]
+	If 'binary' is not the correct problem_type, please manually specify the problem_type parameter during predictor init (You may specify problem_type as one of: ['binary', 'multiclass', 'regression'])
+Selected class <--> label mapping:  class 1 = 1, class 0 = 0
+Using Feature Generators to preprocess the data ...
+Fitting AutoMLPipelineFeatureGenerator...
+	Available Memory:                    166114.79 MB
+	Train Data (Original)  Memory Usage: 53.81 MB (0.0% of available memory)
+	Inferring data type of each feature based on column values. Set feature_metadata_in to manually specify special dtypes of the features.
+	Stage 1 Generators:
+		Fitting AsTypeFeatureGenerator...
+			Note: Converting 2 features to boolean dtype as they only contain 2 unique values.
+	Stage 2 Generators:
+		Fitting FillNaFeatureGenerator...
+	Stage 3 Generators:
+		Fitting IdentityFeatureGenerator...
+	Stage 4 Generators:
+		Fitting DropUniqueFeatureGenerator...
+	Types of features in original data (raw dtype, special dtypes):
+		('float', []) : 2048 | ['0', '1', '2', '3', '4', ...]
+	Types of features in processed data (raw dtype, special dtypes):
+		('float', [])     : 2046 | ['0', '1', '2', '3', '4', ...]
+		('int', ['bool']) :    2 | ['540', '725']
+	1.0s = Fit runtime
+	2048 features in original data used to generate 2048 features in processed data.
+	Train Data (Processed) Memory Usage: 53.77 MB (0.0% of available memory)
+Data preprocessing and feature engineering runtime = 1.2s ...
+AutoGluon will gauge predictive performance using evaluation metric: 'roc_auc'
+	This metric expects predicted probabilities rather than predicted class labels, so you'll need to use predict_proba() instead of predict()
+	To change this, specify the eval_metric parameter of Predictor()
+Excluded Model Types: []
+Fitting 13 L1 models ...
+Fitting model: KNeighborsUnif ...
+	0.7655	 = Validation score   (roc_auc)
+	0.18s	 = Training   runtime
+	2.52s	 = Validation runtime
+Fitting model: KNeighborsDist ...
+	0.7732	 = Validation score   (roc_auc)
+	0.28s	 = Training   runtime
+	1.72s	 = Validation runtime
+Fitting model: LightGBMXT ...
+	0.76	 = Validation score   (roc_auc)
+	21.04s	 = Training   runtime
+	0.06s	 = Validation runtime
+Fitting model: LightGBM ...
+	0.7877	 = Validation score   (roc_auc)
+	19.25s	 = Training   runtime
+	0.02s	 = Validation runtime
+Fitting model: RandomForestGini ...
+	0.888	 = Validation score   (roc_auc)
+	3.41s	 = Training   runtime
+	0.04s	 = Validation runtime
+Fitting model: RandomForestEntr ...
+	0.8953	 = Validation score   (roc_auc)
+	2.71s	 = Training   runtime
+	0.05s	 = Validation runtime
+Fitting model: CatBoost ...
+	0.7989	 = Validation score   (roc_auc)
+	40.26s	 = Training   runtime
+	0.01s	 = Validation runtime
+Fitting model: ExtraTreesGini ...
+	0.8925	 = Validation score   (roc_auc)
+	0.59s	 = Training   runtime
+	0.05s	 = Validation runtime
+Fitting model: ExtraTreesEntr ...
+	0.8913	 = Validation score   (roc_auc)
+	0.64s	 = Training   runtime
+	0.05s	 = Validation runtime
+Fitting model: NeuralNetFastAI ...
+	Warning: Exception caused NeuralNetFastAI to fail during training (ImportError)... Skipping this model.
+		Import fastai failed. A quick tip is to install via `pip install autogluon.tabular[fastai]==0.5.2`. 
+Fitting model: XGBoost ...
+/workspace/leadzeppelin/recomb_review/pt14_dtiam/agenv/lib/python3.9/site-packages/xgboost/compat.py:31: FutureWarning: pandas.Int64Index is deprecated and will be removed from pandas in a future version. Use pandas.Index with the appropriate dtype instead.
+  from pandas import MultiIndex, Int64Index
+	0.7678	 = Validation score   (roc_auc)
+	40.12s	 = Training   runtime
+	0.1s	 = Validation runtime
+Fitting model: NeuralNetTorch ...
+	0.9052	 = Validation score   (roc_auc)
+	13.81s	 = Training   runtime
+	0.23s	 = Validation runtime
+Fitting model: LightGBMLarge ...
+	0.7894	 = Validation score   (roc_auc)
+	62.26s	 = Training   runtime
+	0.05s	 = Validation runtime
+Fitting model: WeightedEnsemble_L2 ...
+	0.9137	 = Validation score   (roc_auc)
+	0.66s	 = Training   runtime
+	0.0s	 = Validation runtime
+AutoGluon training complete, total runtime = 213.49s ... Best model: "WeightedEnsemble_L2"
+TabularPredictor saved. To load, use: predictor = TabularPredictor.load("recomb_review/pt14_dtiam/runs/run_53/ag/")
+seed 53 dtiam val_auc=0.9137 best_model=WeightedEnsemble_L2 219s
+seed 53 dtiam lead: top1=2 top10=45

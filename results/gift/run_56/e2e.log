@@ -1,0 +1,19 @@
+Initialized from results/gift/run_56/head/trained_model.pth
+Init (Phase 3a): val_auc(conn,iso)=(0.9585,0.9534) val_ap(conn,iso)=(0.8725,0.8674)
+Step   10: loss=0.0275 val_auc(conn,iso)=(0.9554,0.9519) val_ap(conn,iso)=(0.8712,0.8664) f1@0.5(conn)=0.7768
+Step   20: loss=0.0322 val_auc(conn,iso)=(0.9576,0.9552) val_ap(conn,iso)=(0.8718,0.8681) f1@0.5(conn)=0.7734 *
+Step   30: loss=0.0209 val_auc(conn,iso)=(0.9584,0.9561) val_ap(conn,iso)=(0.8745,0.8718) f1@0.5(conn)=0.7891 *
+Step   40: loss=0.0244 val_auc(conn,iso)=(0.9564,0.9536) val_ap(conn,iso)=(0.8775,0.8744) f1@0.5(conn)=0.7855
+Step   50: loss=0.0120 val_auc(conn,iso)=(0.9540,0.9509) val_ap(conn,iso)=(0.8803,0.8778) f1@0.5(conn)=0.7957
+Step   60: loss=0.0235 val_auc(conn,iso)=(0.9557,0.9528) val_ap(conn,iso)=(0.8808,0.8790) f1@0.5(conn)=0.7925
+Step   70: loss=0.0209 val_auc(conn,iso)=(0.9540,0.9511) val_ap(conn,iso)=(0.8775,0.8755) f1@0.5(conn)=0.8013
+Step   80: loss=0.0060 val_auc(conn,iso)=(0.9533,0.9506) val_ap(conn,iso)=(0.8785,0.8773) f1@0.5(conn)=0.8109
+Step   90: loss=0.0103 val_auc(conn,iso)=(0.9533,0.9506) val_ap(conn,iso)=(0.8792,0.8778) f1@0.5(conn)=0.7851
+Step  100: loss=0.0069 val_auc(conn,iso)=(0.9547,0.9520) val_ap(conn,iso)=(0.8814,0.8794) f1@0.5(conn)=0.8056
+Step  110: loss=0.0142 val_auc(conn,iso)=(0.9535,0.9507) val_ap(conn,iso)=(0.8846,0.8823) f1@0.5(conn)=0.8095
+Step  120: loss=0.0302 val_auc(conn,iso)=(0.9550,0.9524) val_ap(conn,iso)=(0.8866,0.8847) f1@0.5(conn)=0.8141
+Step  130: loss=0.0350 val_auc(conn,iso)=(0.9550,0.9524) val_ap(conn,iso)=(0.8845,0.8828) f1@0.5(conn)=0.8186
+Step  140: loss=0.0078 val_auc(conn,iso)=(0.9553,0.9529) val_ap(conn,iso)=(0.8825,0.8813) f1@0.5(conn)=0.8051
+Step  150: loss=0.0213 val_auc(conn,iso)=(0.9562,0.9539) val_ap(conn,iso)=(0.8827,0.8813) f1@0.5(conn)=0.8069
+Early stopping at step 150
+Model saved to: results/gift/run_56/e2e/trained_model.pth

@@ -1,0 +1,22 @@
+Initialized from results/gift/random_aug_seed_70/head/trained_model.pth
+Init (Phase 3a): val_auc(conn,iso)=(0.9474,0.9442) val_ap(conn,iso)=(0.8471,0.8380)
+Step   10: loss=0.0126 val_auc(conn,iso)=(0.9482,0.9465) val_ap(conn,iso)=(0.8502,0.8419) f1@0.5(conn)=0.7847 *
+Step   20: loss=0.0220 val_auc(conn,iso)=(0.9480,0.9460) val_ap(conn,iso)=(0.8593,0.8539) f1@0.5(conn)=0.8005
+Step   30: loss=0.0173 val_auc(conn,iso)=(0.9476,0.9454) val_ap(conn,iso)=(0.8583,0.8535) f1@0.5(conn)=0.7943
+Step   40: loss=0.0196 val_auc(conn,iso)=(0.9466,0.9435) val_ap(conn,iso)=(0.8590,0.8536) f1@0.5(conn)=0.7982
+Step   50: loss=0.0200 val_auc(conn,iso)=(0.9483,0.9450) val_ap(conn,iso)=(0.8595,0.8511) f1@0.5(conn)=0.7797
+Step   60: loss=0.0106 val_auc(conn,iso)=(0.9489,0.9458) val_ap(conn,iso)=(0.8493,0.8312) f1@0.5(conn)=0.7938 *
+Step   70: loss=0.0246 val_auc(conn,iso)=(0.9482,0.9447) val_ap(conn,iso)=(0.8634,0.8490) f1@0.5(conn)=0.7865
+Step   80: loss=0.0052 val_auc(conn,iso)=(0.9478,0.9440) val_ap(conn,iso)=(0.8633,0.8511) f1@0.5(conn)=0.8041
+Step   90: loss=0.0143 val_auc(conn,iso)=(0.9476,0.9448) val_ap(conn,iso)=(0.8602,0.8508) f1@0.5(conn)=0.8064
+Step  100: loss=0.0154 val_auc(conn,iso)=(0.9460,0.9435) val_ap(conn,iso)=(0.8585,0.8567) f1@0.5(conn)=0.8050
+Step  110: loss=0.0082 val_auc(conn,iso)=(0.9457,0.9427) val_ap(conn,iso)=(0.8655,0.8626) f1@0.5(conn)=0.8005
+Step  120: loss=0.0101 val_auc(conn,iso)=(0.9456,0.9424) val_ap(conn,iso)=(0.8660,0.8625) f1@0.5(conn)=0.7946
+Step  130: loss=0.0135 val_auc(conn,iso)=(0.9460,0.9434) val_ap(conn,iso)=(0.8575,0.8547) f1@0.5(conn)=0.8063
+Step  140: loss=0.0090 val_auc(conn,iso)=(0.9455,0.9431) val_ap(conn,iso)=(0.8576,0.8550) f1@0.5(conn)=0.8103
+Step  150: loss=0.0148 val_auc(conn,iso)=(0.9445,0.9423) val_ap(conn,iso)=(0.8588,0.8570) f1@0.5(conn)=0.8154
+Step  160: loss=0.0252 val_auc(conn,iso)=(0.9441,0.9422) val_ap(conn,iso)=(0.8627,0.8608) f1@0.5(conn)=0.8077
+Step  170: loss=0.0289 val_auc(conn,iso)=(0.9438,0.9416) val_ap(conn,iso)=(0.8665,0.8645) f1@0.5(conn)=0.8111
+Step  180: loss=0.0049 val_auc(conn,iso)=(0.9451,0.9427) val_ap(conn,iso)=(0.8623,0.8597) f1@0.5(conn)=0.7995
+Early stopping at step 180
+Model saved to: results/gift/random_aug_seed_70/e2e/trained_model.pth
