@@ -1,0 +1,8 @@
+# DTIAM baseline only (official code, github.com/CSUBioGroup/DTIAM commit 61d68b8). Separate Python 3.9 environment.
+autogluon.tabular==0.5.2
+numpy<2
+pandas<2
+scikit-learn
+dill
+torch
+fair-esm
