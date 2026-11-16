@@ -1,0 +1,57 @@
+{
+  "seed": 64,
+  "checkpoint": "results/gift/descriptor_only_seed_64/e2e/trained_model.pth",
+  "n_positives": 3243,
+  "n_negatives": 15646,
+  "n_compounds": 95,
+  "results": {
+    "gift": {
+      "roc_auc": 0.7631174081313161,
+      "auprc": 0.5032089135761965,
+      "per_target_roc_auc": 0.6390485605065587,
+      "per_target_n": 675,
+      "precision": 0.7328159645232816,
+      "recall": 0.2038236201048412,
+      "f1": 0.31893848009650183,
+      "mcc": 0.333211700651412
+    },
+    "random_forest": {
+      "roc_auc": 0.5576166193844231,
+      "auprc": 0.21468525203086308,
+      "per_target_roc_auc": 0.5515512094020497,
+      "per_target_n": 675,
+      "precision": 0.23220973782771537,
+      "recall": 0.21029910576626581,
+      "f1": 0.22071197411003235,
+      "mcc": 0.06886446543464664
+    },
+    "random_forest_tuned": {
+      "roc_auc": 0.5642647893934838,
+      "auprc": 0.21880880933585992,
+      "per_target_roc_auc": 0.5547063184183106,
+      "per_target_n": 675,
+      "precision": 0.2575609756097561,
+      "recall": 0.16281221091581868,
+      "f1": 0.19950878518798412,
+      "mcc": 0.07945350145695651,
+      "params": {
+        "n_estimators": 500,
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt"
+      }
+    },
+    "compound_train_degree": {
+      "roc_auc": 0.5,
+      "auprc": 0.17168722536926254,
+      "per_target_roc_auc": 0.5,
+      "per_target_n": 675
+    },
+    "protein_train_degree": {
+      "roc_auc": 0.8499815372407138,
+      "auprc": 0.4914338811066414,
+      "per_target_roc_auc": 0.5,
+      "per_target_n": 675
+    }
+  }
+}

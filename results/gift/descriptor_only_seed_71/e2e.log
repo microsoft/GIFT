@@ -1,0 +1,20 @@
+Initialized from results/gift/descriptor_only_seed_71/head/trained_model.pth
+Init (Phase 3a): val_auc(conn,iso)=(0.9574,0.9574) val_ap(conn,iso)=(0.8696,0.8696)
+Step   10: loss=0.0203 val_auc(conn,iso)=(0.9590,0.9590) val_ap(conn,iso)=(0.8818,0.8818) f1@0.5(conn)=0.7502 *
+Step   20: loss=0.0323 val_auc(conn,iso)=(0.9585,0.9585) val_ap(conn,iso)=(0.8790,0.8790) f1@0.5(conn)=0.7944
+Step   30: loss=0.0292 val_auc(conn,iso)=(0.9608,0.9608) val_ap(conn,iso)=(0.8834,0.8834) f1@0.5(conn)=0.8140 *
+Step   40: loss=0.0293 val_auc(conn,iso)=(0.9617,0.9617) val_ap(conn,iso)=(0.8808,0.8808) f1@0.5(conn)=0.7847 *
+Step   50: loss=0.0255 val_auc(conn,iso)=(0.9613,0.9613) val_ap(conn,iso)=(0.8842,0.8842) f1@0.5(conn)=0.8045
+Step   60: loss=0.0256 val_auc(conn,iso)=(0.9608,0.9608) val_ap(conn,iso)=(0.8773,0.8773) f1@0.5(conn)=0.7939
+Step   70: loss=0.0251 val_auc(conn,iso)=(0.9611,0.9611) val_ap(conn,iso)=(0.8904,0.8904) f1@0.5(conn)=0.8279
+Step   80: loss=0.0147 val_auc(conn,iso)=(0.9602,0.9602) val_ap(conn,iso)=(0.8829,0.8829) f1@0.5(conn)=0.8012
+Step   90: loss=0.0148 val_auc(conn,iso)=(0.9595,0.9595) val_ap(conn,iso)=(0.8864,0.8864) f1@0.5(conn)=0.8094
+Step  100: loss=0.0163 val_auc(conn,iso)=(0.9609,0.9609) val_ap(conn,iso)=(0.8953,0.8953) f1@0.5(conn)=0.8217
+Step  110: loss=0.0158 val_auc(conn,iso)=(0.9603,0.9603) val_ap(conn,iso)=(0.8978,0.8978) f1@0.5(conn)=0.8196
+Step  120: loss=0.0192 val_auc(conn,iso)=(0.9602,0.9602) val_ap(conn,iso)=(0.8963,0.8963) f1@0.5(conn)=0.8187
+Step  130: loss=0.0260 val_auc(conn,iso)=(0.9608,0.9608) val_ap(conn,iso)=(0.8965,0.8965) f1@0.5(conn)=0.8259
+Step  140: loss=0.0056 val_auc(conn,iso)=(0.9616,0.9616) val_ap(conn,iso)=(0.9043,0.9043) f1@0.5(conn)=0.8317
+Step  150: loss=0.0206 val_auc(conn,iso)=(0.9613,0.9613) val_ap(conn,iso)=(0.9062,0.9062) f1@0.5(conn)=0.8282
+Step  160: loss=0.0163 val_auc(conn,iso)=(0.9607,0.9607) val_ap(conn,iso)=(0.9034,0.9034) f1@0.5(conn)=0.8066
+Early stopping at step 160
+Model saved to: results/gift/descriptor_only_seed_71/e2e/trained_model.pth

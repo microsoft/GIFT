@@ -1,0 +1,14 @@
+2026-10-25 15:48:03,295 - INFO - Using external ChEMBL36 interaction PKL: data/external_compounds_labels.pkl
+2026-10-25 15:48:03,334 - INFO - 
+Loaded ChEMBL36 validation data from PKLs
+2026-10-25 15:48:03,335 - INFO - External compounds with features and graph-target interactions: 95
+2026-10-25 15:48:03,335 - INFO - New external compound-protein interactions: 3243
+2026-10-25 15:48:03,335 - INFO - Graph targets referenced by PKL: 1391
+2026-10-25 15:48:03,335 - INFO - Skipped missing features: 0
+2026-10-25 15:48:03,335 - INFO - Skipped invalid features: 0
+2026-10-25 15:48:03,335 - INFO - Skipped compounds without graph targets: 0
+exported protocol to results/gift/baseline_models/drugban/run_69/drugban_dgl/protocol.pkl
+<env>/site-packages/torch/nn/utils/weight_norm.py:134: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+resumed after epoch 134
+seed 69 drugban lead: top1=5 top10=38

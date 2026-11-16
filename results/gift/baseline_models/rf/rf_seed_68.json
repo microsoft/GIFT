@@ -1,0 +1,39 @@
+{
+ "seed": 68,
+ "model": "RandomForestClassifier(n_estimators=100, random_state=seed, n_jobs=-1)",
+ "features": "888 descriptors per pair (vs.build_pair_feature_fn)",
+ "n_train": 3964,
+ "reproduces_saved_results": true,
+ "benchmarks": {
+  "same_version": {
+   "max_abs_diff_vs_saved": 0.0,
+   "roc_auc": 0.9450051867984917,
+   "auprc": 0.8357858602081634,
+   "per_target_roc_auc": 0.9335947712418302,
+   "precision": 0.4143968871595331,
+   "recall": 0.9445676274944568,
+   "f1": 0.5760649087221096,
+   "mcc": 0.520290404546349
+  },
+  "same_version_matched": {
+   "max_abs_diff_vs_saved": 0.0,
+   "roc_auc": 0.7347462359965786,
+   "auprc": 0.47116026873900463,
+   "per_target_roc_auc": 0.6895730706075534,
+   "precision": 0.1846553966189857,
+   "recall": 0.9445676274944568,
+   "f1": 0.30891950688905,
+   "mcc": 0.07809518424727807
+  },
+  "external": {
+   "max_abs_diff_vs_saved": 0.0,
+   "roc_auc": 0.5528098277851047,
+   "auprc": 0.20826019945563592,
+   "per_target_roc_auc": 0.5493449907593494,
+   "precision": 0.23235800344234078,
+   "recall": 0.20814061054579094,
+   "f1": 0.219583604424203,
+   "mcc": 0.06858730316219054
+  }
+ }
+}

@@ -1,0 +1,12 @@
+2026-11-02 01:14:12,875 - INFO - Using external ChEMBL36 interaction PKL: data/external_compounds_labels.pkl
+2026-11-02 01:14:13,071 - INFO - 
+Loaded ChEMBL36 validation data from PKLs
+2026-11-02 01:14:13,072 - INFO - External compounds with features and graph-target interactions: 95
+2026-11-02 01:14:13,075 - INFO - New external compound-protein interactions: 3243
+2026-11-02 01:14:13,078 - INFO - Graph targets referenced by PKL: 1391
+2026-11-02 01:14:13,078 - INFO - Skipped missing features: 0
+2026-11-02 01:14:13,078 - INFO - Skipped invalid features: 0
+2026-11-02 01:14:13,078 - INFO - Skipped compounds without graph targets: 0
+gcn stop=154 val_auc=0.8621 {'same_version': {'roc_auc': 0.91, 'per_target_roc_auc': 0.911, 'mcc': 0.569}, 'same_version_allcompound': {'roc_auc': 0.972, 'per_target_roc_auc': 0.961, 'mcc': 0.809}, 'same_version_matched': {'roc_auc': 0.77, 'per_target_roc_auc': 0.77, 'mcc': 0.288}, 'same_version_protein_matched': {'roc_auc': 0.904, 'per_target_roc_auc': 0.914, 'mcc': 0.521}, 'cross_version': {'roc_auc': 0.73, 'per_target_roc_auc': 0.585, 'mcc': 0.092}}
+sage stop=127 val_auc=0.8735 {'same_version': {'roc_auc': 0.925, 'per_target_roc_auc': 0.928, 'mcc': 0.686}, 'same_version_allcompound': {'roc_auc': 0.978, 'per_target_roc_auc': 0.975, 'mcc': 0.844}, 'same_version_matched': {'roc_auc': 0.785, 'per_target_roc_auc': 0.746, 'mcc': 0.358}, 'same_version_protein_matched': {'roc_auc': 0.925, 'per_target_roc_auc': 0.937, 'mcc': 0.701}, 'cross_version': {'roc_auc': 0.652, 'per_target_roc_auc': 0.581, 'mcc': 0.057}}
+gat stop=70 val_auc=0.8075 {'same_version': {'roc_auc': 0.871, 'per_target_roc_auc': 0.853, 'mcc': 0.419}, 'same_version_allcompound': {'roc_auc': 0.961, 'per_target_roc_auc': 0.944, 'mcc': 0.748}, 'same_version_matched': {'roc_auc': 0.742, 'per_target_roc_auc': 0.767, 'mcc': 0.202}, 'same_version_protein_matched': {'roc_auc': 0.872, 'per_target_roc_auc': 0.865, 'mcc': 0.41}, 'cross_version': {'roc_auc': 0.573, 'per_target_roc_auc': 0.552, 'mcc': 0.023}}

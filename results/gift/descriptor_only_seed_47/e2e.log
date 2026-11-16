@@ -1,0 +1,21 @@
+Initialized from results/gift/descriptor_only_seed_47/head/trained_model.pth
+Init (Phase 3a): val_auc(conn,iso)=(0.9405,0.9405) val_ap(conn,iso)=(0.8128,0.8128)
+Step   10: loss=0.0275 val_auc(conn,iso)=(0.9419,0.9419) val_ap(conn,iso)=(0.8328,0.8328) f1@0.5(conn)=0.6978 *
+Step   20: loss=0.0318 val_auc(conn,iso)=(0.9444,0.9444) val_ap(conn,iso)=(0.8474,0.8474) f1@0.5(conn)=0.7389 *
+Step   30: loss=0.0237 val_auc(conn,iso)=(0.9472,0.9472) val_ap(conn,iso)=(0.8653,0.8653) f1@0.5(conn)=0.7489 *
+Step   40: loss=0.0354 val_auc(conn,iso)=(0.9489,0.9489) val_ap(conn,iso)=(0.8818,0.8818) f1@0.5(conn)=0.7450 *
+Step   50: loss=0.0375 val_auc(conn,iso)=(0.9501,0.9501) val_ap(conn,iso)=(0.8765,0.8765) f1@0.5(conn)=0.7482 *
+Step   60: loss=0.0246 val_auc(conn,iso)=(0.9494,0.9494) val_ap(conn,iso)=(0.8796,0.8796) f1@0.5(conn)=0.7753
+Step   70: loss=0.0209 val_auc(conn,iso)=(0.9498,0.9498) val_ap(conn,iso)=(0.8773,0.8773) f1@0.5(conn)=0.7914
+Step   80: loss=0.0195 val_auc(conn,iso)=(0.9471,0.9471) val_ap(conn,iso)=(0.8720,0.8720) f1@0.5(conn)=0.7675
+Step   90: loss=0.0333 val_auc(conn,iso)=(0.9448,0.9448) val_ap(conn,iso)=(0.8615,0.8615) f1@0.5(conn)=0.7687
+Step  100: loss=0.0190 val_auc(conn,iso)=(0.9443,0.9443) val_ap(conn,iso)=(0.8531,0.8531) f1@0.5(conn)=0.7597
+Step  110: loss=0.0155 val_auc(conn,iso)=(0.9450,0.9450) val_ap(conn,iso)=(0.8552,0.8552) f1@0.5(conn)=0.7827
+Step  120: loss=0.0323 val_auc(conn,iso)=(0.9467,0.9467) val_ap(conn,iso)=(0.8602,0.8602) f1@0.5(conn)=0.7891
+Step  130: loss=0.0212 val_auc(conn,iso)=(0.9485,0.9485) val_ap(conn,iso)=(0.8700,0.8700) f1@0.5(conn)=0.7843
+Step  140: loss=0.0202 val_auc(conn,iso)=(0.9491,0.9491) val_ap(conn,iso)=(0.8668,0.8668) f1@0.5(conn)=0.7864
+Step  150: loss=0.0129 val_auc(conn,iso)=(0.9490,0.9490) val_ap(conn,iso)=(0.8677,0.8677) f1@0.5(conn)=0.7818
+Step  160: loss=0.0303 val_auc(conn,iso)=(0.9484,0.9484) val_ap(conn,iso)=(0.8731,0.8731) f1@0.5(conn)=0.7904
+Step  170: loss=0.0106 val_auc(conn,iso)=(0.9467,0.9467) val_ap(conn,iso)=(0.8673,0.8673) f1@0.5(conn)=0.7872
+Early stopping at step 170
+Model saved to: results/gift/descriptor_only_seed_47/e2e/trained_model.pth

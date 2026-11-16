@@ -1,0 +1,10 @@
+2026-11-02 01:51:57,103 - INFO - Using external ChEMBL36 interaction PKL: data/external_compounds_labels.pkl
+2026-11-02 01:51:57,174 - INFO - 
+Loaded ChEMBL36 validation data from PKLs
+2026-11-02 01:51:57,174 - INFO - External compounds with features and graph-target interactions: 95
+2026-11-02 01:51:57,174 - INFO - New external compound-protein interactions: 3243
+2026-11-02 01:51:57,174 - INFO - Graph targets referenced by PKL: 1391
+2026-11-02 01:51:57,175 - INFO - Skipped missing features: 0
+2026-11-02 01:51:57,175 - INFO - Skipped invalid features: 0
+2026-11-02 01:51:57,175 - INFO - Skipped compounds without graph targets: 0
+gcn stop=122 val_auc=0.9524 {'same_version': {'roc_auc': 0.959, 'per_target_roc_auc': 0.936, 'mcc': 0.74}, 'same_version_allcompound': {'roc_auc': 0.988, 'per_target_roc_auc': 0.986, 'mcc': 0.853}, 'same_version_matched': {'roc_auc': 0.882, 'per_target_roc_auc': 0.822, 'mcc': 0.505}, 'same_version_protein_matched': {'roc_auc': 0.948, 'per_target_roc_auc': 0.941, 'mcc': 0.702}, 'cross_version': {'roc_auc': 0.741, 'per_target_roc_auc': 0.649, 'mcc': 0.188}}

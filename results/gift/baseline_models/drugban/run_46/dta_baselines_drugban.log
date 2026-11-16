@@ -1,0 +1,71 @@
+<env>/site-packages/torch/nn/utils/weight_norm.py:144: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+seed 46 epoch 1 val_auc=0.6826 best=0.6826@1 17s
+seed 46 epoch 2 val_auc=0.7667 best=0.7667@2 16s
+seed 46 epoch 3 val_auc=0.7725 best=0.7725@3 16s
+seed 46 epoch 4 val_auc=0.7711 best=0.7725@3 16s
+seed 46 epoch 5 val_auc=0.7760 best=0.7760@5 16s
+seed 46 epoch 6 val_auc=0.7613 best=0.7760@5 16s
+seed 46 epoch 7 val_auc=0.7887 best=0.7887@7 16s
+seed 46 epoch 8 val_auc=0.7898 best=0.7898@8 16s
+seed 46 epoch 9 val_auc=0.7889 best=0.7898@8 16s
+seed 46 epoch 10 val_auc=0.8281 best=0.8281@10 16s
+seed 46 epoch 11 val_auc=0.8229 best=0.8281@10 16s
+seed 46 epoch 12 val_auc=0.8191 best=0.8281@10 16s
+seed 46 epoch 13 val_auc=0.8380 best=0.8380@13 16s
+seed 46 epoch 14 val_auc=0.8226 best=0.8380@13 16s
+seed 46 epoch 15 val_auc=0.8347 best=0.8380@13 16s
+seed 46 epoch 16 val_auc=0.8345 best=0.8380@13 16s
+seed 46 epoch 17 val_auc=0.8511 best=0.8511@17 16s
+seed 46 epoch 18 val_auc=0.8101 best=0.8511@17 16s
+seed 46 epoch 19 val_auc=0.8072 best=0.8511@17 16s
+seed 46 epoch 20 val_auc=0.7782 best=0.8511@17 17s
+seed 46 epoch 21 val_auc=0.8492 best=0.8511@17 13s
+seed 46 epoch 22 val_auc=0.8252 best=0.8511@17 11s
+seed 46 epoch 23 val_auc=0.8299 best=0.8511@17 11s
+seed 46 epoch 24 val_auc=0.8249 best=0.8511@17 11s
+seed 46 epoch 25 val_auc=0.8520 best=0.8520@25 11s
+seed 46 epoch 26 val_auc=0.8436 best=0.8520@25 11s
+seed 46 epoch 27 val_auc=0.8607 best=0.8607@27 11s
+seed 46 epoch 28 val_auc=0.8342 best=0.8607@27 11s
+seed 46 epoch 29 val_auc=0.8495 best=0.8607@27 11s
+seed 46 epoch 30 val_auc=0.8591 best=0.8607@27 11s
+seed 46 epoch 31 val_auc=0.8596 best=0.8607@27 11s
+seed 46 epoch 32 val_auc=0.8573 best=0.8607@27 16s
+seed 46 epoch 33 val_auc=0.8591 best=0.8607@27 16s
+seed 46 epoch 34 val_auc=0.8616 best=0.8616@34 16s
+seed 46 epoch 35 val_auc=0.8537 best=0.8616@34 16s
+seed 46 epoch 36 val_auc=0.8652 best=0.8652@36 16s
+seed 46 epoch 37 val_auc=0.8578 best=0.8652@36 16s
+seed 46 epoch 38 val_auc=0.8740 best=0.8740@38 16s
+seed 46 epoch 39 val_auc=0.8407 best=0.8740@38 16s
+seed 46 epoch 40 val_auc=0.8363 best=0.8740@38 16s
+seed 46 epoch 41 val_auc=0.8492 best=0.8740@38 16s
+seed 46 epoch 42 val_auc=0.8154 best=0.8740@38 16s
+seed 46 epoch 43 val_auc=0.8549 best=0.8740@38 16s
+seed 46 epoch 44 val_auc=0.8483 best=0.8740@38 16s
+seed 46 epoch 45 val_auc=0.8482 best=0.8740@38 16s
+seed 46 epoch 46 val_auc=0.8547 best=0.8740@38 16s
+seed 46 epoch 47 val_auc=0.8636 best=0.8740@38 16s
+seed 46 epoch 48 val_auc=0.8616 best=0.8740@38 16s
+seed 46 epoch 49 val_auc=0.8574 best=0.8740@38 16s
+seed 46 epoch 50 val_auc=0.8569 best=0.8740@38 16s
+seed 46 epoch 51 val_auc=0.8732 best=0.8740@38 16s
+seed 46 epoch 52 val_auc=0.8494 best=0.8740@38 16s
+seed 46 epoch 53 val_auc=0.8722 best=0.8740@38 16s
+seed 46 epoch 54 val_auc=0.8506 best=0.8740@38 16s
+seed 46 epoch 55 val_auc=0.8410 best=0.8740@38 16s
+seed 46 epoch 56 val_auc=0.8703 best=0.8740@38 16s
+seed 46 epoch 57 val_auc=0.8456 best=0.8740@38 16s
+seed 46 epoch 58 val_auc=0.8713 best=0.8740@38 16s
+seed 46 drugban val_auc=0.8740 best_epoch=38 stop=58
+2026-10-23 15:06:48,355 - INFO - Using external ChEMBL36 interaction PKL: data/external_compounds_labels.pkl
+2026-10-23 15:06:48,406 - INFO - 
+Loaded ChEMBL36 validation data from PKLs
+2026-10-23 15:06:48,406 - INFO - External compounds with features and graph-target interactions: 95
+2026-10-23 15:06:48,406 - INFO - New external compound-protein interactions: 3243
+2026-10-23 15:06:48,406 - INFO - Graph targets referenced by PKL: 1391
+2026-10-23 15:06:48,406 - INFO - Skipped missing features: 0
+2026-10-23 15:06:48,406 - INFO - Skipped invalid features: 0
+2026-10-23 15:06:48,406 - INFO - Skipped compounds without graph targets: 0
+drugban {'same_version': {'roc_auc': 0.938, 'auprc': 0.739, 'mcc': 0.535}, 'same_version_matched': {'roc_auc': 0.715, 'auprc': 0.307, 'mcc': 0.19}, 'external': {'roc_auc': 0.604, 'auprc': 0.228, 'mcc': 0.137}}

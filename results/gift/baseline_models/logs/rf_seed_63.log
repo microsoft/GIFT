@@ -1,0 +1,13 @@
+2026-11-02 01:26:30,557 - INFO - Using external ChEMBL36 interaction PKL: data/external_compounds_labels.pkl
+2026-11-02 01:26:30,646 - INFO - 
+Loaded ChEMBL36 validation data from PKLs
+2026-11-02 01:26:30,646 - INFO - External compounds with features and graph-target interactions: 95
+2026-11-02 01:26:30,646 - INFO - New external compound-protein interactions: 3243
+2026-11-02 01:26:30,646 - INFO - Graph targets referenced by PKL: 1391
+2026-11-02 01:26:30,646 - INFO - Skipped missing features: 0
+2026-11-02 01:26:30,646 - INFO - Skipped invalid features: 0
+2026-11-02 01:26:30,646 - INFO - Skipped compounds without graph targets: 0
+seed 63 same_version           max |diff| vs saved = 0.00e+00
+seed 63 same_version_matched   max |diff| vs saved = 0.00e+00
+seed 63 external               max |diff| vs saved = 0.00e+00
+seed 63 saved; reproduces saved results: True

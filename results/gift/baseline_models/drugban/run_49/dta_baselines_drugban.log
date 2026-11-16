@@ -1,0 +1,83 @@
+2026-10-23 15:14:02,841 - INFO - Using external ChEMBL36 interaction PKL: data/external_compounds_labels.pkl
+2026-10-23 15:14:02,865 - INFO - 
+Loaded ChEMBL36 validation data from PKLs
+2026-10-23 15:14:02,865 - INFO - External compounds with features and graph-target interactions: 95
+2026-10-23 15:14:02,866 - INFO - New external compound-protein interactions: 3243
+2026-10-23 15:14:02,866 - INFO - Graph targets referenced by PKL: 1391
+2026-10-23 15:14:02,866 - INFO - Skipped missing features: 0
+2026-10-23 15:14:02,866 - INFO - Skipped invalid features: 0
+2026-10-23 15:14:02,866 - INFO - Skipped compounds without graph targets: 0
+exported protocol to results/gift/baseline_models/drugban/run_49/drugban_dgl/protocol.pkl
+<env>/site-packages/torch/nn/utils/weight_norm.py:144: FutureWarning: `torch.nn.utils.weight_norm` is deprecated in favor of `torch.nn.utils.parametrizations.weight_norm`.
+  WeightNorm.apply(module, name, dim)
+seed 49 epoch 1 val_auc=0.6915 best=0.6915@1 17s
+seed 49 epoch 2 val_auc=0.7493 best=0.7493@2 16s
+seed 49 epoch 3 val_auc=0.7636 best=0.7636@3 16s
+seed 49 epoch 4 val_auc=0.7666 best=0.7666@4 16s
+seed 49 epoch 5 val_auc=0.8028 best=0.8028@5 16s
+seed 49 epoch 6 val_auc=0.7301 best=0.8028@5 16s
+seed 49 epoch 7 val_auc=0.7508 best=0.8028@5 16s
+seed 49 epoch 8 val_auc=0.7804 best=0.8028@5 16s
+seed 49 epoch 9 val_auc=0.7905 best=0.8028@5 16s
+seed 49 epoch 10 val_auc=0.7827 best=0.8028@5 16s
+seed 49 epoch 11 val_auc=0.7690 best=0.8028@5 16s
+seed 49 epoch 12 val_auc=0.8003 best=0.8028@5 16s
+seed 49 epoch 13 val_auc=0.7871 best=0.8028@5 16s
+seed 49 epoch 14 val_auc=0.8096 best=0.8096@14 16s
+seed 49 epoch 15 val_auc=0.7753 best=0.8096@14 17s
+seed 49 epoch 16 val_auc=0.7841 best=0.8096@14 14s
+seed 49 epoch 17 val_auc=0.7903 best=0.8096@14 11s
+seed 49 epoch 18 val_auc=0.7917 best=0.8096@14 11s
+seed 49 epoch 19 val_auc=0.8074 best=0.8096@14 11s
+seed 49 epoch 20 val_auc=0.7904 best=0.8096@14 11s
+seed 49 epoch 21 val_auc=0.7960 best=0.8096@14 11s
+seed 49 epoch 22 val_auc=0.8050 best=0.8096@14 11s
+seed 49 epoch 23 val_auc=0.7903 best=0.8096@14 11s
+seed 49 epoch 24 val_auc=0.8214 best=0.8214@24 11s
+seed 49 epoch 25 val_auc=0.7838 best=0.8214@24 11s
+seed 49 epoch 26 val_auc=0.8025 best=0.8214@24 11s
+seed 49 epoch 27 val_auc=0.7755 best=0.8214@24 11s
+seed 49 epoch 28 val_auc=0.7954 best=0.8214@24 11s
+seed 49 epoch 29 val_auc=0.8177 best=0.8214@24 11s
+seed 49 epoch 30 val_auc=0.8003 best=0.8214@24 11s
+seed 49 epoch 31 val_auc=0.7938 best=0.8214@24 11s
+seed 49 epoch 32 val_auc=0.7806 best=0.8214@24 11s
+seed 49 epoch 33 val_auc=0.7958 best=0.8214@24 11s
+seed 49 epoch 34 val_auc=0.8063 best=0.8214@24 11s
+seed 49 epoch 35 val_auc=0.7875 best=0.8214@24 11s
+seed 49 epoch 36 val_auc=0.7858 best=0.8214@24 12s
+seed 49 epoch 37 val_auc=0.7979 best=0.8214@24 16s
+seed 49 epoch 38 val_auc=0.7964 best=0.8214@24 16s
+seed 49 epoch 39 val_auc=0.8076 best=0.8214@24 16s
+seed 49 epoch 40 val_auc=0.8236 best=0.8236@40 16s
+seed 49 epoch 41 val_auc=0.8041 best=0.8236@40 16s
+seed 49 epoch 42 val_auc=0.7995 best=0.8236@40 16s
+seed 49 epoch 43 val_auc=0.7934 best=0.8236@40 16s
+seed 49 epoch 44 val_auc=0.7897 best=0.8236@40 16s
+seed 49 epoch 45 val_auc=0.8164 best=0.8236@40 16s
+seed 49 epoch 46 val_auc=0.8033 best=0.8236@40 16s
+seed 49 epoch 47 val_auc=0.8031 best=0.8236@40 16s
+seed 49 epoch 48 val_auc=0.8132 best=0.8236@40 16s
+seed 49 epoch 49 val_auc=0.7890 best=0.8236@40 16s
+seed 49 epoch 50 val_auc=0.7685 best=0.8236@40 16s
+seed 49 epoch 51 val_auc=0.8005 best=0.8236@40 16s
+seed 49 epoch 52 val_auc=0.7995 best=0.8236@40 16s
+seed 49 epoch 53 val_auc=0.7941 best=0.8236@40 16s
+seed 49 epoch 54 val_auc=0.7943 best=0.8236@40 16s
+seed 49 epoch 55 val_auc=0.8038 best=0.8236@40 16s
+seed 49 epoch 56 val_auc=0.8086 best=0.8236@40 16s
+seed 49 epoch 57 val_auc=0.7863 best=0.8236@40 16s
+seed 49 epoch 58 val_auc=0.8049 best=0.8236@40 16s
+seed 49 epoch 59 val_auc=0.7866 best=0.8236@40 16s
+seed 49 epoch 60 val_auc=0.8107 best=0.8236@40 16s
+seed 49 drugban val_auc=0.8236 best_epoch=40 stop=60
+2026-10-23 15:30:58,502 - INFO - Using external ChEMBL36 interaction PKL: data/external_compounds_labels.pkl
+2026-10-23 15:30:58,536 - INFO - 
+Loaded ChEMBL36 validation data from PKLs
+2026-10-23 15:30:58,536 - INFO - External compounds with features and graph-target interactions: 95
+2026-10-23 15:30:58,536 - INFO - New external compound-protein interactions: 3243
+2026-10-23 15:30:58,536 - INFO - Graph targets referenced by PKL: 1391
+2026-10-23 15:30:58,536 - INFO - Skipped missing features: 0
+2026-10-23 15:30:58,536 - INFO - Skipped invalid features: 0
+2026-10-23 15:30:58,536 - INFO - Skipped compounds without graph targets: 0
+drugban {'same_version': {'roc_auc': 0.902, 'auprc': 0.734, 'mcc': 0.353}, 'same_version_matched': {'roc_auc': 0.59, 'auprc': 0.247, 'mcc': 0.051}, 'external': {'roc_auc': 0.532, 'auprc': 0.193, 'mcc': 0.016}}
