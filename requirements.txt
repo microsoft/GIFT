@@ -1,5 +1,5 @@
 # Main environment (Python 3.12; versions used for the paper). GPU training used CUDA 12.8.
-torch==2.8.0
+torch==2.13.0
 torch-geometric==2.8.0.post1
 numpy==2.2.3
 scipy==1.15.1
