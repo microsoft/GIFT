@@ -1,0 +1,1325 @@
+{
+ "per_seed": {
+  "42": {
+   "pooled": {
+    "candidates": 2166549,
+    "positives": 845,
+    "in_top_k": 0,
+    "expected": 78.00423623005987,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.20984971294410198
+   },
+   "test_excl": {
+    "candidates": 2166147,
+    "positives": 443,
+    "in_top_k": 0,
+    "expected": 40.902117907972084,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.2155622724161601
+   },
+   "test_incl": {
+    "candidates": 2166549,
+    "positives": 443,
+    "in_top_k": 0,
+    "expected": 40.89452857978287,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.2156217495647738
+   },
+   "val_excl": {
+    "candidates": 2166106,
+    "positives": 402,
+    "in_top_k": 0,
+    "expected": 37.11729712211683,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.2035545292472818
+   },
+   "pooled_matches_saved": true
+  },
+  "43": {
+   "pooled": {
+    "candidates": 2166548,
+    "positives": 844,
+    "in_top_k": 6,
+    "expected": 77.91195948578107,
+    "enrichment": 0.07701,
+    "p_hyper": 1.0,
+    "roc_auc": 0.4159159516016007
+   },
+   "test_excl": {
+    "candidates": 2166101,
+    "positives": 397,
+    "in_top_k": 4,
+    "expected": 36.65572380973925,
+    "enrichment": 0.10912347607052897,
+    "p_hyper": 0.9999999999997679,
+    "roc_auc": 0.41877204814144076
+   },
+   "test_incl": {
+    "candidates": 2166548,
+    "positives": 397,
+    "in_top_k": 4,
+    "expected": 36.64816103774299,
+    "enrichment": 0.10914599496221664,
+    "p_hyper": 0.9999999999997661,
+    "roc_auc": 0.41878975372848676
+   },
+   "val_excl": {
+    "candidates": 2166151,
+    "positives": 447,
+    "in_top_k": 2,
+    "expected": 41.27136104546728,
+    "enrichment": 0.048459753914988815,
+    "p_hyper": 1.0,
+    "roc_auc": 0.41337932894764895
+   },
+   "pooled_matches_saved": true
+  },
+  "44": {
+   "pooled": {
+    "candidates": 2166549,
+    "positives": 845,
+    "in_top_k": 1,
+    "expected": 78.00423623005987,
+    "enrichment": 0.012819816568047338,
+    "p_hyper": 1.0,
+    "roc_auc": 0.3951655011529165
+   },
+   "test_excl": {
+    "candidates": 2166126,
+    "positives": 422,
+    "in_top_k": 0,
+    "expected": 38.96356906292616,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.39742060528574674
+   },
+   "test_incl": {
+    "candidates": 2166549,
+    "positives": 422,
+    "in_top_k": 0,
+    "expected": 38.955961762231084,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.39744196062758147
+   },
+   "val_excl": {
+    "candidates": 2166127,
+    "positives": 423,
+    "in_top_k": 1,
+    "expected": 39.05588176501193,
+    "enrichment": 0.025604338061465722,
+    "p_hyper": 1.0,
+    "roc_auc": 0.39291572823553017
+   },
+   "pooled_matches_saved": true
+  },
+  "45": {
+   "pooled": {
+    "candidates": 2166562,
+    "positives": 858,
+    "in_top_k": 1,
+    "expected": 79.20382615406345,
+    "enrichment": 0.01262565268065268,
+    "p_hyper": 1.0,
+    "roc_auc": 0.271930022591124
+   },
+   "test_excl": {
+    "candidates": 2166116,
+    "positives": 412,
+    "in_top_k": 1,
+    "expected": 38.04043735423218,
+    "enrichment": 0.026287815533980585,
+    "p_hyper": 1.0,
+    "roc_auc": 0.276338558660214
+   },
+   "test_incl": {
+    "candidates": 2166562,
+    "positives": 412,
+    "in_top_k": 1,
+    "expected": 38.032606498221604,
+    "enrichment": 0.02629322815533981,
+    "p_hyper": 1.0,
+    "roc_auc": 0.276387670151665
+   },
+   "val_excl": {
+    "candidates": 2166150,
+    "positives": 446,
+    "in_top_k": 0,
+    "expected": 41.179050388938904,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.2678575632627269
+   },
+   "pooled_matches_saved": true
+  },
+  "46": {
+   "pooled": {
+    "candidates": 2166571,
+    "positives": 867,
+    "in_top_k": 11,
+    "expected": 80.03430305307327,
+    "enrichment": 0.13744106689734717,
+    "p_hyper": 1.0,
+    "roc_auc": 0.4774703194078402
+   },
+   "test_excl": {
+    "candidates": 2166147,
+    "positives": 443,
+    "in_top_k": 7,
+    "expected": 40.902117907972084,
+    "enrichment": 0.17114028216704288,
+    "p_hyper": 0.9999999999970309,
+    "roc_auc": 0.4818705275023296
+   },
+   "test_incl": {
+    "candidates": 2166571,
+    "positives": 443,
+    "in_top_k": 7,
+    "expected": 40.89411332469603,
+    "enrichment": 0.17117378103837472,
+    "p_hyper": 0.9999999999970084,
+    "roc_auc": 0.4818760957855391
+   },
+   "val_excl": {
+    "candidates": 2166128,
+    "positives": 424,
+    "in_top_k": 4,
+    "expected": 39.14819438186478,
+    "enrichment": 0.10217584905660378,
+    "p_hyper": 0.9999999999999795,
+    "roc_auc": 0.4728729321770413
+   },
+   "pooled_matches_saved": true
+  },
+  "47": {
+   "pooled": {
+    "candidates": 2166568,
+    "positives": 864,
+    "in_top_k": 395,
+    "expected": 79.75747818669896,
+    "enrichment": 4.952513657407407,
+    "p_hyper": 4.2972980465458215e-172,
+    "roc_auc": 0.8940879908236322
+   },
+   "test_excl": {
+    "candidates": 2166159,
+    "positives": 455,
+    "in_top_k": 210,
+    "expected": 42.00984322942129,
+    "enrichment": 4.998828461538461,
+    "p_hyper": 2.4665576642123833e-93,
+    "roc_auc": 0.8931325176173964
+   },
+   "test_incl": {
+    "candidates": 2166568,
+    "positives": 455,
+    "in_top_k": 210,
+    "expected": 42.001912702486145,
+    "enrichment": 4.999772307692307,
+    "p_hyper": 2.381778449086516e-93,
+    "roc_auc": 0.8930556741474273
+   },
+   "val_excl": {
+    "candidates": 2166113,
+    "positives": 409,
+    "in_top_k": 185,
+    "expected": 37.763496179562196,
+    "enrichment": 4.898910819070904,
+    "p_hyper": 1.2777356742262591e-80,
+    "roc_auc": 0.8951509255640655
+   },
+   "pooled_matches_saved": true
+  },
+  "48": {
+   "pooled": {
+    "candidates": 2166566,
+    "positives": 862,
+    "in_top_k": 322,
+    "expected": 79.57292784987857,
+    "enrichment": 4.046602389791183,
+    "p_hyper": 8.770121259348644e-111,
+    "roc_auc": 0.8039795714381569
+   },
+   "test_excl": {
+    "candidates": 2166130,
+    "positives": 426,
+    "in_top_k": 162,
+    "expected": 39.33281935987222,
+    "enrichment": 4.118697887323943,
+    "p_hyper": 6.643578171842371e-58,
+    "roc_auc": 0.7988055270329513
+   },
+   "test_incl": {
+    "candidates": 2166566,
+    "positives": 426,
+    "in_top_k": 162,
+    "expected": 39.32490401861748,
+    "enrichment": 4.119526901408451,
+    "p_hyper": 6.464998166508659e-58,
+    "roc_auc": 0.7987442879398075
+   },
+   "val_excl": {
+    "candidates": 2166140,
+    "positives": 436,
+    "in_top_k": 160,
+    "expected": 40.25593913597459,
+    "enrichment": 3.974568807339449,
+    "p_hyper": 9.395179428726638e-55,
+    "roc_auc": 0.8090349451001241
+   },
+   "pooled_matches_saved": true
+  },
+  "49": {
+   "pooled": {
+    "candidates": 2166584,
+    "positives": 880,
+    "in_top_k": 1,
+    "expected": 81.23386861529487,
+    "enrichment": 0.012310136363636363,
+    "p_hyper": 1.0,
+    "roc_auc": 0.31737016315165034
+   },
+   "test_excl": {
+    "candidates": 2166156,
+    "positives": 452,
+    "in_top_k": 0,
+    "expected": 41.73291304966032,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.30993807836248494
+   },
+   "test_incl": {
+    "candidates": 2166584,
+    "positives": 452,
+    "in_top_k": 0,
+    "expected": 41.72466887967418,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.30997078379782833
+   },
+   "val_excl": {
+    "candidates": 2166132,
+    "positives": 428,
+    "in_top_k": 1,
+    "expected": 39.5174439969494,
+    "enrichment": 0.025305280373831774,
+    "p_hyper": 1.0,
+    "roc_auc": 0.3252190003588999
+   },
+   "pooled_matches_saved": true
+  },
+  "50": {
+   "pooled": {
+    "candidates": 2166584,
+    "positives": 880,
+    "in_top_k": 340,
+    "expected": 81.23386861529487,
+    "enrichment": 4.1854463636363635,
+    "p_hyper": 7.229442968136917e-122,
+    "roc_auc": 0.8578635601864336
+   },
+   "test_excl": {
+    "candidates": 2166150,
+    "positives": 446,
+    "in_top_k": 167,
+    "expected": 41.179050388938904,
+    "enrichment": 4.055460201793721,
+    "p_hyper": 1.631558031021606e-58,
+    "roc_auc": 0.8535268568682082
+   },
+   "test_incl": {
+    "candidates": 2166584,
+    "positives": 446,
+    "in_top_k": 167,
+    "expected": 41.170801593660805,
+    "enrichment": 4.056272735426009,
+    "p_hyper": 1.5867928541574022e-58,
+    "roc_auc": 0.8534503158681032
+   },
+   "val_excl": {
+    "candidates": 2166138,
+    "positives": 434,
+    "in_top_k": 174,
+    "expected": 40.07131586260894,
+    "enrichment": 4.3422582027649765,
+    "p_hyper": 3.9291302586214365e-66,
+    "roc_auc": 0.8623201723521677
+   },
+   "pooled_matches_saved": true
+  },
+  "51": {
+   "pooled": {
+    "candidates": 2166546,
+    "positives": 842,
+    "in_top_k": 352,
+    "expected": 77.7274057416736,
+    "enrichment": 4.528647220902613,
+    "p_hyper": 1.3060605744785356e-138,
+    "roc_auc": 0.83009023115197
+   },
+   "test_excl": {
+    "candidates": 2166123,
+    "positives": 419,
+    "in_top_k": 162,
+    "expected": 38.68663044527019,
+    "enrichment": 4.187493150357995,
+    "p_hyper": 4.433014464863268e-59,
+    "roc_auc": 0.8221431247935763
+   },
+   "test_incl": {
+    "candidates": 2166546,
+    "positives": 419,
+    "in_top_k": 162,
+    "expected": 38.67907720399197,
+    "enrichment": 4.188310883054893,
+    "p_hyper": 4.316766083648948e-59,
+    "roc_auc": 0.822074337679377
+   },
+   "val_excl": {
+    "candidates": 2166127,
+    "positives": 423,
+    "in_top_k": 190,
+    "expected": 39.05588176501193,
+    "enrichment": 4.864824231678487,
+    "p_hyper": 4.157736293849741e-82,
+    "roc_auc": 0.8379621875684402
+   },
+   "pooled_matches_saved": true
+  },
+  "52": {
+   "pooled": {
+    "candidates": 2166583,
+    "positives": 879,
+    "in_top_k": 190,
+    "expected": 81.14159485235507,
+    "enrichment": 2.3415857224118315,
+    "p_hyper": 2.424184293090523e-28,
+    "roc_auc": 0.8357808090565139
+   },
+   "test_excl": {
+    "candidates": 2166139,
+    "positives": 435,
+    "in_top_k": 93,
+    "expected": 40.163627541907516,
+    "enrichment": 2.315527896551724,
+    "p_hyper": 1.9464532769465966e-14,
+    "roc_auc": 0.836835581716923
+   },
+   "test_incl": {
+    "candidates": 2166583,
+    "positives": 435,
+    "in_top_k": 93,
+    "expected": 40.15539676993681,
+    "enrichment": 2.316002517241379,
+    "p_hyper": 1.923114295844628e-14,
+    "roc_auc": 0.8367682871734238
+   },
+   "val_excl": {
+    "candidates": 2166148,
+    "positives": 444,
+    "in_top_k": 97,
+    "expected": 40.994428820191416,
+    "enrichment": 2.3661751801801802,
+    "p_hyper": 1.3037748916460827e-15,
+    "roc_auc": 0.8347474169230051
+   },
+   "pooled_matches_saved": true
+  },
+  "53": {
+   "pooled": {
+    "candidates": 2166557,
+    "positives": 853,
+    "in_top_k": 0,
+    "expected": 78.74244711770795,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.32022849064089964
+   },
+   "test_excl": {
+    "candidates": 2166133,
+    "positives": 429,
+    "in_top_k": 0,
+    "expected": 39.60975618763945,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.31741734296284685
+   },
+   "test_incl": {
+    "candidates": 2166557,
+    "positives": 429,
+    "in_top_k": 0,
+    "expected": 39.602004470687824,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.3174509274878228
+   },
+   "val_excl": {
+    "candidates": 2166128,
+    "positives": 424,
+    "in_top_k": 0,
+    "expected": 39.14819438186478,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.3230727886453446
+   },
+   "pooled_matches_saved": true
+  },
+  "54": {
+   "pooled": {
+    "candidates": 2166546,
+    "positives": 842,
+    "in_top_k": 194,
+    "expected": 77.7274057416736,
+    "enrichment": 2.49590216152019,
+    "p_hyper": 1.1430662015530679e-32,
+    "roc_auc": 0.7902131502204527
+   },
+   "test_excl": {
+    "candidates": 2166121,
+    "positives": 417,
+    "in_top_k": 101,
+    "expected": 38.50200427399947,
+    "enrichment": 2.6232400599520385,
+    "p_hyper": 1.912189770121652e-19,
+    "roc_auc": 0.7943914439913052
+   },
+   "test_incl": {
+    "candidates": 2166546,
+    "positives": 417,
+    "in_top_k": 101,
+    "expected": 38.49445153714714,
+    "enrichment": 2.623754748201439,
+    "p_hyper": 1.8863427196487317e-19,
+    "roc_auc": 0.7943361917371784
+   },
+   "val_excl": {
+    "candidates": 2166129,
+    "positives": 425,
+    "in_top_k": 93,
+    "expected": 39.240506913484836,
+    "enrichment": 2.3699999647058827,
+    "p_hyper": 4.4225737813523195e-15,
+    "roc_auc": 0.7861135066852873
+   },
+   "pooled_matches_saved": true
+  },
+  "55": {
+   "pooled": {
+    "candidates": 2166571,
+    "positives": 867,
+    "in_top_k": 0,
+    "expected": 80.03430305307327,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.24559170492193902
+   },
+   "test_excl": {
+    "candidates": 2166127,
+    "positives": 423,
+    "in_top_k": 0,
+    "expected": 39.05588176501193,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.242529758928613
+   },
+   "test_incl": {
+    "candidates": 2166571,
+    "positives": 423,
+    "in_top_k": 0,
+    "expected": 39.04787796014993,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.2425818936138912
+   },
+   "val_excl": {
+    "candidates": 2166148,
+    "positives": 444,
+    "in_top_k": 0,
+    "expected": 40.994428820191416,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.24850882914531042
+   },
+   "pooled_matches_saved": true
+  },
+  "56": {
+   "pooled": {
+    "candidates": 2166594,
+    "positives": 890,
+    "in_top_k": 165,
+    "expected": 82.1566015598677,
+    "enrichment": 2.008359606741573,
+    "p_hyper": 7.579659140142659e-18,
+    "roc_auc": 0.705620081574429
+   },
+   "test_excl": {
+    "candidates": 2166155,
+    "positives": 451,
+    "in_top_k": 83,
+    "expected": 41.64060281928117,
+    "enrichment": 1.9932468403547672,
+    "p_hyper": 1.2428381774869676e-09,
+    "roc_auc": 0.713137945289471
+   },
+   "test_incl": {
+    "candidates": 2166594,
+    "positives": 451,
+    "in_top_k": 83,
+    "expected": 41.63216550955094,
+    "enrichment": 1.993650798226164,
+    "p_hyper": 1.231199179126359e-09,
+    "roc_auc": 0.7130973738578965
+   },
+   "val_excl": {
+    "candidates": 2166143,
+    "positives": 439,
+    "in_top_k": 83,
+    "expected": 40.532873406788006,
+    "enrichment": 2.047720603644647,
+    "p_hyper": 3.264959806250295e-10,
+    "roc_auc": 0.6978967181678597
+   },
+   "pooled_matches_saved": true
+  },
+  "57": {
+   "pooled": {
+    "candidates": 2166545,
+    "positives": 841,
+    "in_top_k": 2,
+    "expected": 77.63512874184474,
+    "enrichment": 0.0257615338882283,
+    "p_hyper": 1.0,
+    "roc_auc": 0.1829078702274712
+   },
+   "test_excl": {
+    "candidates": 2166112,
+    "positives": 408,
+    "in_top_k": 1,
+    "expected": 37.67118228420322,
+    "enrichment": 0.02654549019607843,
+    "p_hyper": 1.0,
+    "roc_auc": 0.19055191820793063
+   },
+   "test_incl": {
+    "candidates": 2166545,
+    "positives": 408,
+    "in_top_k": 1,
+    "expected": 37.66365342053823,
+    "enrichment": 0.02655079656862745,
+    "p_hyper": 1.0,
+    "roc_auc": 0.1906162646349012
+   },
+   "val_excl": {
+    "candidates": 2166137,
+    "positives": 433,
+    "in_top_k": 1,
+    "expected": 39.97900409807875,
+    "enrichment": 0.02501312933025404,
+    "p_hyper": 1.0,
+    "roc_auc": 0.175705164509163
+   },
+   "pooled_matches_saved": true
+  },
+  "58": {
+   "pooled": {
+    "candidates": 2166552,
+    "positives": 848,
+    "in_top_k": 0,
+    "expected": 78.28106595179807,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.37097161091771697
+   },
+   "test_excl": {
+    "candidates": 2166132,
+    "positives": 428,
+    "in_top_k": 0,
+    "expected": 39.5174439969494,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.3758453592444749
+   },
+   "test_incl": {
+    "candidates": 2166552,
+    "positives": 428,
+    "in_top_k": 0,
+    "expected": 39.509783286992416,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.3758722517149673
+   },
+   "val_excl": {
+    "candidates": 2166124,
+    "positives": 420,
+    "in_top_k": 0,
+    "expected": 38.778943403055415,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.3660050292894971
+   },
+   "pooled_matches_saved": true
+  },
+  "59": {
+   "pooled": {
+    "candidates": 2166553,
+    "positives": 849,
+    "in_top_k": 1,
+    "expected": 78.3733423553451,
+    "enrichment": 0.012759440518256773,
+    "p_hyper": 1.0,
+    "roc_auc": 0.1797139978087878
+   },
+   "test_excl": {
+    "candidates": 2166137,
+    "positives": 433,
+    "in_top_k": 1,
+    "expected": 39.97900409807875,
+    "enrichment": 0.02501312933025404,
+    "p_hyper": 1.0,
+    "roc_auc": 0.17645988072008528
+   },
+   "test_incl": {
+    "candidates": 2166553,
+    "positives": 433,
+    "in_top_k": 1,
+    "expected": 39.971327726577655,
+    "enrichment": 0.025017933025404157,
+    "p_hyper": 1.0,
+    "roc_auc": 0.17651871787953122
+   },
+   "val_excl": {
+    "candidates": 2166120,
+    "positives": 416,
+    "in_top_k": 0,
+    "expected": 38.40969106051373,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.1831010956439036
+   },
+   "pooled_matches_saved": true
+  },
+  "60": {
+   "pooled": {
+    "candidates": 2166555,
+    "positives": 851,
+    "in_top_k": 660,
+    "expected": 78.55789490689135,
+    "enrichment": 8.401447121034078,
+    "p_hyper": 0.0,
+    "roc_auc": 0.9230993424345494
+   },
+   "test_excl": {
+    "candidates": 2166133,
+    "positives": 429,
+    "in_top_k": 333,
+    "expected": 39.60975618763945,
+    "enrichment": 8.407019685314685,
+    "p_hyper": 1.1159893791974708e-251,
+    "roc_auc": 0.9272447242982461
+   },
+   "test_incl": {
+    "candidates": 2166555,
+    "positives": 429,
+    "in_top_k": 333,
+    "expected": 39.60204102826838,
+    "enrichment": 8.408657517482517,
+    "p_hyper": 1.0478719546537162e-251,
+    "roc_auc": 0.9271616427481321
+   },
+   "val_excl": {
+    "candidates": 2166126,
+    "positives": 422,
+    "in_top_k": 328,
+    "expected": 38.96356906292616,
+    "enrichment": 8.41812,
+    "p_hyper": 2.8957569225475992e-248,
+    "roc_auc": 0.91888519831245
+   },
+   "pooled_matches_saved": true
+  },
+  "61": {
+   "pooled": {
+    "candidates": 2166553,
+    "positives": 849,
+    "in_top_k": 186,
+    "expected": 78.3733423553451,
+    "enrichment": 2.37325593639576,
+    "p_hyper": 1.5817690917296968e-28,
+    "roc_auc": 0.7839744479218183
+   },
+   "test_excl": {
+    "candidates": 2166125,
+    "positives": 421,
+    "in_top_k": 94,
+    "expected": 38.871256275607365,
+    "enrichment": 2.4182393111638953,
+    "p_hyper": 8.457887788202289e-16,
+    "roc_auc": 0.7840888883269486
+   },
+   "test_incl": {
+    "candidates": 2166553,
+    "positives": 421,
+    "in_top_k": 94,
+    "expected": 38.86357730459398,
+    "enrichment": 2.418717125890736,
+    "p_hyper": 8.356019828850638e-16,
+    "roc_auc": 0.7840332779565401
+   },
+   "val_excl": {
+    "candidates": 2166132,
+    "positives": 428,
+    "in_top_k": 92,
+    "expected": 39.5174439969494,
+    "enrichment": 2.328085794392523,
+    "p_hyper": 1.9047444114467543e-14,
+    "roc_auc": 0.7838618792055566
+   },
+   "pooled_matches_saved": true
+  },
+  "62": {
+   "pooled": {
+    "candidates": 2166583,
+    "positives": 879,
+    "in_top_k": 23,
+    "expected": 81.14159485235507,
+    "enrichment": 0.28345511376564275,
+    "p_hyper": 0.9999999999999992,
+    "roc_auc": 0.5243130631793401
+   },
+   "test_excl": {
+    "candidates": 2166131,
+    "positives": 427,
+    "in_top_k": 11,
+    "expected": 39.42513172102703,
+    "enrichment": 0.2790098477751756,
+    "p_hyper": 0.9999999916966932,
+    "roc_auc": 0.5194936168475769
+   },
+   "test_incl": {
+    "candidates": 2166583,
+    "positives": 427,
+    "in_top_k": 11,
+    "expected": 39.41690671439774,
+    "enrichment": 0.2790680679156909,
+    "p_hyper": 0.9999999916397885,
+    "roc_auc": 0.5194870496221686
+   },
+   "val_excl": {
+    "candidates": 2166156,
+    "positives": 452,
+    "in_top_k": 12,
+    "expected": 41.73291304966032,
+    "enrichment": 0.28754283185840707,
+    "p_hyper": 0.9999999945798864,
+    "roc_auc": 0.5288659472139928
+   },
+   "pooled_matches_saved": true
+  },
+  "63": {
+   "pooled": {
+    "candidates": 2166577,
+    "positives": 873,
+    "in_top_k": 3,
+    "expected": 80.58795048595088,
+    "enrichment": 0.037226408934707904,
+    "p_hyper": 1.0,
+    "roc_auc": 0.30705209412440865
+   },
+   "test_excl": {
+    "candidates": 2166150,
+    "positives": 446,
+    "in_top_k": 3,
+    "expected": 41.179050388938904,
+    "enrichment": 0.07285257847533631,
+    "p_hyper": 0.9999999999999998,
+    "roc_auc": 0.31085500005557487
+   },
+   "test_incl": {
+    "candidates": 2166577,
+    "positives": 446,
+    "in_top_k": 3,
+    "expected": 41.17093461252473,
+    "enrichment": 0.07286693946188341,
+    "p_hyper": 0.9999999999999998,
+    "roc_auc": 0.31089396845355577
+   },
+   "val_excl": {
+    "candidates": 2166131,
+    "positives": 427,
+    "in_top_k": 0,
+    "expected": 39.42513172102703,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.3030799722384598
+   },
+   "pooled_matches_saved": true
+  },
+  "64": {
+   "pooled": {
+    "candidates": 2166585,
+    "positives": 881,
+    "in_top_k": 0,
+    "expected": 81.32614229305567,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.12418840330599962
+   },
+   "test_excl": {
+    "candidates": 2166150,
+    "positives": 446,
+    "in_top_k": 0,
+    "expected": 41.179050388938904,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.12770709981873313
+   },
+   "test_incl": {
+    "candidates": 2166585,
+    "positives": 446,
+    "in_top_k": 0,
+    "expected": 41.17078259103612,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.12778559552624433
+   },
+   "val_excl": {
+    "candidates": 2166139,
+    "positives": 435,
+    "in_top_k": 0,
+    "expected": 40.163627541907516,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.12058072826076019
+   },
+   "pooled_matches_saved": true
+  },
+  "65": {
+   "pooled": {
+    "candidates": 2166554,
+    "positives": 850,
+    "in_top_k": 418,
+    "expected": 78.4656186737095,
+    "enrichment": 5.327173952941176,
+    "p_hyper": 3.022386732251213e-197,
+    "roc_auc": 0.8727413036836712
+   },
+   "test_excl": {
+    "candidates": 2166127,
+    "positives": 423,
+    "in_top_k": 204,
+    "expected": 39.05588176501193,
+    "enrichment": 5.223284964539007,
+    "p_hyper": 3.4930111929233745e-95,
+    "roc_auc": 0.8676682410792289
+   },
+   "test_incl": {
+    "candidates": 2166554,
+    "positives": 423,
+    "in_top_k": 204,
+    "expected": 39.04818435174014,
+    "enrichment": 5.224314609929078,
+    "p_hyper": 3.370001147865654e-95,
+    "roc_auc": 0.8675890997395991
+   },
+   "val_excl": {
+    "candidates": 2166131,
+    "positives": 427,
+    "in_top_k": 214,
+    "expected": 39.42513172102703,
+    "enrichment": 5.428009765807962,
+    "p_hyper": 5.728559926227025e-104,
+    "roc_auc": 0.8777668434534112
+   },
+   "pooled_matches_saved": true
+  },
+  "66": {
+   "pooled": {
+    "candidates": 2166569,
+    "positives": 865,
+    "in_top_k": 2,
+    "expected": 79.84975322733779,
+    "enrichment": 0.025047040462427745,
+    "p_hyper": 1.0,
+    "roc_auc": 0.20277412122502708
+   },
+   "test_excl": {
+    "candidates": 2166140,
+    "positives": 436,
+    "in_top_k": 1,
+    "expected": 40.25593913597459,
+    "enrichment": 0.024841055045871557,
+    "p_hyper": 1.0,
+    "roc_auc": 0.19984226552074497
+   },
+   "test_incl": {
+    "candidates": 2166569,
+    "positives": 436,
+    "in_top_k": 1,
+    "expected": 40.24796810071592,
+    "enrichment": 0.024845974770642203,
+    "p_hyper": 1.0,
+    "roc_auc": 0.19989967631279273
+   },
+   "val_excl": {
+    "candidates": 2166133,
+    "positives": 429,
+    "in_top_k": 1,
+    "expected": 39.60975618763945,
+    "enrichment": 0.02524630536130536,
+    "p_hyper": 1.0,
+    "roc_auc": 0.2057538160666751
+   },
+   "pooled_matches_saved": true
+  },
+  "67": {
+   "pooled": {
+    "candidates": 2166562,
+    "positives": 858,
+    "in_top_k": 1,
+    "expected": 79.20382615406345,
+    "enrichment": 0.01262565268065268,
+    "p_hyper": 1.0,
+    "roc_auc": 0.5207155017975195
+   },
+   "test_excl": {
+    "candidates": 2166120,
+    "positives": 416,
+    "in_top_k": 0,
+    "expected": 38.40969106051373,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.518160728899773
+   },
+   "test_incl": {
+    "candidates": 2166562,
+    "positives": 416,
+    "in_top_k": 0,
+    "expected": 38.40185510500046,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.5181552953645288
+   },
+   "val_excl": {
+    "candidates": 2166146,
+    "positives": 442,
+    "in_top_k": 1,
+    "expected": 40.80980691052219,
+    "enrichment": 0.02450391402714932,
+    "p_hyper": 1.0,
+    "roc_auc": 0.523119993936575
+   },
+   "pooled_matches_saved": true
+  },
+  "68": {
+   "pooled": {
+    "candidates": 2166587,
+    "positives": 883,
+    "in_top_k": 7,
+    "expected": 81.51068939304076,
+    "enrichment": 0.08587830690826727,
+    "p_hyper": 1.0,
+    "roc_auc": 0.30231180722168194
+   },
+   "test_excl": {
+    "candidates": 2166155,
+    "positives": 451,
+    "in_top_k": 3,
+    "expected": 41.64060281928117,
+    "enrichment": 0.072045066518847,
+    "p_hyper": 0.9999999999999999,
+    "roc_auc": 0.30421268134637613
+   },
+   "test_incl": {
+    "candidates": 2166587,
+    "positives": 451,
+    "in_top_k": 3,
+    "expected": 41.63230001841606,
+    "enrichment": 0.07205943458980045,
+    "p_hyper": 0.9999999999999999,
+    "roc_auc": 0.30425368351039767
+   },
+   "val_excl": {
+    "candidates": 2166136,
+    "positives": 432,
+    "in_top_k": 4,
+    "expected": 39.88669224831682,
+    "enrichment": 0.10028407407407407,
+    "p_hyper": 0.99999999999999,
+    "roc_auc": 0.3003273298368738
+   },
+   "pooled_matches_saved": true
+  },
+  "69": {
+   "pooled": {
+    "candidates": 2166575,
+    "positives": 871,
+    "in_top_k": 2,
+    "expected": 80.40340168237887,
+    "enrichment": 0.024874569460390357,
+    "p_hyper": 1.0,
+    "roc_auc": 0.28330607077437375
+   },
+   "test_excl": {
+    "candidates": 2166158,
+    "positives": 454,
+    "in_top_k": 0,
+    "expected": 41.917533254730266,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.2720327262802873
+   },
+   "test_incl": {
+    "candidates": 2166575,
+    "positives": 454,
+    "in_top_k": 0,
+    "expected": 41.90946540045925,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.27207126561181294
+   },
+   "val_excl": {
+    "candidates": 2166121,
+    "positives": 417,
+    "in_top_k": 2,
+    "expected": 38.50200427399947,
+    "enrichment": 0.05194534772182254,
+    "p_hyper": 0.9999999999999999,
+    "roc_auc": 0.29557968804131685
+   },
+   "pooled_matches_saved": true
+  },
+  "70": {
+   "pooled": {
+    "candidates": 2166576,
+    "positives": 872,
+    "in_top_k": 8,
+    "expected": 80.49567612675484,
+    "enrichment": 0.09938422018348624,
+    "p_hyper": 1.0,
+    "roc_auc": 0.3615903802173173
+   },
+   "test_excl": {
+    "candidates": 2166140,
+    "positives": 436,
+    "in_top_k": 5,
+    "expected": 40.25593913597459,
+    "enrichment": 0.12420527522935779,
+    "p_hyper": 0.9999999999999212,
+    "roc_auc": 0.363762654126207
+   },
+   "test_incl": {
+    "candidates": 2166576,
+    "positives": 436,
+    "in_top_k": 5,
+    "expected": 40.24783806337742,
+    "enrichment": 0.1242302752293578,
+    "p_hyper": 0.9999999999999205,
+    "roc_auc": 0.3637922370134911
+   },
+   "val_excl": {
+    "candidates": 2166140,
+    "positives": 436,
+    "in_top_k": 3,
+    "expected": 40.25593913597459,
+    "enrichment": 0.07452316513761467,
+    "p_hyper": 0.9999999999999996,
+    "roc_auc": 0.3594181063084277
+   },
+   "pooled_matches_saved": true
+  },
+  "71": {
+   "pooled": {
+    "candidates": 2166584,
+    "positives": 880,
+    "in_top_k": 0,
+    "expected": 81.23386861529487,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.13076925904295492
+   },
+   "test_excl": {
+    "candidates": 2166128,
+    "positives": 424,
+    "in_top_k": 0,
+    "expected": 39.14819438186478,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.1259875699532869
+   },
+   "test_incl": {
+    "candidates": 2166584,
+    "positives": 424,
+    "in_top_k": 0,
+    "expected": 39.13995487827843,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.12606479562390555
+   },
+   "val_excl": {
+    "candidates": 2166160,
+    "positives": 456,
+    "in_top_k": 0,
+    "expected": 42.10215311888319,
+    "enrichment": 0.0,
+    "p_hyper": 1.0,
+    "roc_auc": 0.13521539100352342
+   },
+   "pooled_matches_saved": true
+  }
+ },
+ "agg": {
+  "interaction_like_runs_pooled_ge2x": [
+   47,
+   48,
+   50,
+   51,
+   52,
+   54,
+   56,
+   60,
+   61,
+   65
+  ],
+  "all_pooled_match_saved": true,
+  "pooled": {
+   "max_enrichment": 8.401447121034078,
+   "n_runs_enrichment_ge2": 10,
+   "n_runs_p_lt_0.05": 10,
+   "n_runs_p_lt_0.05_bonf30": 10,
+   "expected_range": [
+    77.63512874184474,
+    82.1566015598677
+   ],
+   "il_runs_in_top_k_range": [
+    165,
+    660
+   ],
+   "il_runs_enrichment_range": [
+    2.008359606741573,
+    8.401447121034078
+   ],
+   "il_runs_roc_auc_range": [
+    0.705620081574429,
+    0.9230993424345494
+   ],
+   "other_runs_in_top_k_range": [
+    0,
+    23
+   ],
+   "in_top_k_all_runs_range": [
+    0,
+    660
+   ],
+   "roc_auc_all_runs_mean_sd": [
+    0.4813862178248766,
+    0.2707894240275714
+   ]
+  },
+  "test_excl": {
+   "max_enrichment": 8.407019685314685,
+   "n_runs_enrichment_ge2": 9,
+   "n_runs_p_lt_0.05": 10,
+   "n_runs_p_lt_0.05_bonf30": 10,
+   "expected_range": [
+    36.65572380973925,
+    42.00984322942129
+   ],
+   "il_runs_in_top_k_range": [
+    83,
+    333
+   ],
+   "il_runs_enrichment_range": [
+    1.9932468403547672,
+    8.407019685314685
+   ],
+   "il_runs_roc_auc_range": [
+    0.713137945289471,
+    0.9272447242982461
+   ],
+   "other_runs_in_top_k_range": [
+    0,
+    11
+   ],
+   "in_top_k_all_runs_range": [
+    0,
+    333
+   ],
+   "roc_auc_all_runs_mean_sd": [
+    0.4811911848098381,
+    0.2703681411062547
+   ]
+  },
+  "test_incl": {
+   "max_enrichment": 8.408657517482517,
+   "n_runs_enrichment_ge2": 9,
+   "n_runs_p_lt_0.05": 10,
+   "n_runs_p_lt_0.05_bonf30": 10,
+   "expected_range": [
+    36.64816103774299,
+    42.001912702486145
+   ],
+   "il_runs_in_top_k_range": [
+    83,
+    333
+   ],
+   "il_runs_enrichment_range": [
+    1.993650798226164,
+    8.408657517482517
+   ],
+   "il_runs_roc_auc_range": [
+    0.7130973738578965,
+    0.9271616427481321
+   ],
+   "other_runs_in_top_k_range": [
+    0,
+    11
+   ],
+   "in_top_k_all_runs_range": [
+    0,
+    333
+   ],
+   "roc_auc_all_runs_mean_sd": [
+    0.48119473749577896,
+    0.2703136605590201
+   ]
+  },
+  "val_excl": {
+   "max_enrichment": 8.41812,
+   "n_runs_enrichment_ge2": 10,
+   "n_runs_p_lt_0.05": 10,
+   "n_runs_p_lt_0.05_bonf30": 10,
+   "expected_range": [
+    37.11729712211683,
+    42.10215311888319
+   ],
+   "il_runs_in_top_k_range": [
+    83,
+    328
+   ],
+   "il_runs_enrichment_range": [
+    2.047720603644647,
+    8.41812
+   ],
+   "il_runs_roc_auc_range": [
+    0.6978967181678597,
+    0.91888519831245
+   ],
+   "other_runs_in_top_k_range": [
+    0,
+    12
+   ],
+   "in_top_k_all_runs_range": [
+    0,
+    328
+   ],
+   "roc_auc_all_runs_mean_sd": [
+    0.48159575852337727,
+    0.27127445048432614
+   ]
+  }
+ }
+}
