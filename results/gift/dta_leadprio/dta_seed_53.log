@@ -1,0 +1,13 @@
+2026-10-25 02:45:13,062 - INFO - Using external ChEMBL36 interaction PKL: data/external_compounds_labels.pkl
+2026-10-25 02:45:13,090 - INFO - 
+Loaded ChEMBL36 validation data from PKLs
+2026-10-25 02:45:13,090 - INFO - External compounds with features and graph-target interactions: 95
+2026-10-25 02:45:13,090 - INFO - New external compound-protein interactions: 3243
+2026-10-25 02:45:13,091 - INFO - Graph targets referenced by PKL: 1391
+2026-10-25 02:45:13,091 - INFO - Skipped missing features: 0
+2026-10-25 02:45:13,091 - INFO - Skipped invalid features: 0
+2026-10-25 02:45:13,091 - INFO - Skipped compounds without graph targets: 0
+seed 53 deepdta {'smi_kernel': [4, 6, 8], 'seq_kernel': [4, 8, 12], 'lr': 0.001, 'dropout': 0.1} val_auc=0.9454 best_epoch=151 stop=171
+deepdta {'same_version': {'roc_auc': 0.965, 'auprc': 0.896, 'mcc': 0.754}, 'same_version_matched': {'roc_auc': 0.907, 'auprc': 0.744, 'mcc': 0.502}, 'external': {'roc_auc': 0.475, 'auprc': 0.198, 'mcc': 0.089}}
+seed 53 graphdta {'lr': 0.0005, 'dropout': 0.2} val_auc=0.9275 best_epoch=133 stop=153
+graphdta {'same_version': {'roc_auc': 0.949, 'auprc': 0.879, 'mcc': 0.761}, 'same_version_matched': {'roc_auc': 0.848, 'auprc': 0.656, 'mcc': 0.441}, 'external': {'roc_auc': 0.653, 'auprc': 0.338, 'mcc': 0.209}}

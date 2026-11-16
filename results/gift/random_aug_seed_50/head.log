@@ -1,0 +1,43 @@
+Loaded backbone from results/gift/random_aug_seed_50/backbone/best_model_phase2.pth; head params: 1488770
+Epoch   1: loss=2.1567 val_auc(conn,iso)=(0.8098,0.8175) val_ap(conn,iso)=(0.4264,0.4745) f1@0.5(conn)=0.3958 *
+Epoch   2: loss=0.6809 val_auc(conn,iso)=(0.8189,0.8121) val_ap(conn,iso)=(0.4288,0.4499) f1@0.5(conn)=0.4217 *
+Epoch   3: loss=0.4632 val_auc(conn,iso)=(0.8783,0.8946) val_ap(conn,iso)=(0.5372,0.6412) f1@0.5(conn)=0.5275 *
+Epoch   4: loss=0.3144 val_auc(conn,iso)=(0.8900,0.8872) val_ap(conn,iso)=(0.5996,0.6489) f1@0.5(conn)=0.5437 *
+Epoch   5: loss=0.2528 val_auc(conn,iso)=(0.9031,0.9047) val_ap(conn,iso)=(0.6190,0.6625) f1@0.5(conn)=0.5380 *
+Epoch   8: loss=0.1771 val_auc(conn,iso)=(0.9172,0.9125) val_ap(conn,iso)=(0.6984,0.7550) f1@0.5(conn)=0.5647 *
+Epoch   9: loss=0.1641 val_auc(conn,iso)=(0.9236,0.9198) val_ap(conn,iso)=(0.7456,0.7640) f1@0.5(conn)=0.5739 *
+Epoch  10: loss=0.1385 val_auc(conn,iso)=(0.9165,0.9151) val_ap(conn,iso)=(0.6680,0.7100) f1@0.5(conn)=0.5086
+Epoch  11: loss=0.1823 val_auc(conn,iso)=(0.9251,0.9192) val_ap(conn,iso)=(0.7330,0.7519) f1@0.5(conn)=0.5560 *
+Epoch  12: loss=0.1361 val_auc(conn,iso)=(0.9304,0.9200) val_ap(conn,iso)=(0.7699,0.7690) f1@0.5(conn)=0.5819 *
+Epoch  15: loss=0.1073 val_auc(conn,iso)=(0.9200,0.9197) val_ap(conn,iso)=(0.7009,0.7375) f1@0.5(conn)=0.5722
+Epoch  16: loss=0.1488 val_auc(conn,iso)=(0.9315,0.9300) val_ap(conn,iso)=(0.7451,0.7665) f1@0.5(conn)=0.6135 *
+Epoch  20: loss=0.1125 val_auc(conn,iso)=(0.9290,0.9259) val_ap(conn,iso)=(0.7542,0.7795) f1@0.5(conn)=0.5924
+Epoch  24: loss=0.0869 val_auc(conn,iso)=(0.9390,0.9301) val_ap(conn,iso)=(0.8059,0.8014) f1@0.5(conn)=0.6099 *
+Epoch  25: loss=0.1113 val_auc(conn,iso)=(0.9345,0.9360) val_ap(conn,iso)=(0.7554,0.7948) f1@0.5(conn)=0.6136 *
+Epoch  26: loss=0.0814 val_auc(conn,iso)=(0.9405,0.9367) val_ap(conn,iso)=(0.8101,0.8176) f1@0.5(conn)=0.6405 *
+Epoch  27: loss=0.0785 val_auc(conn,iso)=(0.9438,0.9413) val_ap(conn,iso)=(0.8268,0.8247) f1@0.5(conn)=0.6874 *
+Epoch  30: loss=0.0501 val_auc(conn,iso)=(0.9384,0.9362) val_ap(conn,iso)=(0.7658,0.7584) f1@0.5(conn)=0.6828
+Epoch  35: loss=0.0598 val_auc(conn,iso)=(0.9385,0.9313) val_ap(conn,iso)=(0.8185,0.8142) f1@0.5(conn)=0.6885
+Epoch  40: loss=0.0408 val_auc(conn,iso)=(0.9399,0.9334) val_ap(conn,iso)=(0.8315,0.8290) f1@0.5(conn)=0.7041
+Epoch  43: loss=0.0287 val_auc(conn,iso)=(0.9454,0.9407) val_ap(conn,iso)=(0.8315,0.8359) f1@0.5(conn)=0.7099 *
+Epoch  45: loss=0.0314 val_auc(conn,iso)=(0.9459,0.9405) val_ap(conn,iso)=(0.8393,0.8384) f1@0.5(conn)=0.7365 *
+Epoch  46: loss=0.0421 val_auc(conn,iso)=(0.9499,0.9455) val_ap(conn,iso)=(0.8559,0.8459) f1@0.5(conn)=0.7466 *
+Epoch  47: loss=0.0252 val_auc(conn,iso)=(0.9498,0.9456) val_ap(conn,iso)=(0.8621,0.8521) f1@0.5(conn)=0.7502 *
+Epoch  48: loss=0.0333 val_auc(conn,iso)=(0.9534,0.9492) val_ap(conn,iso)=(0.8779,0.8713) f1@0.5(conn)=0.7833 *
+Epoch  50: loss=0.0377 val_auc(conn,iso)=(0.9474,0.9434) val_ap(conn,iso)=(0.8700,0.8649) f1@0.5(conn)=0.7802
+Epoch  55: loss=0.0163 val_auc(conn,iso)=(0.9428,0.9371) val_ap(conn,iso)=(0.8667,0.8609) f1@0.5(conn)=0.7424
+Epoch  60: loss=0.0248 val_auc(conn,iso)=(0.9488,0.9433) val_ap(conn,iso)=(0.8746,0.8646) f1@0.5(conn)=0.7757
+Epoch  65: loss=0.0268 val_auc(conn,iso)=(0.9520,0.9493) val_ap(conn,iso)=(0.8688,0.8584) f1@0.5(conn)=0.7879
+Epoch  66: loss=0.0173 val_auc(conn,iso)=(0.9534,0.9502) val_ap(conn,iso)=(0.8802,0.8740) f1@0.5(conn)=0.7881 *
+Epoch  70: loss=0.0193 val_auc(conn,iso)=(0.9475,0.9428) val_ap(conn,iso)=(0.8812,0.8759) f1@0.5(conn)=0.8022
+Epoch  75: loss=0.0257 val_auc(conn,iso)=(0.9498,0.9454) val_ap(conn,iso)=(0.8842,0.8807) f1@0.5(conn)=0.8049
+Epoch  77: loss=0.0246 val_auc(conn,iso)=(0.9545,0.9509) val_ap(conn,iso)=(0.8865,0.8832) f1@0.5(conn)=0.7919 *
+Epoch  78: loss=0.0289 val_auc(conn,iso)=(0.9553,0.9519) val_ap(conn,iso)=(0.8884,0.8836) f1@0.5(conn)=0.8079 *
+Epoch  80: loss=0.0183 val_auc(conn,iso)=(0.9544,0.9512) val_ap(conn,iso)=(0.8806,0.8763) f1@0.5(conn)=0.7983
+Epoch  83: loss=0.0182 val_auc(conn,iso)=(0.9558,0.9527) val_ap(conn,iso)=(0.8736,0.8736) f1@0.5(conn)=0.8040 *
+Epoch  85: loss=0.0159 val_auc(conn,iso)=(0.9486,0.9452) val_ap(conn,iso)=(0.8751,0.8770) f1@0.5(conn)=0.7987
+Epoch  90: loss=0.0136 val_auc(conn,iso)=(0.9517,0.9470) val_ap(conn,iso)=(0.8849,0.8835) f1@0.5(conn)=0.7987
+Epoch  95: loss=0.0121 val_auc(conn,iso)=(0.9498,0.9454) val_ap(conn,iso)=(0.8818,0.8771) f1@0.5(conn)=0.7923
+Epoch 100: loss=0.0076 val_auc(conn,iso)=(0.9520,0.9481) val_ap(conn,iso)=(0.8878,0.8855) f1@0.5(conn)=0.8066
+Early stopping at epoch 103
+Model saved to: results/gift/random_aug_seed_50/head/trained_model.pth

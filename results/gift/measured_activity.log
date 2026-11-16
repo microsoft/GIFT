@@ -1,0 +1,39 @@
+seed 42: [3,5) model per-target ROC-AUC=0.606 PR-AUC=0.973 MCC=0.368 (pos=845 neg=105 targets=42)
+seed 43: [3,5) model per-target ROC-AUC=0.634 PR-AUC=0.962 MCC=0.369 (pos=844 neg=105 targets=39)
+seed 44: [3,5) model per-target ROC-AUC=0.629 PR-AUC=0.963 MCC=0.345 (pos=845 neg=105 targets=39)
+seed 45: [3,5) model per-target ROC-AUC=0.512 PR-AUC=0.972 MCC=0.386 (pos=858 neg=105 targets=40)
+seed 46: [3,5) model per-target ROC-AUC=0.534 PR-AUC=0.967 MCC=0.356 (pos=867 neg=105 targets=48)
+seed 47: [3,5) model per-target ROC-AUC=0.655 PR-AUC=0.969 MCC=0.382 (pos=864 neg=105 targets=42)
+seed 48: [3,5) model per-target ROC-AUC=0.634 PR-AUC=0.958 MCC=0.363 (pos=862 neg=105 targets=50)
+seed 49: [3,5) model per-target ROC-AUC=0.684 PR-AUC=0.971 MCC=0.346 (pos=880 neg=105 targets=46)
+seed 50: [3,5) model per-target ROC-AUC=0.680 PR-AUC=0.972 MCC=0.339 (pos=880 neg=105 targets=44)
+seed 51: [3,5) model per-target ROC-AUC=0.631 PR-AUC=0.950 MCC=0.316 (pos=842 neg=105 targets=42)
+seed 52: [3,5) model per-target ROC-AUC=0.625 PR-AUC=0.972 MCC=0.365 (pos=879 neg=105 targets=45)
+seed 53: [3,5) model per-target ROC-AUC=0.634 PR-AUC=0.957 MCC=0.353 (pos=853 neg=105 targets=44)
+seed 54: [3,5) model per-target ROC-AUC=0.654 PR-AUC=0.957 MCC=0.310 (pos=842 neg=105 targets=40)
+seed 55: [3,5) model per-target ROC-AUC=0.702 PR-AUC=0.977 MCC=0.447 (pos=867 neg=105 targets=43)
+seed 56: [3,5) model per-target ROC-AUC=0.583 PR-AUC=0.959 MCC=0.329 (pos=890 neg=105 targets=50)
+seed 57: [3,5) model per-target ROC-AUC=0.672 PR-AUC=0.969 MCC=0.346 (pos=841 neg=105 targets=45)
+seed 58: [3,5) model per-target ROC-AUC=0.639 PR-AUC=0.959 MCC=0.362 (pos=848 neg=105 targets=44)
+seed 59: [3,5) model per-target ROC-AUC=0.632 PR-AUC=0.964 MCC=0.362 (pos=849 neg=105 targets=35)
+seed 60: [3,5) model per-target ROC-AUC=0.534 PR-AUC=0.967 MCC=0.299 (pos=851 neg=105 targets=46)
+seed 61: [3,5) model per-target ROC-AUC=0.565 PR-AUC=0.969 MCC=0.301 (pos=849 neg=105 targets=43)
+seed 62: [3,5) model per-target ROC-AUC=0.613 PR-AUC=0.971 MCC=0.406 (pos=879 neg=105 targets=44)
+seed 63: [3,5) model per-target ROC-AUC=0.579 PR-AUC=0.962 MCC=0.344 (pos=873 neg=105 targets=46)
+seed 64: [3,5) model per-target ROC-AUC=0.649 PR-AUC=0.960 MCC=0.362 (pos=881 neg=105 targets=42)
+seed 65: [3,5) model per-target ROC-AUC=0.708 PR-AUC=0.966 MCC=0.365 (pos=850 neg=105 targets=41)
+seed 66: [3,5) model per-target ROC-AUC=0.677 PR-AUC=0.970 MCC=0.421 (pos=865 neg=105 targets=48)
+seed 67: [3,5) model per-target ROC-AUC=0.646 PR-AUC=0.963 MCC=0.369 (pos=858 neg=105 targets=42)
+seed 68: [3,5) model per-target ROC-AUC=0.577 PR-AUC=0.959 MCC=0.331 (pos=883 neg=105 targets=43)
+seed 69: [3,5) model per-target ROC-AUC=0.633 PR-AUC=0.967 MCC=0.360 (pos=871 neg=105 targets=44)
+seed 70: [3,5) model per-target ROC-AUC=0.680 PR-AUC=0.955 MCC=0.377 (pos=872 neg=105 targets=46)
+seed 71: [3,5) model per-target ROC-AUC=0.678 PR-AUC=0.968 MCC=0.332 (pos=880 neg=105 targets=42)
+
+=== aggregate over 30 seeds ===
+[moderate negatives]
+  gnn  per-target ROC-AUC 0.629  PR-AUC 0.965  precision 0.948  recall 0.842  MCC 0.357
+  rf   per-target ROC-AUC 0.588  PR-AUC 0.971  precision 0.907  recall 0.933  MCC 0.164
+[all negatives]
+  gnn  per-target ROC-AUC 0.809  PR-AUC 0.632  precision 0.466  recall 0.842  MCC 0.422
+  rf   per-target ROC-AUC 0.767  PR-AUC 0.531  precision 0.318  recall 0.933  MCC 0.193
+wrote results/gift/measured_activity.json

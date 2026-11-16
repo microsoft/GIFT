@@ -1,0 +1,172 @@
+
+######## BENCHMARK TABLES (LaTeX rows)
+%% same_version
+ROC-AUC & \textbf{0.962$\pm$0.005} & 0.939$\pm$0.006 & 0.907$\pm$0.012 & 0.911$\pm$0.010 & 0.882$\pm$0.017 \\
+PR-AUC & \textbf{0.907$\pm$0.010} & 0.827$\pm$0.013 & 0.668$\pm$0.044 & 0.653$\pm$0.039 & 0.541$\pm$0.050 \\
+Per-target ROC-AUC & \textbf{0.950$\pm$0.013} & 0.930$\pm$0.013 & 0.908$\pm$0.018 & 0.908$\pm$0.018 & 0.881$\pm$0.022 \\
+Accuracy & \textbf{0.950$\pm$0.006} & 0.767$\pm$0.011 & 0.803$\pm$0.029 & 0.884$\pm$0.012 & 0.745$\pm$0.093 \\
+Precision & \textbf{0.859$\pm$0.032} & 0.413$\pm$0.012 & 0.457$\pm$0.038 & 0.620$\pm$0.034 & 0.401$\pm$0.063 \\
+Recall & 0.838$\pm$0.023 & \textbf{0.931$\pm$0.013} & 0.894$\pm$0.021 & 0.800$\pm$0.022 & 0.901$\pm$0.031 \\
+F1 & \textbf{0.848$\pm$0.016} & 0.572$\pm$0.012 & 0.604$\pm$0.033 & 0.697$\pm$0.021 & 0.551$\pm$0.060 \\
+MCC & \textbf{0.818$\pm$0.019} & 0.512$\pm$0.015 & 0.541$\pm$0.036 & 0.636$\pm$0.025 & 0.480$\pm$0.074 \\
+%% same_version_matched
+ROC-AUC & \textbf{0.899$\pm$0.010} & 0.728$\pm$0.013 & 0.743$\pm$0.040 & 0.726$\pm$0.033 & 0.706$\pm$0.047 \\
+PR-AUC & \textbf{0.776$\pm$0.026} & 0.466$\pm$0.034 & 0.338$\pm$0.053 & 0.329$\pm$0.051 & 0.308$\pm$0.059 \\
+Per-target ROC-AUC & \textbf{0.854$\pm$0.028} & 0.684$\pm$0.025 & 0.769$\pm$0.025 & 0.734$\pm$0.025 & 0.712$\pm$0.035 \\
+Accuracy & \textbf{0.832$\pm$0.025} & 0.291$\pm$0.015 & 0.516$\pm$0.062 & 0.600$\pm$0.051 & 0.411$\pm$0.071 \\
+Precision & \textbf{0.516$\pm$0.046} & 0.189$\pm$0.004 & 0.253$\pm$0.024 & 0.279$\pm$0.029 & 0.218$\pm$0.022 \\
+Recall & 0.838$\pm$0.023 & \textbf{0.931$\pm$0.013} & 0.894$\pm$0.021 & 0.800$\pm$0.022 & 0.901$\pm$0.031 \\
+F1 & \textbf{0.637$\pm$0.033} & 0.314$\pm$0.006 & 0.394$\pm$0.029 & 0.413$\pm$0.030 & 0.350$\pm$0.025 \\
+MCC & \textbf{0.564$\pm$0.038} & 0.095$\pm$0.012 & 0.259$\pm$0.047 & 0.273$\pm$0.043 & 0.178$\pm$0.045 \\
+%% external
+ROC-AUC & \textbf{0.725$\pm$0.021} & 0.561$\pm$0.010 & 0.690$\pm$0.022 & 0.607$\pm$0.034 & 0.582$\pm$0.064 \\
+PR-AUC & \textbf{0.456$\pm$0.026} & 0.213$\pm$0.007 & 0.262$\pm$0.021 & 0.210$\pm$0.022 & 0.194$\pm$0.026 \\
+Per-target ROC-AUC & \textbf{0.618$\pm$0.014} & 0.558$\pm$0.009 & 0.551$\pm$0.025 & 0.562$\pm$0.020 & 0.554$\pm$0.017 \\
+Precision & \textbf{0.673$\pm$0.034} & 0.241$\pm$0.021 & 0.258$\pm$0.046 & 0.206$\pm$0.027 & 0.183$\pm$0.042 \\
+Recall & \textbf{0.245$\pm$0.047} & 0.190$\pm$0.036 & 0.093$\pm$0.044 & 0.211$\pm$0.082 & 0.214$\pm$0.105 \\
+F1 & \textbf{0.357$\pm$0.050} & 0.211$\pm$0.025 & 0.133$\pm$0.050 & 0.198$\pm$0.046 & 0.189$\pm$0.052 \\
+MCC & \textbf{0.342$\pm$0.037} & 0.072$\pm$0.021 & 0.059$\pm$0.035 & 0.038$\pm$0.028 & 0.013$\pm$0.057 \\
+same_version_isolated {'roc_auc': '0.959±0.005', 'auprc': '0.905±0.010', 'f1': '0.847±0.015', 'mcc': '0.818±0.018'}
+same_version roc_auc: GNN range 0.882-0.911; all baselines 0.882-0.939
+same_version mcc: GNN range 0.480-0.636; all baselines 0.480-0.636
+same_version precision: GNN range 0.401-0.620; all baselines 0.401-0.620
+same_version recall: GNN range 0.800-0.901; all baselines 0.800-0.931
+same_version per_target_roc_auc: GNN range 0.881-0.908; all baselines 0.881-0.930
+same_version_matched roc_auc: GNN range 0.706-0.743; all baselines 0.706-0.743
+same_version_matched mcc: GNN range 0.178-0.273; all baselines 0.095-0.273
+same_version_matched precision: GNN range 0.218-0.279; all baselines 0.189-0.279
+same_version_matched recall: GNN range 0.800-0.901; all baselines 0.800-0.931
+same_version_matched per_target_roc_auc: GNN range 0.712-0.769; all baselines 0.684-0.769
+external roc_auc: GNN range 0.582-0.690; all baselines 0.561-0.690
+external mcc: GNN range 0.013-0.059; all baselines 0.013-0.072
+external precision: GNN range 0.183-0.258; all baselines 0.183-0.258
+external recall: GNN range 0.093-0.214; all baselines 0.093-0.214
+external per_target_roc_auc: GNN range 0.551-0.562; all baselines 0.551-0.562
+same_version roc_auc: proposed > every baseline in 30/30 runs
+same_version mcc: proposed > every baseline in 30/30 runs
+same_version per_target_roc_auc: proposed > every baseline in 30/30 runs
+same_version_matched roc_auc: proposed > every baseline in 30/30 runs
+same_version_matched mcc: proposed > every baseline in 30/30 runs
+same_version_matched per_target_roc_auc: proposed > every baseline in 29/30 runs
+external roc_auc: proposed > every baseline in 27/30 runs
+external mcc: proposed > every baseline in 30/30 runs
+external per_target_roc_auc: proposed > every baseline in 29/30 runs
+
+######## ABLATION (with vs without soft edges)
+val.conn                                 with 0.952$\pm$0.008  without 0.951$\pm$0.007  higher=WITH  runs with>without 18/30
+val.iso                                  with 0.950$\pm$0.008  without 0.948$\pm$0.008  higher=WITH  runs with>without 14/30
+same_version.roc_auc                     with 0.962$\pm$0.005  without 0.961$\pm$0.005  higher=WITH  runs with>without 16/30
+same_version.auprc                       with 0.907$\pm$0.010  without 0.907$\pm$0.012  higher=tie  runs with>without 14/30
+same_version.f1                          with 0.848$\pm$0.016  without 0.849$\pm$0.016  higher=WITHOUT  runs with>without 16/30
+same_version.mcc                         with 0.818$\pm$0.019  without 0.820$\pm$0.020  higher=WITHOUT  runs with>without 17/30
+same_version_isolated.roc_auc            with 0.959$\pm$0.005  without 0.957$\pm$0.005  higher=WITH  runs with>without 18/30
+same_version_isolated.mcc                with 0.818$\pm$0.018  without 0.820$\pm$0.018  higher=WITHOUT  runs with>without 15/30
+same_version_matched.roc_auc             with 0.899$\pm$0.010  without 0.900$\pm$0.009  higher=WITHOUT  runs with>without 11/30
+same_version_matched.auprc               with 0.776$\pm$0.026  without 0.782$\pm$0.025  higher=WITHOUT  runs with>without 12/30
+same_version_matched.per_target_roc_auc  with 0.854$\pm$0.028  without 0.852$\pm$0.022  higher=WITH  runs with>without 15/30
+same_version_matched.f1                  with 0.637$\pm$0.033  without 0.646$\pm$0.034  higher=WITHOUT  runs with>without 13/30
+same_version_matched.mcc                 with 0.564$\pm$0.038  without 0.574$\pm$0.039  higher=WITHOUT  runs with>without 13/30
+external.roc_auc                         with 0.725$\pm$0.021  without 0.724$\pm$0.019  higher=WITH  runs with>without 16/30
+external.per_target_roc_auc              with 0.618$\pm$0.014  without 0.620$\pm$0.013  higher=WITHOUT  runs with>without 14/30
+external.mcc                             with 0.342$\pm$0.037  without 0.335$\pm$0.040  higher=WITH  runs with>without 17/30
+lead.auc_mean                            with 0.689$\pm$0.019  without 0.693$\pm$0.019  higher=WITHOUT  runs with>without 11/30
+lead.hits_mean                           with 2.26$\pm$0.28  without 2.26$\pm$0.23  higher=tie  runs with>without 16/30
+lead.above_family                        with 176$\pm$22  without 181$\pm$18  higher=WITHOUT  runs with>without 16/30
+lead.kin_auc                             with 0.731$\pm$0.024  without 0.736$\pm$0.022  higher=WITHOUT  runs with>without 11/30
+lead.kin_hits                            with 2.48$\pm$0.35  without 2.47$\pm$0.30  higher=WITH  runs with>without 16/30
+lead.drv_auc                             with 0.780$\pm$0.024  without 0.778$\pm$0.021  higher=WITH  runs with>without 14/30
+lead.drv_hits                            with 4.8$\pm$0.4  without 4.8$\pm$0.4  higher=tie  runs with>without 15/30
+lead.tested_auc                          with 0.62$\pm$0.03  without 0.62$\pm$0.03  higher=tie  runs with>without 15/30
+lead.sel_auc                             with 0.61$\pm$0.04  without 0.59$\pm$0.04  higher=WITH  runs with>without 20/30
+lead.top5_actives                        with 25.6$\pm$3.6  without 25.4$\pm$4.3  higher=WITH  runs with>without 15/30
+lead.first_active                        with 6.8$\pm$0.9  without 6.1$\pm$1.2  higher=WITH  runs with>without 14/30
+with soft edges higher mean (at reported precision) in 12 of 25 metrics (excluding 2 validation rows: 10)
+
+######## PHASE 3 SELECTION
+main: head best epochs 28-126; e2e selected in 25/30, steps 10-340; head kept in 5 runs
+ablation: head best epochs 20-143; e2e selected in 27/30, steps 10-440; head kept in 3 runs
+
+######## LEAD PRIORITIZATION (30 runs)
+n_targets              252 ± 0
+n_kinase               189 ± 0
+auc_gt_0.5             230.8 ± 5.38
+auc_ge_0.7             132.2 ± 22.9
+auc_mean               0.6888 ± 0.0192
+auc_median             0.7061 ± 0.0246
+hit_ge1                226.2 ± 11.7
+hits_mean              2.259 ± 0.277
+random_hits            0.9896 ± 2.26e-16
+above_family           176.2 ± 22.2
+family_auc             0.6625 ± 0.022
+p_family               0.01868 ± 0.102
+above_family_kin       128.6 ± 21.6
+kin_auc                0.7307 ± 0.0243
+kin_family_auc         0.7121 ± 0.0291
+p_family_kin           0.03895 ± 0.18
+kin_hits               2.476 ± 0.347
+above_global           230.1 ± 7.35
+global_auc             0.6138 ± 0.0249
+kin_family_hits        2.417 ± 0.55
+family_hits            2.058 ± 0.419
+drv_auc                0.7795 ± 0.0239
+drv_hits               4.79 ± 0.419
+drv_family_auc         0.7551 ± 0.0242
+drv_family_hits        4.543 ± 0.433
+drv_global_auc         0.7051 ± 0.0285
+drv_global_hits        4.55 ± 0.418
+drv_random             1.568 ± 2.26e-16
+sel_auc                0.6097 ± 0.0389
+sel_n                  38 ± 0
+tested_auc             0.6229 ± 0.0311
+tested_family_auc      0.6043 ± 0.0305
+drv_auc_min            0.6437 ± 0.0496
+drv_auc_max            0.8634 ± 0.0245
+drv_above_random       9.367 ± 0.49
+tested_n_min           22 ± 0
+tested_n_max           81 ± 0
+p_family<0.05 in 29/30, <0.01 in 29/30; p_family_kin<0.05 in 27/30, <0.01 in 26/30
+drivers above random per run: Counter({9: 19, 10: 11})
+runs in which a driver is NOT above random: {'BRAF': 19}
+EGFR   & 26 & 0.72$\pm$0.05 & 6.8$\pm$1.2 & 2.7
+RET    & 24 & 0.76$\pm$0.03 & 6.5$\pm$0.7 & 2.5
+ERBB2  & 16 & 0.74$\pm$0.05 & 4.3$\pm$1.0 & 1.7
+MET    & 16 & 0.81$\pm$0.04 & 5.1$\pm$0.6 & 1.7
+ALK    & 16 & 0.83$\pm$0.04 & 6.8$\pm$0.8 & 1.7
+NTRK1  & 12 & 0.80$\pm$0.04 & 4.4$\pm$0.9 & 1.3
+BRAF   & 11 & 0.65$\pm$0.05 & 1.3$\pm$1.1 & 1.2
+ROS1   & 11 & 0.83$\pm$0.04 & 5.2$\pm$1.0 & 1.2
+NTRK2  & 9 & 0.84$\pm$0.04 & 4.0$\pm$0.9 & 0.9
+NTRK3  & 8 & 0.83$\pm$0.04 & 3.5$\pm$1.0 & 0.8
+per target auc 0.78$\pm$0.02
+per target hits 4.8$\pm$0.4
+family auc 0.76$\pm$0.02
+family hits 4.5$\pm$0.4
+global auc 0.71$\pm$0.03
+global hits 4.5$\pm$0.4
+BRAF tested-only roc range 0.27--0.53 runs <0.5: 28
+top5 actives 25.6$\pm$3.6, first-ranked actives 6.8$\pm$0.9 (ablation 25.4$\pm$4.3, 6.1$\pm$1.2)
+seed42 top5 categories {'none': 9, 'known': 24, 'tested': 15, 'parent': 2} expected 7.8 per drug {'CERITINIB': [9, 6], 'AFATINIB': [8, 4], 'NERATINIB': [3, 3], 'DACOMITINIB ANHYDROUS': [5, 1], 'REPOTRECTINIB': [8, 4], 'PALBOCICLIB': [3, 0], 'GILTERITINIB': [3, 1], 'EPINEPHRINE': [1, 0], 'ENTRECTINIB': [4, 4], 'NINTEDANIB': [2, 2], 'LAPATINIB': [3, 0], 'VEMURAFENIB': [1, 1]}
+   ERBB2 [('CERITINIB', None, None, 0), ('AFATINIB', 7.46, None, None), ('NERATINIB', 8.21, None, None), ('DACOMITINIB ', 7.34, None, None), ('REPOTRECTINI', None, None, 0)]
+   EGFR [('PALBOCICLIB', None, None, 26), ('AFATINIB', 8.65, None, None), ('GILTERITINIB', 5.46, None, None), ('EPINEPHRINE', None, None, 2), ('NERATINIB', 8.65, None, None)]
+   RET [('CERITINIB', 6.02, None, None), ('REPOTRECTINI', None, None, 0), ('DACOMITINIB ', None, None, 1), ('AFATINIB', None, 5.44, 8), ('ENTRECTINIB', 6.91, None, None)]
+   NTRK1 [('CERITINIB', 5.56, None, None), ('REPOTRECTINI', 8.85, None, None), ('AFATINIB', None, None, 2), ('GILTERITINIB', None, None, 1), ('DACOMITINIB ', None, None, 1)]
+   MET [('CERITINIB', 5.87, None, None), ('REPOTRECTINI', None, None, 0), ('ENTRECTINIB', 6.1, None, None), ('NERATINIB', 5.38, None, None), ('AFATINIB', None, 6.8, 9)]
+   ALK [('CERITINIB', 8.02, None, None), ('AFATINIB', None, None, 1), ('REPOTRECTINI', 8.62, None, None), ('ENTRECTINIB', 7.26, None, None), ('DACOMITINIB ', None, None, 0)]
+   NTRK2 [('CERITINIB', 5.74, None, None), ('REPOTRECTINI', 10.3, None, None), ('NINTEDANIB', 7.72, None, None), ('PALBOCICLIB', None, None, 3), ('LAPATINIB', None, None, 4)]
+   BRAF [('CERITINIB', None, None, 1), ('AFATINIB', None, None, 3), ('LAPATINIB', None, None, 8), ('VEMURAFENIB', 7.47, None, None), ('REPOTRECTINI', None, None, 0)]
+   ROS1 [('CERITINIB', 8.68, None, None), ('DACOMITINIB ', None, None, 0), ('LAPATINIB', None, None, 4), ('AFATINIB', None, None, 1), ('PALBOCICLIB', None, None, 2)]
+   NTRK3 [('CERITINIB', None, None, 0), ('GILTERITINIB', None, None, 0), ('REPOTRECTINI', 10.0, None, None), ('ENTRECTINIB', 8.3, None, None), ('NINTEDANIB', 7.5, None, None)]
+
+######## SOFT-EDGE PROPOSALS (30 runs)
+held-out in top200k 0-660 (median 4); expected ~78
+roc all 0.48$\pm$0.27; per-target 0.53$\pm$0.29 over 85-108 targets
+compound deg0 fraction in proposals 29.9--99.7% (share of compounds without training interactions 87.9%)
+protein deg0 fraction >0.9 in 13/30 runs (91.3--99.5%), others 25.1--89.2%; share of proteins w/o training 49.6%; rho in pref runs -0.66---0.51, others -0.61--0.54
+
+######## SPLITS (30 runs)
+train 2003 (1975-2024), val 431 (402-456), test 432 (397-455), held-out 841-890; test compounds 87-106, with training interactions 79-90%
+external positives/negatives/compounds: {(3243, 15646, 95)}
+
+######## EXTERNAL SET RELEASE (median labels)
+positives 3243; potent already with ChEMBL<=35 records 3114 (96.0%); new in 36 129 pairs on 21 compounds
+active targets per compound 4-226 (median 17)

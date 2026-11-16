@@ -1,0 +1,59 @@
+
+%% same_version
+PR-AUC $\uparrow$ & \textbf{0.907$\pm$0.010} & 0.827$\pm$0.013 & 0.658$\pm$0.034 & 0.655$\pm$0.035 & 0.532$\pm$0.046 & 0.886$\pm$0.026 & 0.858$\pm$0.022 & 0.789$\pm$0.042 \\
+MCC $\uparrow$ & \textbf{0.818$\pm$0.019} & 0.512$\pm$0.015 & 0.540$\pm$0.030 & 0.634$\pm$0.024 & 0.480$\pm$0.067 & 0.716$\pm$0.043 & 0.723$\pm$0.036 & 0.608$\pm$0.081 \\
+Precision $\uparrow$ & \textbf{0.859$\pm$0.032} & 0.413$\pm$0.012 & 0.459$\pm$0.035 & 0.614$\pm$0.038 & 0.398$\pm$0.052 & 0.662$\pm$0.065 & 0.716$\pm$0.066 & 0.528$\pm$0.099 \\
+F1 $\uparrow$ & \textbf{0.848$\pm$0.016} & 0.572$\pm$0.012 & 0.604$\pm$0.028 & 0.696$\pm$0.021 & 0.550$\pm$0.053 & 0.760$\pm$0.039 & 0.769$\pm$0.031 & 0.661$\pm$0.075 \\
+ROC-AUC $\uparrow$ & 0.962$\pm$0.005 & 0.939$\pm$0.006 & 0.904$\pm$0.010 & 0.911$\pm$0.008 & 0.882$\pm$0.016 & \textbf{0.963$\pm$0.006} & 0.950$\pm$0.007 & 0.943$\pm$0.012 \\
+Per-target ROC-AUC $\uparrow$ & \textbf{0.950$\pm$0.013} & 0.930$\pm$0.013 & 0.906$\pm$0.018 & 0.914$\pm$0.015 & 0.881$\pm$0.019 & 0.946$\pm$0.013 & 0.936$\pm$0.016 & 0.925$\pm$0.018 \\
+Recall $\uparrow$ & 0.838$\pm$0.023 & \textbf{0.931$\pm$0.013} & 0.889$\pm$0.021 & 0.805$\pm$0.024 & 0.905$\pm$0.021 & 0.898$\pm$0.021 & 0.836$\pm$0.029 & 0.911$\pm$0.035 \\
+FP $\downarrow$ & \textbf{59.8$\pm$16.2} & 572.4$\pm$37.0 & 458.5$\pm$73.9 & 221.4$\pm$39.5 & 616.3$\pm$212.9 & 204.7$\pm$66.8 & 149.0$\pm$55.1 & 386.5$\pm$190.4 \\
+Total errors $\downarrow$ & \textbf{129.9$\pm$14.1} & 602.2$\pm$36.8 & 506.5$\pm$69.2 & 305.4$\pm$35.1 & 657.2$\pm$205.2 & 248.9$\pm$61.3 & 219.7$\pm$46.9 & 425.2$\pm$180.1 \\
+   roc_auc              rf:30/30 p=2e-09  gcn:30/30 p=2e-09  sage:30/30 p=2e-09  gat:30/30 p=2e-09  deepdta:11/30 p=0.2  graphdta:29/30 p=4e-09  drugban:30/30 p=2e-09  beats-all 11/30
+   mcc                  rf:30/30 p=2e-09  gcn:30/30 p=2e-09  sage:30/30 p=2e-09  gat:30/30 p=2e-09  deepdta:30/30 p=2e-09  graphdta:30/30 p=2e-09  drugban:30/30 p=2e-09  beats-all 30/30
+   auprc                rf:30/30 p=2e-09  gcn:30/30 p=2e-09  sage:30/30 p=2e-09  gat:30/30 p=2e-09  deepdta:27/30 p=1e-06  graphdta:30/30 p=2e-09  drugban:30/30 p=2e-09  beats-all 27/30
+   precision            rf:30/30 p=2e-09  gcn:30/30 p=2e-09  sage:30/30 p=2e-09  gat:30/30 p=2e-09  deepdta:30/30 p=2e-09  graphdta:29/30 p=6e-09  drugban:30/30 p=2e-09  beats-all 29/30
+   errors               rf:30/30 p=2e-06  gcn:30/30 p=2e-06  sage:30/30 p=2e-06  gat:30/30 p=2e-06  deepdta:30/30 p=2e-09  graphdta:30/30 p=2e-06  drugban:30/30 p=2e-09  beats-all 30/30
+   recall               rf:0/30 p=2e-09  gcn:1/30 p=2e-08  sage:24/30 p=7e-06  gat:0/30 p=2e-09  deepdta:0/30 p=2e-09  graphdta:14/30 p=0.8  drugban:1/30 p=3e-06  beats-all 0/30
+   per_target_roc_auc   rf:30/30 p=2e-09  gcn:30/30 p=2e-09  sage:30/30 p=2e-09  gat:30/30 p=2e-09  deepdta:19/30 p=0.07  graphdta:27/30 p=1e-06  drugban:29/30 p=6e-09  beats-all 19/30
+   errors: proposed 129.9, next best graphdta 219.7, reduction 41%
+
+%% same_version_matched
+PR-AUC $\uparrow$ & \textbf{0.776$\pm$0.026} & 0.466$\pm$0.034 & 0.324$\pm$0.053 & 0.327$\pm$0.048 & 0.296$\pm$0.052 & 0.727$\pm$0.091 & 0.621$\pm$0.056 & 0.354$\pm$0.086 \\
+MCC $\uparrow$ & \textbf{0.564$\pm$0.038} & 0.095$\pm$0.012 & 0.248$\pm$0.049 & 0.268$\pm$0.045 & 0.174$\pm$0.042 & 0.470$\pm$0.102 & 0.381$\pm$0.078 & 0.206$\pm$0.059 \\
+Precision $\uparrow$ & \textbf{0.516$\pm$0.046} & 0.189$\pm$0.004 & 0.249$\pm$0.025 & 0.275$\pm$0.029 & 0.215$\pm$0.016 & 0.405$\pm$0.083 & 0.349$\pm$0.067 & 0.228$\pm$0.028 \\
+F1 $\uparrow$ & \textbf{0.637$\pm$0.033} & 0.314$\pm$0.006 & 0.388$\pm$0.030 & 0.409$\pm$0.031 & 0.348$\pm$0.020 & 0.552$\pm$0.081 & 0.488$\pm$0.062 & 0.364$\pm$0.033 \\
+ROC-AUC $\uparrow$ & \textbf{0.899$\pm$0.010} & 0.728$\pm$0.013 & 0.731$\pm$0.044 & 0.724$\pm$0.033 & 0.699$\pm$0.046 & 0.893$\pm$0.050 & 0.838$\pm$0.024 & 0.731$\pm$0.056 \\
+Per-target ROC-AUC $\uparrow$ & \textbf{0.854$\pm$0.028} & 0.684$\pm$0.025 & 0.760$\pm$0.027 & 0.723$\pm$0.029 & 0.715$\pm$0.035 & 0.851$\pm$0.060 & 0.761$\pm$0.040 & 0.694$\pm$0.050 \\
+Recall $\uparrow$ & 0.838$\pm$0.023 & \textbf{0.931$\pm$0.013} & 0.889$\pm$0.021 & 0.805$\pm$0.024 & 0.905$\pm$0.021 & 0.898$\pm$0.021 & 0.836$\pm$0.029 & 0.911$\pm$0.035 \\
+FP $\downarrow$ & \textbf{344.7$\pm$64.6} & 1,723.2$\pm$61.9 & 1,172.5$\pm$172.5 & 928.8$\pm$142.4 & 1,433.1$\pm$146.2 & 623.5$\pm$269.7 & 715.8$\pm$231.2 & 1,356.7$\pm$241.6 \\
+Total errors $\downarrow$ & \textbf{414.7$\pm$59.9} & 1,753.0$\pm$60.5 & 1,220.5$\pm$168.1 & 1,012.8$\pm$138.6 & 1,474.0$\pm$139.9 & 667.7$\pm$264.7 & 786.5$\pm$221.9 & 1,395.4$\pm$230.4 \\
+   roc_auc              rf:30/30 p=2e-09  gcn:30/30 p=2e-09  sage:30/30 p=2e-09  gat:30/30 p=2e-09  deepdta:10/30 p=0.2  graphdta:30/30 p=2e-09  drugban:30/30 p=2e-09  beats-all 10/30
+   mcc                  rf:30/30 p=2e-09  gcn:30/30 p=2e-09  sage:30/30 p=2e-09  gat:30/30 p=2e-09  deepdta:27/30 p=5e-06  graphdta:30/30 p=2e-09  drugban:30/30 p=2e-09  beats-all 27/30
+   auprc                rf:30/30 p=2e-09  gcn:30/30 p=2e-09  sage:30/30 p=2e-09  gat:30/30 p=2e-09  deepdta:25/30 p=5e-06  graphdta:30/30 p=2e-09  drugban:30/30 p=2e-09  beats-all 25/30
+   precision            rf:30/30 p=2e-09  gcn:30/30 p=2e-09  sage:30/30 p=2e-09  gat:30/30 p=2e-09  deepdta:27/30 p=8e-07  graphdta:30/30 p=2e-09  drugban:30/30 p=2e-09  beats-all 27/30
+   errors               rf:30/30 p=2e-09  gcn:30/30 p=2e-06  sage:30/30 p=2e-06  gat:30/30 p=2e-06  deepdta:27/30 p=2e-07  graphdta:30/30 p=2e-09  drugban:30/30 p=2e-06  beats-all 27/30
+   recall               rf:0/30 p=2e-09  gcn:1/30 p=2e-08  sage:24/30 p=7e-06  gat:0/30 p=2e-09  deepdta:0/30 p=2e-09  graphdta:14/30 p=0.8  drugban:1/30 p=3e-06  beats-all 0/30
+   per_target_roc_auc   rf:30/30 p=2e-09  gcn:30/30 p=2e-09  sage:30/30 p=2e-09  gat:30/30 p=2e-09  deepdta:12/30 p=0.4  graphdta:30/30 p=2e-09  drugban:30/30 p=2e-09  beats-all 12/30
+   errors: proposed 414.7, next best deepdta 667.7, reduction 38%
+
+%% external
+PR-AUC $\uparrow$ & \textbf{0.456$\pm$0.026} & 0.213$\pm$0.007 & 0.264$\pm$0.026 & 0.210$\pm$0.019 & 0.199$\pm$0.031 & 0.293$\pm$0.048 & 0.347$\pm$0.039 & 0.274$\pm$0.045 \\
+MCC $\uparrow$ & \textbf{0.342$\pm$0.037} & 0.072$\pm$0.021 & 0.057$\pm$0.035 & 0.045$\pm$0.031 & 0.012$\pm$0.066 & 0.182$\pm$0.063 & 0.231$\pm$0.055 & 0.164$\pm$0.059 \\
+Precision $\uparrow$ & \textbf{0.673$\pm$0.034} & 0.241$\pm$0.021 & 0.259$\pm$0.052 & 0.212$\pm$0.031 & 0.187$\pm$0.052 & 0.401$\pm$0.079 & 0.385$\pm$0.059 & 0.276$\pm$0.050 \\
+F1 $\uparrow$ & \textbf{0.357$\pm$0.050} & 0.211$\pm$0.025 & 0.128$\pm$0.047 & 0.206$\pm$0.044 & 0.183$\pm$0.051 & 0.259$\pm$0.070 & 0.348$\pm$0.054 & 0.336$\pm$0.038 \\
+ROC-AUC $\uparrow$ & \textbf{0.725$\pm$0.021} & 0.561$\pm$0.010 & 0.692$\pm$0.025 & 0.608$\pm$0.029 & 0.591$\pm$0.064 & 0.608$\pm$0.056 & 0.667$\pm$0.026 & 0.636$\pm$0.041 \\
+Per-target ROC-AUC $\uparrow$ & \textbf{0.618$\pm$0.014} & 0.558$\pm$0.009 & 0.546$\pm$0.027 & 0.563$\pm$0.017 & 0.549$\pm$0.016 & 0.589$\pm$0.026 & 0.563$\pm$0.019 & 0.569$\pm$0.024 \\
+Recall $\uparrow$ & 0.245$\pm$0.047 & 0.190$\pm$0.036 & 0.089$\pm$0.042 & 0.219$\pm$0.084 & 0.198$\pm$0.081 & 0.202$\pm$0.080 & 0.330$\pm$0.083 & \textbf{0.448$\pm$0.077} \\
+FP $\downarrow$ & \textbf{391.0$\pm$103.3} & 1,953.0$\pm$376.7 & 825.4$\pm$338.2 & 2,736.2$\pm$1,151.8 & 2,984.1$\pm$1,521.5 & 1,033.4$\pm$504.5 & 1,788.5$\pm$718.3 & 4,031.9$\pm$1,559.7 \\
+Total errors $\downarrow$ & \textbf{2,838.8$\pm$91.0} & 4,579.6$\pm$286.6 & 3,779.5$\pm$232.0 & 5,267.5$\pm$904.9 & 5,584.4$\pm$1,358.4 & 3,620.8$\pm$380.1 & 3,960.1$\pm$555.2 & 5,823.1$\pm$1,372.3 \\
+   roc_auc              rf:30/30 p=2e-09  gcn:27/30 p=2e-06  sage:30/30 p=2e-09  gat:30/30 p=2e-09  deepdta:30/30 p=2e-09  graphdta:30/30 p=2e-09  drugban:29/30 p=4e-09  beats-all 27/30
+   mcc                  rf:30/30 p=2e-09  gcn:30/30 p=2e-09  sage:30/30 p=2e-09  gat:30/30 p=2e-09  deepdta:30/30 p=2e-09  graphdta:30/30 p=2e-09  drugban:30/30 p=2e-09  beats-all 30/30
+   auprc                rf:30/30 p=2e-09  gcn:30/30 p=2e-09  sage:30/30 p=2e-09  gat:30/30 p=2e-09  deepdta:30/30 p=2e-09  graphdta:30/30 p=2e-09  drugban:30/30 p=2e-09  beats-all 30/30
+   precision            rf:30/30 p=2e-09  gcn:30/30 p=2e-09  sage:30/30 p=2e-09  gat:30/30 p=2e-09  deepdta:30/30 p=2e-09  graphdta:30/30 p=2e-09  drugban:30/30 p=2e-09  beats-all 30/30
+   errors               rf:30/30 p=2e-09  gcn:30/30 p=2e-06  sage:30/30 p=2e-09  gat:30/30 p=2e-09  deepdta:30/30 p=2e-09  graphdta:30/30 p=2e-09  drugban:30/30 p=2e-09  beats-all 30/30
+   recall               rf:24/30 p=8e-05  gcn:29/30 p=4e-09  sage:20/30 p=0.1  gat:21/30 p=0.01  deepdta:20/30 p=0.007  graphdta:7/30 p=0.0003  drugban:1/30 p=2e-06  beats-all 0/30
+   per_target_roc_auc   rf:30/30 p=2e-09  gcn:30/30 p=2e-09  sage:29/30 p=4e-09  gat:30/30 p=2e-09  deepdta:26/30 p=1e-05  graphdta:30/30 p=2e-09  drugban:29/30 p=6e-09  beats-all 25/30
+   errors: proposed 2838.8, next best deepdta 3620.8, reduction 22%
+
+isolated: roc_auc 0.959$\pm$0.005, auprc 0.905$\pm$0.010, precision 0.863$\pm$0.030, recall 0.834$\pm$0.023, f1 0.847$\pm$0.015, mcc 0.818$\pm$0.018
