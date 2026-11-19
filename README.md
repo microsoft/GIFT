@@ -74,8 +74,8 @@ The LaTeX sources of the paper and its supplement are in [`manuscript/`](manuscr
 ## Installation and requirements
 
 ```bash
-pip install -r requirements.txt          # main environment (Python 3.12, PyTorch 2.8, PyG 2.8)
-# DrugBAN only, in a separate environment (DGL must match your CUDA/PyTorch build; Blackwell GPUs need DGL built from source):
+pip install -r requirements.txt          # main environment (Python 3.12, PyTorch 2.13, PyG 2.8)
+# DrugBAN also needs YACS, in the same environment (no DGL installation):
 pip install -r requirements-drugban.txt
 # DTIAM only (AutoGluon 0.5.2 needs Python 3.9) plus the official DTIAM code and its BerMol weights:
 pip install -r requirements-dtiam.txt
@@ -85,8 +85,17 @@ pip install -r requirements-dtiam.txt
 - **Security-updated environment:** `requirements.txt` uses PyTorch 2.13.0 and Requests 2.33.0.
   CPU regression tests verify the released seed-42 checkpoint against its saved predictions,
   training gradients, and checkpoint serialization. Run `python -m unittest discover -s tests -v`
-  from the repository root after installing the main requirements. These checks do not replace
+  from the repository root after installing `requirements-drugban.txt`. These checks do not replace
   validation of full GPU training on the updated environment; the paper used the versions above.
+- **DrugBAN security update:** the local PyTorch/PyG graph backend replaces DGL and DGL-LifeSci
+  runtime dependencies while retaining the official architecture and checkpoint parameter names.
+  Tests compare graph features, edge order and logits with an independently generated official CPU
+  reference (DGL 1.1.3, DGL-LifeSci 0.3.2, PyTorch 2.4), reproduce all 2,658 seed-42 same-version
+  benchmark scores within CPU/GPU numerical tolerance, preserve every threshold-0.5 class, and verify
+  training and optimizer checkpoint resumption. The paper's DrugBAN environment used DGL 2.4.0;
+  it is no longer required or recommended. Historical `drugban_dgl` result paths are retained.
+  Set `DRUGBAN_PY=python` to include DrugBAN in the orchestration scripts; `DGL_PY` remains
+  accepted as a legacy interpreter-selection alias.
 - **Hardware:** the quick start runs on a CPU; retraining needs one GPU per run (ESM-2 Phase 2 needs about 19 GB of
   GPU memory per job).
 - **Disk:** about 3 GB (trained models, graphs, and per-run scores).
@@ -128,7 +137,7 @@ in training.
 ```
 code/                 Python modules and entry points (run from the repository root)
   robustness/                    scripts of the review analyses (scripts/06_robustness.sh)
-  third_party/DrugBAN_9923f8c/   official DrugBAN implementation (MIT licence), unmodified
+  third_party/DrugBAN_9923f8c/   official DrugBAN source (MIT), with a local graph-backend adapter in models.py
 scripts/              pipeline: 01 graphs, 02 GIFT, 03 controls, 04 baselines, 05 paper numbers and figures,
                       06 review analyses, 07 DTIAM, 08 domain crop, 09 ablations, 10 ESM-2, 11 temporal/similarity/fixed budget
 data/
@@ -197,7 +206,7 @@ bash scripts/06_robustness.sh
 
 ```bash
 bash scripts/07_train_dtiam.sh          # DTIAM baseline (needs DTIAM_DIR, DTIAM_PY, optional GUACAMOL_SMILES)
-bash scripts/08_train_domain_crop.sh    # DeepDTA/GraphDTA/DrugBAN, N-terminal prefix vs domain-preserving crop (DGL_PY for DrugBAN)
+bash scripts/08_train_domain_crop.sh    # DeepDTA/GraphDTA/DrugBAN, N-terminal prefix vs domain-preserving crop (DRUGBAN_PY for DrugBAN)
 bash scripts/09_train_ablations.sh      # no node masking / no contrastive pretraining (LR=1e-3 default)
 bash scripts/10_train_esm.sh            # ESM-2 protein-embedding swap (needs fair-esm)
 bash scripts/11_extra_analyses.sh       # temporal subset, similarity strata, fixed-budget rescoring (needs CHEMBL35_DB, CHEMBL36_DB), then 06
@@ -208,7 +217,7 @@ bash scripts/11_extra_analyses.sh       # temporal subset, similarity strata, fi
 ```bash
 bash scripts/02_train_gift.sh            # GIFT: backbone, Phase 3a/3b, evaluation, lead prioritization
 bash scripts/03_train_controls.sh        # no soft edges, descriptor-only, random augmentation
-DGL_PY=/path/to/drugban-env/bin/python bash scripts/04_train_baselines.sh   # RF, GCN/SAGE/GAT, ladder, DeepDTA, GraphDTA, DrugBAN
+DRUGBAN_PY=python bash scripts/04_train_baselines.sh   # RF, GCN/SAGE/GAT, ladder, DeepDTA, GraphDTA, DrugBAN
 bash scripts/05_paper_numbers.sh
 ```
 

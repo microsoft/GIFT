@@ -1,8 +1,9 @@
+# Modified for GIFT: use the checkpoint-compatible local PyTorch/PyG GCN backend.
 import torch.nn as nn
 import torch.nn.functional as F
 import torch
 import math
-from dgllife.model.gnn import GCN
+from _drugban_graph import GCN
 from ban import BANLayer
 from torch.nn.utils.weight_norm import weight_norm
 
@@ -82,10 +83,10 @@ class MolecularGCN(nn.Module):
         self.output_feats = hidden_feats[-1]
 
     def forward(self, batch_graph):
-        node_feats = batch_graph.ndata.pop('h')
+        node_feats = batch_graph.x
         node_feats = self.init_transform(node_feats)
         node_feats = self.gnn(batch_graph, node_feats)
-        batch_size = batch_graph.batch_size
+        batch_size = batch_graph.num_graphs
         node_feats = node_feats.view(batch_size, -1, self.output_feats)
         return node_feats
 

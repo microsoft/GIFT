@@ -1,9 +1,4 @@
-# Separate environment for the official DrugBAN baseline only (code/third_party/DrugBAN_9923f8c).
-# Paper runs: DGL 2.4.0 (CUDA 12.4 build). Install the DGL wheel matching your CUDA/PyTorch from https://www.dgl.ai/pages/start.html
-dgl==2.4.0
-dgllife
+# DrugBAN uses the main environment and a checkpoint-compatible local graph backend.
+# No DGL or DGL-LifeSci runtime is required.
+-r requirements.txt
 yacs
-numpy
-pandas
-scikit-learn
-rdkit

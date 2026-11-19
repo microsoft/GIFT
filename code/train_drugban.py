@@ -1,9 +1,9 @@
-"""Official DrugBAN (DGL; third_party/DrugBAN_9923f8c, unmodified) trained under the shared DTI-baseline protocol.
+"""DrugBAN with a checkpoint-compatible local PyTorch/PyG graph backend.
 
 Per run (see run_drugban_dgl_queue.sh):
   1. main env:  train_dta_baselines.py --export_protocol P.pkl   (split, negatives rule, validation set,
                 benchmarks; identical to DeepDTA/GraphDTA)
-  2. DGL env:   this script, P.pkl -> scores .npz                          (official model, featurizer, loss)
+  2. main env:  this script, P.pkl -> scores .npz (DrugBAN architecture, features, loss)
   3. main env:  train_dta_baselines.py --import_scores S.npz     (identical metrics and output format)
 
 Training follows the official trainer (vanilla DrugBAN, configs/DrugBAN.yaml: Adam, learning rate 5e-5, batch 64,
@@ -25,17 +25,15 @@ import torch
 REPO = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, REPO)
 sys.path.insert(0, os.path.join(REPO, "third_party", "DrugBAN_9923f8c"))
-import dgl  # noqa: E402
 import pandas as pd  # noqa: E402
 from configs import get_cfg_defaults  # noqa: E402
-from dataloader import DTIDataset  # noqa: E402
+from _drugban_graph import DTIDataset, batch_graphs, integer_label_protein  # noqa: E402
 from models import DrugBAN, binary_cross_entropy  # noqa: E402
 from sklearn.metrics import roc_auc_score  # noqa: E402
-from utils import integer_label_protein  # noqa: E402
 
 from negative_pool import sample_negatives  # noqa: E402
 
-IMPLEMENTATION = "official DrugBAN (github.com/peizhenbai/DrugBAN, commit 9923f8c), DGL " + dgl.__version__
+IMPLEMENTATION = "DrugBAN (github.com/peizhenbai/DrugBAN, commit 9923f8c), local PyTorch/PyG backend"
 
 
 def main():
@@ -64,7 +62,7 @@ def main():
     P = torch.tensor(np.array([integer_label_protein(s) for s in pr["protein_sequences"]]))
 
     def batch(pairs):
-        d = dgl.batch([G[c] for c, _ in pairs]).to(dev)
+        d = batch_graphs([G[c] for c, _ in pairs]).to(dev)
         return d, P[[p for _, p in pairs]].to(dev)
 
     def predict(model, pairs):

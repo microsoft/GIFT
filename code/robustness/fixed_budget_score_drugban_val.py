@@ -1,11 +1,11 @@
-"""DrugBAN (official DGL code) validation scores for the validation-chosen threshold of point 5 (inference only, CPU).
+"""DrugBAN validation scores using the local PyTorch/PyG graph backend (CPU).
 
 Loads the run's protocol (results/gift/baseline_models/drugban/run_s/drugban_dgl/protocol.pkl: validation set, benchmarks) and the saved
 validation-selected weights (results/gift/baseline_models/drugban/drugban_seed_s.pth), featurizes exactly as
 train_drugban.py, scores protocol['val_all'], and checks the model by re-scoring the ChEMBL35
 compound-matched benchmark against the saved scores (drugban_dgl/scores.npz, which are used for the benchmarks).
-Writes scores/drugban_seed_<s>.npz.  Run with the DGL environment:
-  $DGL_PY code/robustness/fixed_budget_score_drugban_val.py --seeds 42 ...
+Writes scores/drugban_seed_<s>.npz. Run with the main environment plus requirements-drugban.txt:
+  python code/robustness/fixed_budget_score_drugban_val.py --seeds 42 ...
 """
 import os as _os, sys as _sys  # release bootstrap: run from any directory as python code/robustness/<script>.py
 _REPO = _os.path.abspath(_os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "..", ".."))
@@ -24,12 +24,10 @@ REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 sys.path.insert(0, REPO)
 sys.path.insert(0, os.path.join(REPO, "code", "third_party", "DrugBAN_9923f8c"))
 os.chdir(REPO)
-import dgl  # noqa: E402
 import pandas as pd  # noqa: E402
 from configs import get_cfg_defaults  # noqa: E402
-from dataloader import DTIDataset  # noqa: E402
+from _drugban_graph import DTIDataset, batch_graphs, integer_label_protein  # noqa: E402
 from models import DrugBAN  # noqa: E402
-from utils import integer_label_protein  # noqa: E402
 
 OUT = os.path.join(REPO, "results", "robustness", "descriptor_fixed_budget", "scores")
 
@@ -55,7 +53,7 @@ def one(s, threads):
         with torch.no_grad():
             for i in range(0, len(pairs), bs):
                 b = pairs[i:i + bs]
-                _, _, _, sc = model(dgl.batch([G[c] for c, _ in b]), P[[p for _, p in b]])
+                _, _, _, sc = model(batch_graphs([G[c] for c, _ in b]), P[[p for _, p in b]])
                 out.append(torch.sigmoid(sc).squeeze(1).numpy())
         return np.concatenate(out).astype(np.float64)
 
