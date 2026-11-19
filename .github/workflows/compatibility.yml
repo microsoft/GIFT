@@ -1,0 +1,46 @@
+name: Model compatibility
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout source and regression fixtures
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /code/
+            /tests/
+            /requirements.txt
+            /data/graphs/graph_seed42.pkl
+            /results/gift/run_42/e2e/trained_model.pth
+            /results/gift/run_42/misclassification/pairs_random.csv
+
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+
+      - name: Install CPU dependencies
+        run: |
+          python -m pip install torch==2.13.0 --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install -r requirements.txt
+          python -m pip check
+
+      - name: Verify released model compatibility
+        env:
+          MPLBACKEND: Agg
+        run: python -m unittest discover -s tests -v

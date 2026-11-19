@@ -82,6 +82,11 @@ pip install -r requirements-dtiam.txt
 ```
 
 - **Tested with** Python 3.12, PyTorch 2.8 (CUDA 12.8), and one NVIDIA Blackwell GPU.
+- **Security-updated environment:** `requirements.txt` uses PyTorch 2.13.0 and Requests 2.33.0.
+  CPU regression tests verify the released seed-42 checkpoint against its saved predictions,
+  training gradients, and checkpoint serialization. Run `python -m unittest discover -s tests -v`
+  from the repository root after installing the main requirements. These checks do not replace
+  validation of full GPU training on the updated environment; the paper used the versions above.
 - **Hardware:** the quick start runs on a CPU; retraining needs one GPU per run (ESM-2 Phase 2 needs about 19 GB of
   GPU memory per job).
 - **Disk:** about 3 GB (trained models, graphs, and per-run scores).

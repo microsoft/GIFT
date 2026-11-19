@@ -1,5 +1,6 @@
-# Main environment (Python 3.12; versions used for the paper). GPU training used CUDA 12.8.
-torch==2.8.0
+# Main environment (Python 3.12), with security updates to the paper environment.
+# Paper runs used PyTorch 2.8.0 and CUDA 12.8.
+torch==2.13.0
 torch-geometric==2.8.0.post1
 numpy==2.2.3
 scipy==1.15.1
@@ -10,4 +11,4 @@ matplotlib==3.10.0
 seaborn==0.13.2
 joblib==1.4.2
 tqdm==4.67.1
-requests==2.32.3
+requests==2.33.0
